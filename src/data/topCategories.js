@@ -2,37 +2,37 @@ export const topCategories = [
   {
     id: 1,
     iconSrc: "/assets/img/featureCards/1.svg",
-    title: "Design Creative",
+    title: "Design Criativo",
     text: "573+ Courses",
   },
   {
     id: 2,
     iconSrc: "/assets/img/featureCards/2.svg",
-    title: "Sales Marketing",
+    title: "Marketing de vendas",
     text: "565+ Courses",
   },
   {
     id: 3,
     iconSrc: "/assets/img/featureCards/3.svg",
-    title: "Development IT",
+    title: "Desenvolvimento de TI",
     text: "126+ Courses",
   },
   {
     id: 4,
     iconSrc: "/assets/img/featureCards/4.svg",
-    title: "Engineering Architecture",
+    title: "Arquitetura de Engenharia",
     text: "35+ Courses",
   },
   {
     id: 5,
     iconSrc: "/assets/img/featureCards/5.svg",
-    title: "Personal Development",
+    title: "Desenvolvimento Pessoal",
     text: "908+ Courses",
   },
   {
     id: 6,
     iconSrc: "/assets/img/featureCards/6.svg",
-    title: "Finance Accounting",
+    title: "Contabilidade Financeira",
     text: "129+ Courses",
   },
   // {

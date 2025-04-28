@@ -22,11 +22,11 @@ export default function Courses() {
         <div className="col-auto">
           <div className="sectionTitle ">
             <h2 className="sectionTitle__title sm:text-24">
-              Our Most Popular Courses
+            Nossos cursos mais populares
             </h2>
 
             <p className="sectionTitle__text ">
-              10,000+ unique online course list designs
+            Mais de 10.000 designs exclusivos de listas de cursos on-line
             </p>
           </div>
         </div>

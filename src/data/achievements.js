@@ -21,6 +21,6 @@ export const schoolAchievement = [
     id: 4,
     imageSrc: "/assets/img/home-3/achieve/4.svg",
     title: "987,000+",
-    text: "Students community",
+    text: "Student community",
   },
 ];

@@ -13,9 +13,9 @@ export default function LoginForm() {
             <div className="px-50 py-50 md:px-25 md:py-25 bg-white shadow-1 rounded-16">
               <h3 className="text-30 lh-13">Login</h3>
               <p className="mt-10">
-                Don't have an account yet?
+                Ainda não tem uma conta?
                 <Link to="/signup" className="text-purple-1">
-                  Sign up for free
+                  Cadastre-se gratuitamente
                 </Link>
               </p>
 
@@ -25,13 +25,13 @@ export default function LoginForm() {
               >
                 <div className="col-12">
                   <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                    Username Or Email
+                    Nome de usuário ou e-mail
                   </label>
                   <input required type="text" name="title" placeholder="Name" />
                 </div>
                 <div className="col-12">
                   <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                    Password
+                    Senha
                   </label>
                   <input
                     required
@@ -47,24 +47,24 @@ export default function LoginForm() {
                     id="submit"
                     className="button -md -green-1 text-dark-1 fw-500 w-1/1"
                   >
-                    Login
+                    Conecte-se
                   </button>
                 </div>
               </form>
 
               <div className="lh-12 text-dark-1 fw-500 text-center mt-20">
-                Or sign in using
+                Ou faça login usando
               </div>
 
               <div className="d-flex x-gap-20 items-center justify-between pt-20">
                 <div>
                   <button className="button -sm px-24 py-20 -outline-blue-3 text-blue-3 text-14">
-                    Log In via Facebook
+                    Faça login via Facebook
                   </button>
                 </div>
                 <div>
                   <button className="button -sm px-24 py-20 -outline-red-3 text-red-3 text-14">
-                    Log In via Google+
+                    Faça login via Google+
                   </button>
                 </div>
               </div>

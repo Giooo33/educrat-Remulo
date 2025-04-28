@@ -1,19 +1,19 @@
 export const featureOne = [
   {
     id: 1,
-    title: "Hand-picked authors",
+    title: "Autores cuidadosamente selecionados",
   },
   {
     id: 2,
-    title: "Easy to follow curriculum",
+    title: "Currículo fácil de seguir",
   },
   {
     id: 3,
-    title: "Free courses",
+    title: "Cursos gratuitos",
   },
   {
     id: 4,
-    title: "Money-back guarantee",
+    title: "Garantia de devolução do dinheiro",
   },
 ];
 

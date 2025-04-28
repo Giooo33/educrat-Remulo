@@ -15,11 +15,11 @@ export default function LearnNewSkill() {
                 className="about-content__title customSized"
                 data-aos="fade-up"
               >
-                <span>Learn</span> new skills when and where you like.
+                <span>Aprender</span> novas habilidades quando e onde você quiser.
               </h2>
               <p className="about-content__text" data-aos="fade-up">
-                Use the list below to bring attention to your product’s key
-                <br /> differentiator.
+                 Use a lista abaixo para chamar a atenção para os principais pontos do seu produto
+                <br /> diferenciador.
               </p>
               <div className="y-gap-20 pt-30">
                 {featureOne.map((elm, i) => (
@@ -47,7 +47,7 @@ export default function LearnNewSkill() {
 
               <div className="d-inline-block mt-30">
                 <Link to="/signup" className="button -md -dark-1 text-white">
-                  Join Free
+                Cadastre-se gratuitamente
                 </Link>
               </div>
             </div>

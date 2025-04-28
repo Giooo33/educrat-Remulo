@@ -14,7 +14,7 @@ export default function Instructors({ backgroundColor }) {
           <div className="col-lg-6">
             <div className="sectionTitle ">
               <h2 className="sectionTitle__title " data-aos="fade-left">
-                Learn from the best instructors
+                Aprenda com os melhores instrutores
               </h2>
 
               <p className="sectionTitle__text " data-aos="fade-left">
@@ -28,7 +28,7 @@ export default function Instructors({ backgroundColor }) {
               to="/instructors-list-1"
               className="button -icon -purple-3 text-purple-1"
             >
-              View All Instructors
+              Ver todos os instrutores
               <i className="icon-arrow-top-right text-13 ml-10"></i>
             </Link>
           </div>

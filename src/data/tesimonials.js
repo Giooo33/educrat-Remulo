@@ -4,44 +4,44 @@ export const testimonials = [
     imageSrc: "/assets/img/testimonials/1.png",
     name: "Courtney Henry",
     position: "Web Designer",
-    comment: "Great Work",
-    description: `I think Educrat is the best theme I ever seen this year.
-        Amazing design, easy to customize and a design quality
-        superlative account on its cloud platform for the
-        optimized performance`,
+    comment: "Ótimo trabalho",
+    description: `Acho que o Educrat é o melhor tema que já vi este ano.
+        Design incrível, fácil de personalizar e qualidade de design
+        Conta superlativa em sua plataforma de nuvem para
+        desempenho otimizado`,
   },
   {
     id: 1,
     imageSrc: "/assets/img/testimonials/2.png",
     name: "Ronald Richards",
     position: "President of Sales",
-    comment: "Great Work",
-    description: `I think Educrat is the best theme I ever seen this year.
-        Amazing design, easy to customize and a design quality
-        superlative account on its cloud platform for the
-        optimized performance`,
+    comment: "Ótimo trabalho",
+    description: `Acho que o Educrat é o melhor tema que já vi este ano.
+        Design incrível, fácil de personalizar e qualidade de design
+        Conta superlativa em sua plataforma de nuvem para
+        desempenho otimizado`,
   },
   {
     id: 2,
     imageSrc: "/assets/img/testimonials/3.png",
     name: "Annette Black",
-    position: "Nursing Assistant",
-    comment: "Great Work",
-    description: `I think Educrat is the best theme I ever seen this year.
-        Amazing design, easy to customize and a design quality
-        superlative account on its cloud platform for the
-        optimized performance`,
+    position: "Auxiliar de enfermagem",
+    comment: "Ótimo trabalho",
+    description: `Acho que o Educrat é o melhor tema que já vi este ano.
+        Design incrível, fácil de personalizar e qualidade de design
+        Conta superlativa em sua plataforma de nuvem para
+        desempenho otimizado`,
   },
   {
     id: 3,
     imageSrc: "/assets/img/testimonials/4.png",
     name: "Courtney Henry",
     position: "Web Designer",
-    comment: "Great Work",
-    description: `I think Educrat is the best theme I ever seen this year.
-        Amazing design, easy to customize and a design quality
-        superlative account on its cloud platform for the
-        optimized performance`,
+    comment: "Ótimo trabalho",
+    description: `Acho que o Educrat é o melhor tema que já vi este ano.
+        Design incrível, fácil de personalizar e qualidade de design
+        Conta superlativa em sua plataforma de nuvem para
+        desempenho otimizado`,
   },
 ];
 

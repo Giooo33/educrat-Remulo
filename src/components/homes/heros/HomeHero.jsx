@@ -7,27 +7,27 @@ const masthead_info = [
   {
     id: 1,
     icon: "/assets/img/masthead/icons/1.svg",
-    text: "Over 12 million students",
+    text: "Mais de 12 milhões de estudantes",
   },
   {
     id: 2,
     icon: "/assets/img/masthead/icons/2.svg",
-    text: "More than 60,000 courses",
+    text: "Mais de 60.000 cursos",
   },
   {
     id: 3,
     icon: "/assets/img/masthead/icons/3.svg",
-    text: "Learn anything online",
+    text: "Aprenda qualquer coisa on-line",
   },
 ];
 
 const hero_content = {
-  title: "Learn New Skills Online with Top",
+  title: "Aprenda novas habilidades online com os melhores",
   text_underline: "Educators",
   info_hero: (
     <>
-      Build skills with courses, certificates, and degrees online from
-      <br /> world-class universities and companies.
+      Desenvolva habilidades com cursos, certificados e diplomas on-line
+      <br /> universidades e empresas de classe mundial.
     </>
   ),
   starts: [
@@ -111,7 +111,7 @@ const HomeHero = () => {
                       to="/signup"
                       className="button -md -purple-1 text-white"
                     >
-                      Join For Free
+                      Cadastre-se gratuitamente
                     </Link>
                   </div>
                   <div className="col-12 col-sm-auto">
@@ -120,7 +120,7 @@ const HomeHero = () => {
                       to="/courses-list-1"
                       className="button -md -outline-green-1 text-green-1"
                     >
-                      Find Courses
+                      Encontre cursos
                     </Link>
                   </div>
                 </div>
@@ -171,7 +171,7 @@ const HomeHero = () => {
                       <div className="text-orange-1 text-16 fw-500 lh-1">
                         3.000 +
                       </div>
-                      <div className="mt-3">Free Courses</div>
+                      <div className="mt-3">Cursos Gratuitos</div>
                     </div>
                   </div>
                 </div>
@@ -230,7 +230,7 @@ const HomeHero = () => {
                       <div className="text-purple-1 text-16 fw-500 lh-1">
                         Congrats!
                       </div>
-                      <div className="mt-3">Your Admission Completed</div>
+                      <div className="mt-3">Sua admissão foi concluída</div>
                     </div>
                   </div>
                 </div>
