@@ -44,13 +44,19 @@ const CartToggle = ({ allClasses, parentClassess }) => {
           <i className="text-20 icon icon-basket"></i>
           <div className="cartProductCount">
             {submenu == "Shop" && (
-              <>{cartProducts.length > 9 ? "9+" : cartProducts.length} </>
+              <>
+                {cartProducts.length > 9 ? "9+" : cartProducts.length} produtos
+              </>
             )}
             {menuItem == "Events" && (
-              <>{cartEvents.length > 9 ? "9+" : cartEvents.length} </>
+              <>
+                {cartEvents.length > 9 ? "9+" : cartEvents.length} eventos
+              </>
             )}
             {!(submenu == "Shop" || menuItem == "Events") && (
-              <>{cartCourses.length > 9 ? "9+" : cartCourses.length} </>
+              <>
+                {cartCourses.length > 9 ? "9+" : cartCourses.length} cursos
+              </>
             )}
           </div>
         </button>

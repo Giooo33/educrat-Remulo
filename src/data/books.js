@@ -2,7 +2,7 @@ export const books = [
   {
     id: 1,
     imgSrc: "/assets/img/books/1.png",
-    title: "HTML 5 Maker",
+    title: "Criador de HTML 5",
     rating: 5,
     ratingCount: 1845,
     price: 157,
@@ -11,7 +11,7 @@ export const books = [
   {
     id: 2,
     imgSrc: "/assets/img/books/2.png",
-    title: "CSS Master",
+    title: "Mestre em CSS",
     rating: 5,
     ratingCount: 1845,
     price: 157,
@@ -38,7 +38,7 @@ export const books = [
   {
     id: 5,
     imgSrc: "/assets/img/books/5.png",
-    title: "CSS Developer",
+    title: "Desenvolvedor CSS",
     rating: 5,
     ratingCount: 1845,
     price: 157,
@@ -47,10 +47,9 @@ export const books = [
   {
     id: 6,
     imgSrc: "/assets/img/books/6.png",
-    title: "HTML 5 Maker",
+    title: "Criador de HTML 5",
     rating: 5,
     ratingCount: 1845,
-    price: 157,
     price: 157,
     discountPrice: 79,
   },

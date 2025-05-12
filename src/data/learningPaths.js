@@ -3,25 +3,25 @@ export const learningPath = [
     id: "item1",
     iconBg: "bg-green-2",
     iconSrc: "/assets/img/home-2/learning/icons/1.svg",
-    title: "Leadership development",
+    title: "Desenvolvimento de Liderança",
     description:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
+      "Lorem ipsum é um texto de preenchimento comumente usado nas indústrias gráfica, de impressão e editorial",
   },
   {
     id: "item2",
     iconBg: "bg-purple-2",
     iconSrc: "/assets/img/home-2/learning/icons/2.svg",
-    title: "Digital transformation",
+    title: "Transformação Digital",
     description:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
+      "Lorem ipsum é um texto de preenchimento comumente usado nas indústrias gráfica, de impressão e editorial",
   },
   {
     id: "item3",
     iconBg: "bg-orange-2",
     iconSrc: "/assets/img/home-2/learning/icons/3.svg",
-    title: "Innovation & design thinking",
+    title: "Inovação e Design Thinking",
     description:
-      "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries",
+      "Lorem ipsum é um texto de preenchimento comumente usado nas indústrias gráfica, de impressão e editorial",
   },
 ];
 
@@ -29,29 +29,29 @@ export const learningPathTwo = [
   {
     id: 1,
     icon: "/assets/img/home-4/learning/1.svg",
-    title: "Learn with Experts",
-    text: "Grursus mal suada faci lisis that ipsum ameti consecte.",
+    title: "Aprenda com Especialistas",
+    text: "Grursus mal suada faci lisis que ipsum ameti consecte.",
     bgColor: "bg-green-3",
   },
   {
     id: 2,
     icon: "/assets/img/home-4/learning/2.svg",
-    title: "Learn Anything",
-    text: "Grursus mal suada faci lisis that ipsum ameti consecte.",
+    title: "Aprenda Qualquer Coisa",
+    text: "Grursus mal suada faci lisis que ipsum ameti consecte.",
     bgColor: "bg-yellow-2",
   },
   {
     id: 3,
     icon: "/assets/img/home-4/learning/3.svg",
-    title: "Flexible Learning",
-    text: "Grursus mal suada faci lisis that ipsum ameti consecte.",
+    title: "Aprendizado Flexível",
+    text: "Grursus mal suada faci lisis que ipsum ameti consecte.",
     bgColor: "bg-blue-2",
   },
   {
     id: 4,
     icon: "/assets/img/home-4/learning/4.svg",
-    title: "Industrial Standart",
-    text: "Grursus mal suada faci lisis that ipsum ameti consecte.",
+    title: "Padrão Industrial",
+    text: "Grursus mal suada faci lisis que ipsum ameti consecte.",
     bgColor: "bg-orange-3",
   },
 ];

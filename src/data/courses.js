@@ -18,7 +18,7 @@ export const coursesData = [
     authorName: "Jane Cooper",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Low",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 3,
@@ -63,7 +63,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Great",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 4,
@@ -84,7 +84,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 5,
@@ -105,7 +105,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Low",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 6,
@@ -127,7 +127,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Good",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 7,
@@ -149,7 +149,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 8,
@@ -171,7 +171,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Medium",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 9,
@@ -193,7 +193,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 10,
@@ -215,7 +215,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Medium",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 11,
@@ -237,7 +237,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Medium",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 12,
@@ -259,7 +259,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Medium",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 13,
@@ -280,7 +280,7 @@ export const coursesData = [
     authorName: "Albert Flores",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 14,
@@ -304,7 +304,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Low",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 15,
@@ -325,7 +325,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Great",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 16,
@@ -346,7 +346,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 17,
@@ -367,7 +367,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Low",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 18,
@@ -389,7 +389,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Good",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 19,
@@ -411,7 +411,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 20,
@@ -433,7 +433,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Medium",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 21,
@@ -455,7 +455,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 22,
@@ -477,7 +477,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Medium",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 23,
@@ -499,7 +499,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Medium",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 24,
@@ -521,7 +521,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Medium",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 25,
@@ -542,7 +542,7 @@ export const coursesData = [
     authorName: "Robert Fox",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 26,
@@ -566,7 +566,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Low",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 27,
@@ -587,7 +587,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Great",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 28,
@@ -608,7 +608,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 29,
@@ -629,7 +629,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Low",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 30,
@@ -651,7 +651,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Good",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 31,
@@ -673,7 +673,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 32,
@@ -695,7 +695,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Medium",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 33,
@@ -717,7 +717,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 34,
@@ -740,7 +740,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Medium",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 35,
@@ -762,7 +762,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Medium",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 36,
@@ -784,7 +784,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Medium",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 37,
@@ -806,7 +806,7 @@ export const coursesData = [
     authorName: "Jane Cooper",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 38,
@@ -830,7 +830,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Low",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 39,
@@ -852,7 +852,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Great",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 40,
@@ -873,7 +873,7 @@ export const coursesData = [
     state: "Trending",
     viewStatus: "Good",
     difficulty: "Easy",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 41,
@@ -894,7 +894,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Low",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 42,
@@ -916,7 +916,7 @@ export const coursesData = [
     state: "Fetured",
     viewStatus: "Good",
     difficulty: "Meduium",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
   {
     id: 43,
@@ -938,7 +938,7 @@ export const coursesData = [
     state: "Popular",
     viewStatus: "Great",
     difficulty: "Hard",
-    desc: "Introductory course on web hosting, domain registration, and how you can easily publish and edit your website online.",
+    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
   },
 ];
 
@@ -949,13 +949,12 @@ export const catagories = [
   "Fotografia",
   "Arte",
   "Programação",
-
   "Escrita",
 ];
 
-export const courseStates = ["All", "Fetured", "Popular", "Trending"];
+export const courseStates = ["Todos", "Destaque", "Popular", "Tendência"];
 
-export const viewStatus = ["All", "Great", "Good", "Medium", "Low"];
+export const viewStatus = ["Todos", "Ótimo", "Bom", "Médio", "Baixo"];
 
 export const resentCourses = [
   {
@@ -994,11 +993,10 @@ export const allCategories = [
   "Fotografia",
   "Arte",
   "Programação",
-
   "Escrita",
 ];
 
-export const difficulty = ["All", "Hard", "Meduium", "Easy"];
+export const difficulty = ["Todos", "Difícil", "Médio", "Fácil"];
 
 export const tags = [
   { id: 1, href: "#", name: "Courses" },
@@ -1030,16 +1028,16 @@ export const levels = [
   { id: 4, title: "Expert" },
 ];
 export const prices = [
-  { id: 1, title: "All" },
-  { id: 2, title: "Free" },
-  { id: 3, title: "Paid" },
+  { id: 1, title: "Todos" },
+  { id: 2, title: "Grátis" },
+  { id: 3, title: "Pago" },
 ];
 
 export const rating = [
-  { id: 1, star: 5, text: "4.5 & up", range: [4.5, 5] },
-  { id: 2, star: 5, text: "4.0 & up", range: [4, 5] },
-  { id: 3, star: 5, text: "3.5 & up", range: [3.5, 5] },
-  { id: 4, star: 5, text: "3.0 & up", range: [3, 5] },
+  { id: 1, star: 5, text: "4.5 e acima", range: [4.5, 5] },
+  { id: 2, star: 5, text: "4.0 e acima", range: [4, 5] },
+  { id: 3, star: 5, text: "3.5 e acima", range: [3.5, 5] },
+  { id: 4, star: 5, text: "3.0 e acima", range: [3, 5] },
 ];
 
 export const categories = [
@@ -1048,23 +1046,22 @@ export const categories = [
   { id: 3, title: "Projeto" },
   { id: 4, title: "Fotografia" },
   { id: 5, title: "Programação" },
-
   { id: 6, title: "Escrita" },
 ];
 
 export const duration = [
-  { id: 1, title: "Less than 4 hours", range: [0, 239] },
-  { id: 2, title: "4 - 7 hours", range: [240, 419] },
-  { id: 3, title: "7 - 18 hours", range: [420, 1079] },
-  { id: 4, title: "20 + Hours", range: [1080, 5000] },
+  { id: 1, title: "Menos de 4 horas", range: [0, 239] },
+  { id: 2, title: "4 - 7 horas", range: [240, 419] },
+  { id: 3, title: "7 - 18 horas", range: [420, 1079] },
+  { id: 4, title: "Mais de 20 horas", range: [1080, 5000] },
 ];
 
 export const sortingOptions = [
-  "Default",
-  "Rating (asc)",
-  "Rating (dsc)",
-  "Price (asc)",
-  "Price (dsc)",
-  "Duration (asc)",
-  "Duration (dsc)",
+  "Padrão",
+  "Avaliação (asc)",
+  "Avaliação (desc)",
+  "Preço (asc)",
+  "Preço (desc)",
+  "Duração (asc)",
+  "Duração (desc)",
 ];

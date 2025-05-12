@@ -17,7 +17,7 @@ export default function DshbDashboard() {
       <div className="dashboard__content bg-light-4">
         <div className="row pb-50 mb-10">
           <div className="col-auto">
-            <h1 className="text-30 lh-12 fw-700">Dashboard</h1>
+            <h1 className="text-30 lh-12 fw-700">Painel</h1>
 
             <PageLinksTwo />
           </div>
@@ -36,7 +36,7 @@ export default function DshbDashboard() {
                       </div>
                       <div className="lh-1 mt-25">
                         <span className="text-purple-1">${elm.new}</span> New
-                        Sales
+                        Vendas
                       </div>
                     </div>
 
@@ -50,9 +50,9 @@ export default function DshbDashboard() {
               <div className="col-md-6">
                 <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
                   <div className="d-flex justify-between items-center py-20 px-30 border-bottom-light">
-                    <h2 className="text-17 lh-1 fw-500">Your Profile Views</h2>
+                    <h2 className="text-17 lh-1 fw-500">Visualizações do Seu Perfil</h2>
                     <div className="">
-                      <div className="text-14">This Week</div>
+                      <div className="text-14">Esta Semana</div>
                     </div>
                   </div>
                   <div className="py-40 px-30">
@@ -64,9 +64,9 @@ export default function DshbDashboard() {
               <div className="col-md-6">
                 <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
                   <div className="d-flex justify-between items-center py-20 px-30 border-bottom-light">
-                    <h2 className="text-17 lh-1 fw-500">Traffic</h2>
+                    <h2 className="text-17 lh-1 fw-500">Tráfego</h2>
                     <div className="">
-                      <div className="">This Week</div>
+                      <div className="">Esta Semana</div>
                     </div>
                   </div>
                   <div className="py-40 px-30">
@@ -80,7 +80,7 @@ export default function DshbDashboard() {
               <div className="col-12">
                 <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
                   <div className="d-flex items-center py-20 px-30 border-bottom-light">
-                    <h2 className="text-17 lh-1 fw-500">Course overview</h2>
+                    <h2 className="text-17 lh-1 fw-500">Visão Geral do Curso</h2>
                   </div>
 
                   <div className="py-30 px-30">
@@ -103,7 +103,7 @@ export default function DshbDashboard() {
                             data-el-toggle=".js-past-toggle"
                             data-el-toggle-active=".js-past-active"
                           >
-                            <span className="js-dropdown-title">Past</span>
+                            <span className="js-dropdown-title">Passado</span>
                             <i className="icon text-9 ml-40 icon-chevron-down"></i>
                           </div>
 
@@ -117,7 +117,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Past
+                                  Passado
                                 </a>
                               </div>
 
@@ -126,7 +126,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Past
+                                  Passado
                                 </a>
                               </div>
 
@@ -135,7 +135,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Past
+                                  Passado
                                 </a>
                               </div>
 
@@ -144,7 +144,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Past
+                                  Passado
                                 </a>
                               </div>
                             </div>
@@ -173,7 +173,7 @@ export default function DshbDashboard() {
                                 data-el-toggle-active=".js-course-name-active"
                               >
                                 <span className="js-dropdown-title">
-                                  Course Name
+                                  Nome do Curso
                                 </span>
                                 <i className="icon text-9 ml-40 icon-chevron-down"></i>
                               </div>
@@ -188,7 +188,7 @@ export default function DshbDashboard() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Animation
+                                      Animação
                                     </a>
                                   </div>
 
@@ -197,7 +197,7 @@ export default function DshbDashboard() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Design
+                                      Projeto
                                     </a>
                                   </div>
 
@@ -206,7 +206,7 @@ export default function DshbDashboard() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Illustration
+                                      Ilustração
                                     </a>
                                   </div>
 
@@ -215,7 +215,7 @@ export default function DshbDashboard() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Business
+                                      Negócios
                                     </a>
                                   </div>
                                 </div>
@@ -241,7 +241,7 @@ export default function DshbDashboard() {
                                 data-el-toggle-active=".js-show-2-active"
                               >
                                 <span className="js-dropdown-title">
-                                  Show 8
+                                  Mostrar 8
                                 </span>
                                 <i className="icon text-9 ml-40 icon-chevron-down"></i>
                               </div>
@@ -256,7 +256,7 @@ export default function DshbDashboard() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Animation
+                                      Animação
                                     </a>
                                   </div>
 
@@ -265,7 +265,7 @@ export default function DshbDashboard() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Design
+                                      Projeto
                                     </a>
                                   </div>
 
@@ -274,7 +274,7 @@ export default function DshbDashboard() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Illustration
+                                      Ilustração
                                     </a>
                                   </div>
 
@@ -283,7 +283,7 @@ export default function DshbDashboard() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Business
+                                      Negócios
                                     </a>
                                   </div>
                                 </div>
@@ -308,7 +308,7 @@ export default function DshbDashboard() {
                                 data-el-toggle=".js-cart-2-toggle"
                                 data-el-toggle-active=".js-cart-2-active"
                               >
-                                <span className="js-dropdown-title">Cart</span>
+                                <span className="js-dropdown-title">Carrinho</span>
                                 <i className="icon text-9 ml-40 icon-chevron-down"></i>
                               </div>
 
@@ -322,7 +322,7 @@ export default function DshbDashboard() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Animation
+                                      Animação
                                     </a>
                                   </div>
 
@@ -331,7 +331,7 @@ export default function DshbDashboard() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Design
+                                      Projeto
                                     </a>
                                   </div>
 
@@ -340,7 +340,7 @@ export default function DshbDashboard() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Illustration
+                                      Ilustração
                                     </a>
                                   </div>
 
@@ -349,7 +349,7 @@ export default function DshbDashboard() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Business
+                                      Negócios
                                     </a>
                                   </div>
                                 </div>
@@ -374,9 +374,9 @@ export default function DshbDashboard() {
               <div className="col-md-6">
                 <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
                   <div className="d-flex justify-between items-center py-20 px-30 border-bottom-light">
-                    <h2 className="text-17 lh-1 fw-500">Recent Courses</h2>
+                    <h2 className="text-17 lh-1 fw-500">Cursos Recentes</h2>
                     <a href="#" className="text-14 text-purple-1 underline">
-                      View All
+                      Ver Todos
                     </a>
                   </div>
                   <div className="py-30 px-30">
@@ -400,7 +400,7 @@ export default function DshbDashboard() {
                               <div className="d-flex items-center">
                                 <i className="icon-online-learning-1 text-15 mr-10"></i>
                                 <div className="text-13 lh-1">
-                                  {elm.lessonCount} lesson
+                                  {elm.lessonCount} lição
                                 </div>
                               </div>
                               <div className="d-flex items-center">
@@ -421,7 +421,7 @@ export default function DshbDashboard() {
               <div className="col-md-6">
                 <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
                   <div className="d-flex justify-between items-center py-20 px-30 border-bottom-light">
-                    <h2 className="text-17 lh-1 fw-500">Timeline</h2>
+                    <h2 className="text-17 lh-1 fw-500">Linha do Tempo</h2>
                   </div>
                   <div className="py-30 px-30">
                     <div className="d-flex justify-between flex-wrap y-gap-15 pb-30">
@@ -442,7 +442,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Animation
+                                  Animação
                                 </a>
                               </div>
 
@@ -451,7 +451,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Design
+                                  Projeto
                                 </a>
                               </div>
 
@@ -460,7 +460,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Illustration
+                                  Ilustração
                                 </a>
                               </div>
 
@@ -469,7 +469,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Lifestyle
+                                  Estilo de Vida
                                 </a>
                               </div>
 
@@ -478,7 +478,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Business
+                                  Negócios
                                 </a>
                               </div>
                             </div>
@@ -503,7 +503,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Animation
+                                  Animação
                                 </a>
                               </div>
 
@@ -512,7 +512,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Design
+                                  Projeto
                                 </a>
                               </div>
 
@@ -521,7 +521,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Illustration
+                                  Ilustração
                                 </a>
                               </div>
 
@@ -530,7 +530,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Lifestyle
+                                  Estilo de Vida
                                 </a>
                               </div>
 
@@ -539,7 +539,7 @@ export default function DshbDashboard() {
                                   href="#"
                                   className="d-block js-dropdown-link"
                                 >
-                                  Business
+                                  Negócios
                                 </a>
                               </div>
                             </div>
@@ -567,13 +567,13 @@ export default function DshbDashboard() {
                                 href="#"
                                 className="d-block text-14 lh-11 text-orange-1 underline mt-10"
                               >
-                                Your Road to Better Photography
+                                Seu Caminho para Melhor Fotografia
                               </a>
                               <a
                                 href="#"
                                 className="d-block text-14 lh-11 text-purple-1 underline fw-500 mt-10"
                               >
-                                Add submission
+                                Adicionar submissão
                               </a>
                             </div>
 
@@ -601,7 +601,7 @@ export default function DshbDashboard() {
                           data-el-toggle=".js-show-toggle"
                           data-el-toggle-active=".js-show-active"
                         >
-                          <span className="js-dropdown-title">Show 12</span>
+                          <span className="js-dropdown-title">Mostrar 12</span>
                           <i className="icon text-9 ml-40 icon-chevron-down"></i>
                         </div>
 
@@ -612,25 +612,25 @@ export default function DshbDashboard() {
                           <div className="text-14 y-gap-15 js-dropdown-list">
                             <div>
                               <a href="#" className="d-block js-dropdown-link">
-                                Animation
+                                Animação
                               </a>
                             </div>
 
                             <div>
                               <a href="#" className="d-block js-dropdown-link">
-                                Design
+                                Projeto
                               </a>
                             </div>
 
                             <div>
                               <a href="#" className="d-block js-dropdown-link">
-                                Illustration
+                                Ilustração
                               </a>
                             </div>
 
                             <div>
                               <a href="#" className="d-block js-dropdown-link">
-                                Business
+                                Negócios
                               </a>
                             </div>
                           </div>
@@ -649,7 +649,7 @@ export default function DshbDashboard() {
                 <div className="d-flex items-center flex-column text-center py-40 px-40 rounded-16 bg-white -dark-bg-dark-1 shadow-4">
                   <img src="/assets/img/dashboard/demo/1.png" alt="image" />
                   <div className="text-17 fw-500 text-dark-1 mt-20">
-                    Student Demo
+                    Demonstração do Estudante
                   </div>
                   <div className="text-14 lh-1 mt-5">
                     studentdemo1@example.com
@@ -659,7 +659,7 @@ export default function DshbDashboard() {
 
               <div className="col-12">
                 <div className="pt-20 pb-30 px-30 rounded-16 bg-white -dark-bg-dark-1 shadow-4">
-                  <h5 className="text-17 fw-500 mb-20">Latest Badges</h5>
+                  <h5 className="text-17 fw-500 mb-20">Últimos Emblemas</h5>
 
                   <div className="">
                     <div className="d-flex">
@@ -671,7 +671,7 @@ export default function DshbDashboard() {
                       </div>
 
                       <div className="ml-20">
-                        <h6 className="text-17 fw-500">Level 5</h6>
+                        <h6 className="text-17 fw-500">Nível 5</h6>
                         <div className="text-14 mt-5">
                           Cum sociis natoque penatibus et magnis.
                         </div>
@@ -698,9 +698,9 @@ export default function DshbDashboard() {
 
               <div className="col-12">
                 <div className="pt-20 pb-30 px-30 rounded-16 bg-white -dark-bg-dark-1 shadow-4">
-                  <h5 className="text-17 fw-500">Online Users</h5>
+                  <h5 className="text-17 fw-500">Usuários Online</h5>
                   <div className="text-14 mt-8">
-                    2 online user (last 12 minutes)
+                    2 usuários online (últimos 12 minutos)
                   </div>
 
                   <div className="mt-30">

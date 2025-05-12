@@ -11,7 +11,7 @@ export default function JoinNine() {
           style={{ width: "100%" }}
           className="img-full rounded-16"
           src="/assets/img/home-9/cta/bg.png"
-          alt="image"
+          alt="imagem"
         />
       </div>
 
@@ -20,7 +20,7 @@ export default function JoinNine() {
           <div className="col-xl-5 col-lg-6 col-md-11">
             <div className="sectionTitle -light">
               <h2 className="sectionTitle__title ">
-                Subscribe our Newsletter &
+                Inscreva-se em nossa Newsletter e
               </h2>
 
               <p className="sectionTitle__text ">
@@ -34,9 +34,9 @@ export default function JoinNine() {
         <div className="row mt-30 justify-center">
           <div className="col-lg-6">
             <form className="form-single-field -help" onSubmit={handleSubmit}>
-              <input required type="text" placeholder="Your Email..." />
+              <input required type="text" placeholder="Seu Email..." />
               <button className="button -purple-1 text-white" type="submit">
-                Submit
+                Enviar
               </button>
             </form>
           </div>

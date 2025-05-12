@@ -15,7 +15,7 @@ export default function FooterEight() {
             </div>
 
             <div className="mt-30">
-              <div className="text-17 text-white">Call Us</div>
+              <div className="text-17 text-white">Ligue para nós</div>
               <div className="text-17 lh-1 fw-500 text-white mt-5">
                 800 388 80 90
               </div>
@@ -23,7 +23,7 @@ export default function FooterEight() {
 
             <div className="mt-30 pr-20">
               <div className="lh-17 text-white">
-                329 Queensberry Street, North Melbourne VIC 3051, Australia.
+                329 Queensberry Street, North Melbourne VIC 3051, Austrália.
                 hi@educrat.com
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function FooterEight() {
           <div className="row justify-between items-center y-gap-20">
             <div className="col-auto">
               <div className="d-flex items-center h-100 text-white">
-                © {new Date().getFullYear()} Educrat. All Right Reserved.
+                © {new Date().getFullYear()} Educrat. Todos os direitos reservados.
               </div>
             </div>
 
@@ -64,7 +64,7 @@ export default function FooterEight() {
                     className="button px-30 h-50 -dark-6 rounded-200 text-white"
                   >
                     <i className="icon-worldwide text-20 mr-15"></i>
-                    <span className="text-15">English</span>
+                    <span className="text-15">Português</span>
                   </a>
                 </div>
               </div>

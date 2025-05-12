@@ -61,7 +61,7 @@ const EventCart = () => {
 
         {!cartEvents.length && (
           <div className="p-20 pb-30 text-18 text-dark-1">
-            Your Event Cart Is Empty
+            Seu carrinho de eventos está vazio
           </div>
         )}
       </div>
@@ -81,7 +81,7 @@ const EventCart = () => {
                 className="col-sm-6"
               >
                 <button className="button py-20 -dark-1 text-white -dark-button-white col-12">
-                  View Cart
+                  Ver Carrinho
                 </button>
               </Link>
               <Link
@@ -90,7 +90,7 @@ const EventCart = () => {
                 className="col-sm-6"
               >
                 <button className="button py-20 -purple-1 text-white col-12">
-                  Checkout
+                  Finalizar Compra
                 </button>
               </Link>
             </>
@@ -103,7 +103,7 @@ const EventCart = () => {
                 className="col-12"
               >
                 <button className="button py-20 -purple-1 text-white col-12">
-                  Continue Buying
+                  Continuar Comprando
                 </button>
               </Link>
             </>

@@ -27,7 +27,7 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                   currentTab == "message" ? "-is-button-active" : ""
                 } `}
               >
-                Messages
+                Mensagens
               </button>
 
               <button
@@ -39,7 +39,7 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                 }`}
               >
                 <i className="icon-chevron-left text-11 text-purple-1 mr-10"></i>
-                Messages
+                Mensagens
               </button>
 
               <button
@@ -51,7 +51,7 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                 }`}
               >
                 <i className="icon-chevron-left text-11 text-purple-1 mr-10"></i>
-                Settings
+                Configurações
               </button>
 
               <button
@@ -63,7 +63,7 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                 }`}
               >
                 <i className="icon-chevron-left text-11 text-purple-1 mr-10"></i>
-                Contacts
+                Contatos
               </button>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                 required
                 className="bg-light-3 pr-50"
                 type="text"
-                placeholder="Search Courses"
+                placeholder="Pesquisar Cursos"
               />
               <button className="" type="submit">
                 <i className="icon-search text-light-1 text-20"></i>
@@ -173,7 +173,7 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                               {contentItem.name}
                             </div>
                             <div className="text-14 lh-1 mt-5">
-                              <span className="text-dark-1">You:</span>
+                              <span className="text-dark-1">Você:</span>
                               {contentItem.message}
                             </div>
                           </div>
@@ -208,7 +208,7 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                 <div className="text-15 lh-12 fw-500 text-dark-1 pt-8">
                   Arlene McCoy
                 </div>
-                <div className="text-14 lh-1 mt-5">Active</div>
+                <div className="text-14 lh-1 mt-5">Ativo</div>
               </div>
             </div>
 
@@ -228,23 +228,23 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                       </div>
                     </div>
                     <div className="col-auto">
-                      <div className="text-14 lh-1 ml-3">35 mins</div>
+                      <div className="text-14 lh-1 ml-3">35 minutos</div>
                     </div>
                   </div>
                   <div className="bg-light-3 rounded-8 px-30 py-20 mt-15">
-                    How likely are you to recommend our company to your friends
-                    and family?
+                    Quão provável é que você recomende nossa empresa para seus
+                    amigos e familiares?
                   </div>
                 </div>
 
                 <div className="col-12">
                   <div className="row x-gap-10 y-gap-10 items-center justify-end">
                     <div className="col-auto">
-                      <div className="text-14 lh-1 mr-3">35 mins</div>
+                      <div className="text-14 lh-1 mr-3">35 minutos</div>
                     </div>
                     <div className="col-auto">
                       <div className="text-15 lh-12 fw-500 text-dark-1">
-                        You
+                        Você
                       </div>
                     </div>
                     <div className="col-auto">
@@ -255,8 +255,8 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                     </div>
                   </div>
                   <div className="text-right bg-light-7 -dark-bg-dark-2 text-purple-1 rounded-8 px-30 py-20 mt-15">
-                    How likely are you to recommend our company to your friends
-                    and family?
+                    Quão provável é que você recomende nossa empresa para seus
+                    amigos e familiares?
                   </div>
                 </div>
 
@@ -274,11 +274,11 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                       </div>
                     </div>
                     <div className="col-auto">
-                      <div className="text-14 lh-1 ml-3">35 mins</div>
+                      <div className="text-14 lh-1 ml-3">35 minutos</div>
                     </div>
                   </div>
                   <div className="bg-light-3 rounded-8 px-30 py-20 mt-15">
-                    Ok, Understood!
+                    Ok, entendido!
                   </div>
                 </div>
               </div>
@@ -293,7 +293,7 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                 <div className="col-12">
                   <textarea
                     required
-                    placeholder="Write a message"
+                    placeholder="Escreva uma mensagem"
                     rows="7"
                   ></textarea>
                 </div>
@@ -303,7 +303,7 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                     type="submit"
                     className="button -md -purple-1 text-white"
                   >
-                    Send Message
+                    Enviar Mensagem
                   </button>
                 </div>
               </form>
@@ -325,7 +325,7 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                   data-tab-target=".-tab-item-1"
                   type="button"
                 >
-                  Contacts
+                  Contatos
                 </button>
 
                 <button
@@ -336,7 +336,7 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                   data-tab-target=".-tab-item-2"
                   type="button"
                 >
-                  Request
+                  Solicitações
                 </button>
               </div>
 
@@ -390,9 +390,9 @@ export default function Messages({ setMessageOpen, messageOpen }) {
               currentTab == "settings" ? "-sidebar-menu-opened" : ""
             }`}
           >
-            <div className="text-17 text-dark-1 fw-500">Privacy</div>
+            <div className="text-17 text-dark-1 fw-500">Privacidade</div>
             <div className="text-15 mt-5">
-              You can restrict who can message you
+              Você pode restringir quem pode enviar mensagens para você
             </div>
             <div className="mt-30">
               <div className="form-radio d-flex items-center ">
@@ -403,7 +403,7 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                   </div>
                 </div>
                 <div className="lh-1 text-13 text-dark-1 ml-12">
-                  My contacts only
+                  Apenas meus contatos
                 </div>
               </div>
 
@@ -415,7 +415,7 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                   </div>
                 </div>
                 <div className="lh-1 text-13 text-dark-1 ml-12">
-                  My contacts and anyone in my courses
+                  Meus contatos e qualquer pessoa nos meus cursos
                 </div>
               </div>
 
@@ -427,13 +427,13 @@ export default function Messages({ setMessageOpen, messageOpen }) {
                   </div>
                 </div>
                 <div className="lh-1 text-13 text-dark-1 ml-12">
-                  Anyone on the site
+                  Qualquer pessoa no site
                 </div>
               </div>
             </div>
 
             <div className="text-17 text-dark-1 fw-500 mt-30 mb-30">
-              Notification preferences
+              Preferências de notificação
             </div>
             <div className="form-switch d-flex items-center">
               <div className="switch">
@@ -443,16 +443,14 @@ export default function Messages({ setMessageOpen, messageOpen }) {
               <div className="text-13 lh-1 text-dark-1 ml-10">Email</div>
             </div>
 
-            <div className="text-17 text-dark-1 fw-500 mt-30 mb-30">
-              General
-            </div>
+            <div className="text-17 text-dark-1 fw-500 mt-30 mb-30">Geral</div>
             <div className="form-switch d-flex items-center">
               <div className="switch">
                 <input type="checkbox" />
                 <span className="switch__slider"></span>
               </div>
               <div className="text-13 lh-1 text-dark-1 ml-10">
-                Use enter to send
+                Usar Enter para enviar
               </div>
             </div>
           </div>

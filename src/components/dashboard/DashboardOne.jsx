@@ -15,7 +15,7 @@ export default function DashboardOne() {
       <div className="dashboard__content bg-light-4">
         <div className="row pb-50 mb-10">
           <div className="col-auto">
-            <h1 className="text-30 lh-12 fw-700">Dashboard</h1>
+            <h1 className="text-30 lh-12 fw-700">Painel</h1>
             <div className="mt-10">
               Lorem ipsum dolor sit amet, consectetur.
             </div>
@@ -32,7 +32,7 @@ export default function DashboardOne() {
                     ${elm.value}
                   </div>
                   <div className="lh-1 mt-25">
-                    <span className="text-purple-1">${elm.new}</span> New Sales
+                    <span className="text-purple-1">${elm.new}</span> Novas Vendas
                   </div>
                 </div>
 
@@ -46,7 +46,7 @@ export default function DashboardOne() {
           <div className="col-xl-8 col-md-6">
             <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
               <div className="d-flex justify-between items-center py-20 px-30 border-bottom-light">
-                <h2 className="text-17 lh-1 fw-500">Earning Statistics</h2>
+                <h2 className="text-17 lh-1 fw-500">Estatísticas de Ganhos</h2>
                 <div className="">
                   <div
                     id="ddtwobutton"
@@ -65,7 +65,7 @@ export default function DashboardOne() {
                       data-el-toggle=".js-category-toggle"
                       data-el-toggle-active=".js-category-active"
                     >
-                      <span className="js-dropdown-title">This Week</span>
+                      <span className="js-dropdown-title">Esta Semana</span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
 
@@ -111,7 +111,7 @@ export default function DashboardOne() {
           <div className="col-xl-4 col-md-6">
             <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
               <div className="d-flex justify-between items-center py-20 px-30 border-bottom-light">
-                <h2 className="text-17 lh-1 fw-500">Traffic</h2>
+                <h2 className="text-17 lh-1 fw-500">Tráfego</h2>
                 <div className="">
                   <div
                     id="dd3button"
@@ -130,7 +130,7 @@ export default function DashboardOne() {
                       data-el-toggle=".js-category-toggle"
                       data-el-toggle-active=".js-category-active"
                     >
-                      <span className="js-dropdown-title">This Week</span>
+                      <span className="js-dropdown-title">Esta Semana</span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
 
@@ -141,25 +141,25 @@ export default function DashboardOne() {
                       <div className="text-14 y-gap-15 js-dropdown-list">
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Animation
+                            Animação
                           </a>
                         </div>
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Design
+                            Projeto
                           </a>
                         </div>
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Illustration
+                            Ilustração
                           </a>
                         </div>
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Business
+                            Negócios
                           </a>
                         </div>
                       </div>
@@ -178,12 +178,12 @@ export default function DashboardOne() {
           <div className="col-xl-4 col-md-6">
             <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
               <div className="d-flex justify-between items-center py-20 px-30 border-bottom-light">
-                <h2 className="text-17 fw-500">Popular Instructor</h2>
+                <h2 className="text-17 fw-500">Instrutor Popular</h2>
                 <Link
                   to="/instructors-list-2"
                   className="text-14 text-purple-1 underline"
                 >
-                  View All
+                  Ver Todos
                 </Link>
               </div>
               <div className="py-30 px-30">
@@ -207,19 +207,19 @@ export default function DashboardOne() {
                           <div className="d-flex items-center">
                             <i className="icon-message text-15 mr-10"></i>
                             <div className="text-13 lh-1">
-                              {elm.reviews} Reviews
+                              {elm.reviews} Avaliações
                             </div>
                           </div>
                           <div className="d-flex items-center">
                             <i className="icon-online-learning text-15 mr-10"></i>
                             <div className="text-13 lh-1">
-                              {elm.students} Students
+                              {elm.students} Alunos
                             </div>
                           </div>
                           <div className="d-flex items-center">
                             <i className="icon-play text-15 mr-10"></i>
                             <div className="text-13 lh-1">
-                              {elm.courses} Course
+                              {elm.courses} Curso(s)
                             </div>
                           </div>
                         </div>
@@ -234,9 +234,9 @@ export default function DashboardOne() {
           <div className="col-xl-4 col-md-6">
             <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
               <div className="d-flex justify-between items-center py-20 px-30 border-bottom-light">
-                <h2 className="text-17 lh-1 fw-500">Recent Courses</h2>
+                <h2 className="text-17 lh-1 fw-500">Cursos Recentes</h2>
                 <a href="#" className="text-14 text-purple-1 underline">
-                  View All
+                  Ver Todos
                 </a>
               </div>
               <div className="py-30 px-30">
@@ -263,7 +263,7 @@ export default function DashboardOne() {
                           <div className="d-flex items-center">
                             <i className="icon-document text-16 mr-8"></i>
                             <div className="text-14 lh-1">
-                              {elm.lessonCount} lesson
+                              {elm.lessonCount} aula(s)
                             </div>
                           </div>
                           <div className="d-flex items-center">
@@ -284,7 +284,7 @@ export default function DashboardOne() {
           <div className="col-xl-4 col-md-6">
             <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
               <div className="d-flex justify-between items-center py-20 px-30 border-bottom-light">
-                <h2 className="text-17 lh-1 fw-500">Notifications</h2>
+                <h2 className="text-17 lh-1 fw-500">Notificações</h2>
               </div>
               <div className="py-30 px-30">
                 <div className="y-gap-40">
@@ -301,7 +301,7 @@ export default function DashboardOne() {
                       <div className="ml-12">
                         <h4 className="text-15 lh-1 fw-500">{elm.heading}</h4>
                         <div className="text-13 lh-1 mt-10">
-                          {elm.time} Hours Ago
+                          {elm.time} horas atrás
                         </div>
                       </div>
                     </div>

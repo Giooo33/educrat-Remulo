@@ -43,7 +43,7 @@ export default function MyCourses() {
       <div className="dashboard__content bg-light-4">
         <div className="row pb-50 mb-10">
           <div className="col-auto">
-            <h1 className="text-30 lh-12 fw-700">My Courses</h1>
+            <h1 className="text-30 lh-12 fw-700">Meus Cursos</h1>
             <div className="mt-10">
               Lorem ipsum dolor sit amet, consectetur.
             </div>
@@ -63,7 +63,7 @@ export default function MyCourses() {
                     type="button"
                     onClick={() => setActiveTab(1)}
                   >
-                    All Courses
+                    Todos os Cursos
                   </button>
                   <button
                     className={`text-light-1 lh-12 tabs__button js-tabs-button ml-30 ${
@@ -73,7 +73,7 @@ export default function MyCourses() {
                     type="button"
                     onClick={() => setActiveTab(2)}
                   >
-                    Finished
+                    Finalizados
                   </button>
                   <button
                     className={`text-light-1 lh-12 tabs__button js-tabs-button ml-30 ${
@@ -83,7 +83,7 @@ export default function MyCourses() {
                     type="button"
                     onClick={() => setActiveTab(3)}
                   >
-                    Not enrolled
+                    Não Inscritos
                   </button>
                 </div>
 
@@ -99,7 +99,7 @@ export default function MyCourses() {
                             required
                             className="bg-white -dark-bg-dark-2 pr-50"
                             type="text"
-                            placeholder="Search Courses"
+                            placeholder="Pesquisar Cursos"
                           />
                           <button className="" type="submit">
                             <i className="icon-search text-light-1 text-20"></i>
@@ -130,7 +130,7 @@ export default function MyCourses() {
                                 <span className="js-dropdown-title">
                                   {currentCategory != "All Categories"
                                     ? currentCategory
-                                    : "Categories"}
+                                    : "Categorias"}
                                 </span>
                                 <i className="icon text-9 ml-40 icon-chevron-down"></i>
                               </div>
@@ -183,7 +183,7 @@ export default function MyCourses() {
                                 data-el-toggle-active=".js-review-active"
                               >
                                 <span className="js-dropdown-title">
-                                  Old Review
+                                  Revisão antiga
                                 </span>
                                 <i className="icon text-9 ml-40 icon-chevron-down"></i>
                               </div>
@@ -198,7 +198,7 @@ export default function MyCourses() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Animation
+                                      Animação
                                     </a>
                                   </div>
 
@@ -207,7 +207,7 @@ export default function MyCourses() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Design
+                                      Projeto
                                     </a>
                                   </div>
 
@@ -216,7 +216,7 @@ export default function MyCourses() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Illustration
+                                      Ilustração
                                     </a>
                                   </div>
 
@@ -225,7 +225,7 @@ export default function MyCourses() {
                                       href="#"
                                       className="d-block js-dropdown-link"
                                     >
-                                      Business
+                                      Negócios
                                     </a>
                                   </div>
                                 </div>

@@ -12,13 +12,12 @@ export default function BlogsThree() {
             <div className="row justify-center text-center">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">Latest News</h1>
+                  <h1 className="page-header__title">Últimas Notícias</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    We’re on a mission to deliver engaging, curated courses at a
-                    reasonable price.
+                    Estamos em uma missão para oferecer cursos envolventes e selecionados a um preço acessível.
                   </p>
                 </div>
               </div>
@@ -47,7 +46,7 @@ export default function BlogsThree() {
                     <div className="col-lg-6">
                       <div className="blogCard__content pl-60 lg:pl-40 md:pl-0">
                         <div className="blogCard__category text-14 lh-1 text-purple-1 fw-500">
-                          EDUCATION
+                          EDUCAÇÃO
                         </div>
                         <h4 className="blogCard__title text-24 lh-15 text-dark-4 fw-500 mt-15">
                           <Link className="linkCustom" to={`/blogs/${elm.id}`}>
@@ -61,7 +60,7 @@ export default function BlogsThree() {
                             to={`/blogs/${elm.id}`}
                             className="button -sm -purple-3 text-purple-1"
                           >
-                            Read More
+                            Leia Mais
                           </Link>
                         </div>
                       </div>

@@ -11,16 +11,11 @@ import {
 
 const data = [
   { name: "Jan", value: 148 },
-
-  { name: "Marc", value: 205 },
-
-  { name: "May", value: 165 },
-
-  { name: "July", value: 180 },
-
-  { name: "Sept", value: 148 },
-
-  { name: "Now", value: 180 },
+  { name: "Mar", value: 205 },
+  { name: "Mai", value: 165 },
+  { name: "Jul", value: 180 },
+  { name: "Set", value: 148 },
+  { name: "Nov", value: 180 },
 ];
 
 const ChartsTwo = () => {

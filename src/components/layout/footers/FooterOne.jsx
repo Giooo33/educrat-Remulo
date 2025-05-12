@@ -20,7 +20,7 @@ export default function FooterOne() {
             <div className="col-auto">
               <div className="footer-header-socials">
                 <div className="footer-header-socials__title text-white">
-                  Follow us on social media
+                  Siga-nos nas redes sociais
                 </div>
                 <div className="footer-header-socials__list">
                   <Socials />
@@ -38,10 +38,10 @@ export default function FooterOne() {
 
             <div className="col-xl-4 col-lg-4 col-md-6">
               <div className="text-17 fw-500 text-white uppercase mb-25">
-                GET IN TOUCH
+                ENTRE EM CONTATO
               </div>
               <div className="footer-columns-form">
-                <div>We don’t send spam so don’t worry.</div>
+                <div>Não enviamos spam, então não se preocupe.</div>
                 <form onSubmit={handleSubmit}>
                   <div className="form-group">
                     <input required type="text" placeholder="Email..." />
@@ -57,7 +57,7 @@ export default function FooterOne() {
           <div className="row justify-between items-center y-gap-20">
             <div className="col-auto">
               <div className="d-flex items-center h-100 text-white">
-                © {new Date().getFullYear()} Educrat. All Right Reserved.
+                © {new Date().getFullYear()} Educrat. Todos os direitos reservados.
               </div>
             </div>
 
@@ -75,7 +75,7 @@ export default function FooterOne() {
                     className="button px-30 h-50 -dark-6 rounded-200 text-white"
                   >
                     <i className="icon-worldwide text-20 mr-15"></i>
-                    <span className="text-15">English</span>
+                    <span className="text-15">Português</span>
                   </Link>
                 </div>
               </div>

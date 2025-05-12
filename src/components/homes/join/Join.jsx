@@ -7,14 +7,14 @@ export default function Join() {
         <div className="row y-gap-20 justify-between items-center">
           <div className="col-xl-4 col-lg-5">
             <h2 className="text-30 lh-15 text-white">
-              Join more than
-              <span className="text-green-1">8 million learners</span> worldwide
+              Junte-se a mais de
+              <span className="text-green-1">8 milhões de alunos</span> ao redor do mundo
             </h2>
           </div>
 
           <div className="col-auto">
             <Link to="#" className="button -md -green-1 text-dark-1">
-              Start Learning For Free
+              Comece a aprender gratuitamente
             </Link>
           </div>
         </div>

@@ -54,7 +54,7 @@ const CourseCart = () => {
                       <>
                         <div></div>
                         <div className="text-18 lh-12 fw-500 text-dark-1">
-                          Free
+                          Gratuito
                         </div>
                       </>
                     )}
@@ -72,7 +72,7 @@ const CourseCart = () => {
         ))}
         {!cartCourses.length && (
           <div className="p-20 pb-30 text-18 text-dark-1">
-            Your Course Cart Is Empty
+            Seu carrinho de cursos está vazio
           </div>
         )}
       </div>
@@ -92,7 +92,7 @@ const CourseCart = () => {
                 className="col-sm-6"
               >
                 <button className="button py-20 -dark-1 text-white -dark-button-white col-12">
-                  View Cart
+                  Ver Carrinho
                 </button>
               </Link>
               <Link
@@ -101,7 +101,7 @@ const CourseCart = () => {
                 className="col-sm-6"
               >
                 <button className="button py-20 -purple-1 text-white col-12">
-                  Checkout
+                  Finalizar Compra
                 </button>
               </Link>
             </>
@@ -114,7 +114,7 @@ const CourseCart = () => {
                 className="col-12"
               >
                 <button className="button py-20 -purple-1 text-white col-12">
-                  Continue Buying
+                  Continuar Comprando
                 </button>
               </Link>
             </>

@@ -17,14 +17,14 @@ export default function NotFound() {
                 40<span className="text-purple-1">4</span>
               </h1>
               <h2 className="text-35 lh-12 mt-5">
-                Oops! It looks like you're lost.
+                Oops! Parece que você está perdido.
               </h2>
               <div className="mt-10">
-                The page you're looking for isn't available. Try to search again
-                <br /> or use the go to.
+                A página que você está procurando não está disponível. Tente pesquisar novamente
+                <br /> ou use o botão abaixo.
               </div>
               <button className="button -md -purple-1 text-white mt-20">
-                Go Back To Homepage
+                Voltar para a Página Inicial
               </button>
             </div>
           </div>

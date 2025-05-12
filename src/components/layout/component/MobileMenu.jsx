@@ -49,7 +49,7 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
               pathname == "/login" ? "activeMenu" : "inActiveMenu"
             } `}
           >
-            Log in
+            Entrar
           </Link>
           <Link
             to="/signup"
@@ -57,7 +57,7 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
               pathname == "/signup" ? "activeMenu" : "inActiveMenu"
             } `}
           >
-            Sign Up
+            Registrar-se
           </Link>
         </div>
 

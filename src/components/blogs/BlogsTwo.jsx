@@ -10,13 +10,13 @@ export default function BlogsTwo() {
             <div className="row justify-center text-center">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">Latest News</h1>
+                  <h1 className="page-header__title">Últimas Notícias</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    We’re on a mission to deliver engaging, curated courses at a
-                    reasonable price.
+                    Estamos em uma missão para oferecer cursos envolventes e
+                    selecionados a um preço acessível.
                   </p>
                 </div>
               </div>
@@ -84,37 +84,37 @@ export default function BlogsTwo() {
             <div className="col-lg-3">
               <div className="sidebar -blog">
                 <div className="sidebar__item">
-                  <h5 className="sidebar__title">Categories</h5>
+                  <h5 className="sidebar__title">Categorias</h5>
 
                   <div className="sidebar-content -list">
                     <a className="text-dark-1" href="#">
-                      College
+                      Faculdade
                     </a>
 
                     <a className="text-dark-1" href="#">
-                      Gym
+                      Academia
                     </a>
 
                     <a className="text-dark-1" href="#">
-                      High School
+                      Ensino Médio
                     </a>
 
                     <a className="text-dark-1" href="#">
-                      Primary
+                      Ensino Fundamental
                     </a>
 
                     <a className="text-dark-1" href="#">
-                      School
+                      Escola
                     </a>
 
                     <a className="text-dark-1" href="#">
-                      University
+                      Universidade
                     </a>
                   </div>
                 </div>
 
                 <div className="sidebar__item">
-                  <h5 className="sidebar__title">Recent Posts</h5>
+                  <h5 className="sidebar__title">Postagens Recentes</h5>
 
                   <div className="sidebar-content -recent y-gap-20">
                     {blogs.slice(0, 3).map((elm, i) => (

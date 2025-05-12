@@ -14,7 +14,7 @@ export default function FooterSeven() {
         <div className="row y-gap-30 justify-between pt-60">
           <div className="col-lg-7 col-md-6">
             <div className="text-17 fw-500 text-dark-1 uppercase mb-25">
-              GET IN TOUCH
+              ENTRE EM CONTATO
             </div>
             <form
               onSubmit={handleSubmit}
@@ -24,7 +24,7 @@ export default function FooterSeven() {
                 required
                 className="py-20 px-30 bg-light-3 rounded-200 text-dark-1"
                 type="text"
-                placeholder="Your Email"
+                placeholder="Seu Email"
               />
               <button className="button -purple-1 rounded-full" type="submit">
                 <i className="icon-arrow-right text-24 text-white"></i>
@@ -39,13 +39,13 @@ export default function FooterSeven() {
 
             <div className="d-flex justify-between mt-30">
               <div className="">
-                <div className="">Toll Free Customer Care</div>
+                <div className="">Atendimento ao Cliente Gratuito</div>
                 <div className="text-18 lh-1 fw-500 text-dark-1 mt-5">
                   +(1) 123 456 7890
                 </div>
               </div>
               <div className="">
-                <div className="">Need live support?</div>
+                <div className="">Precisa de suporte ao vivo?</div>
                 <div className="text-18 lh-1 fw-500 text-dark-1 mt-5">
                   hi@educrat.comv
                 </div>
@@ -67,7 +67,7 @@ export default function FooterSeven() {
           <div className="col-xl-4 col-lg-5 col-md-6">
             <div className="">
               <div className="text-17 uppercase text-whitedark-1 fw-500">
-                Take your learning with you
+                Leve seu aprendizado com você
               </div>
               <div className="d-flex mt-15">
                 <a href="#">
@@ -81,7 +81,7 @@ export default function FooterSeven() {
 
             <div className="footer-header-socials mt-60">
               <div className="text-17 uppercase text-dark-1 fw-500">
-                Follow us on social media
+                Siga-nos nas redes sociais
               </div>
               <div className="footer-header-socials__list d-flex items-center mt-15">
                 <Socials
@@ -96,7 +96,7 @@ export default function FooterSeven() {
           <div className="row justify-between items-center y-gap-20">
             <div className="col-auto">
               <div className="d-flex items-center h-100">
-                © {new Date().getFullYear()} Educrat. All Right Reserved.
+                © {new Date().getFullYear()} Educrat. Todos os direitos reservados.
               </div>
             </div>
 
@@ -113,7 +113,7 @@ export default function FooterSeven() {
                     href="#"
                     className="button -md -light-3 px-15 rounded-200 -purple-3 text-purple-1"
                   >
-                    <i className="icon-worldwide mr-10"></i>English
+                    <i className="icon-worldwide mr-10"></i>Português
                   </a>
                 </div>
               </div>

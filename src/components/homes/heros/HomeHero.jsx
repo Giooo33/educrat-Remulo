@@ -228,7 +228,7 @@ const HomeHero = () => {
                     </div>
                     <div className="">
                       <div className="text-purple-1 text-16 fw-500 lh-1">
-                        Congrats!
+                        Parabéns!
                       </div>
                       <div className="mt-3">Sua admissão foi concluída</div>
                     </div>

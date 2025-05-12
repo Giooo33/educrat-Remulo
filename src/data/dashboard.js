@@ -1,28 +1,28 @@
 export const states = [
   {
     id: 1,
-    title: "Total Sales",
+    title: "Vendas Totais",
     value: 10800,
     new: 50,
     iconClass: "icon-coupon",
   },
   {
     id: 2,
-    title: "Total Courses",
+    title: "Cursos Totais",
     value: 3759,
     new: 40,
     iconClass: "icon-play-button",
   },
   {
     id: 3,
-    title: "Total Students",
+    title: "Estudantes Totais",
     value: 129786,
     new: 90,
     iconClass: "icon-graduate-cap",
   },
   {
     id: 4,
-    title: "Total Instructors",
+    title: "Instrutores Totais",
     value: 22786,
     new: 290,
     iconClass: "icon-online-learning",
@@ -272,20 +272,18 @@ export const mediaUpload = [
   {
     id: 1,
     imgSrc: "/assets/img/dashboard/media/1.png",
-    uploadLabel: "Course thumbnail*",
-    uploadPlaceholder: "Cover-1.png",
-
+    uploadLabel: "Miniatura do Curso*",
+    uploadPlaceholder: "Capa-1.png",
     description:
-      "Upload your course image here. It must meet our course image quality standards to be accepted. Important guidelines: 750x440 pixels; .jpg, .jpeg,. gif, or .png. no text on the image.",
+      "Envie a imagem do seu curso aqui. Ela deve atender aos nossos padrões de qualidade para ser aceita. Diretrizes importantes: 750x440 pixels; .jpg, .jpeg, .gif ou .png. sem texto na imagem.",
   },
   {
     id: 2,
     imgSrc: "/assets/img/dashboard/media/2.png",
-    uploadLabel: "Video URL*",
+    uploadLabel: "URL do Vídeo*",
     uploadPlaceholder: "Video-1.mp3",
-
     description:
-      "Enter a valid video URL. Students who watch a well-made promo video are 5X more likely to enroll in your course.",
+      "Insira uma URL de vídeo válida. Estudantes que assistem a um vídeo promocional bem-feito têm 5 vezes mais chances de se inscrever no seu curso.",
   },
   // Add more form section objects as needed
 ];
@@ -307,19 +305,19 @@ export const timeline = [
   {
     id: 1,
     image: "/assets/img/dashboard/actions/1.png",
-    date: "Monday, 21 October 2024",
-    title: "What do you think about course should be completed",
-    link1: "Your Road to Better Photography",
-    link2: "Add submission",
+    date: "Segunda-feira, 21 de Outubro de 2024",
+    title: "O que você acha que o curso deve ser concluído",
+    link1: "Seu Caminho para uma Fotografia Melhor",
+    link2: "Adicionar submissão",
     time: "17:52",
   },
   {
     id: 2,
     image: "/assets/img/dashboard/actions/2.png",
-    date: "Monday, 21 October 2024",
-    title: "What do you think about course should be completed",
-    link1: "Your Road to Better Photography",
-    link2: "Add submission",
+    date: "Segunda-feira, 21 de Outubro de 2024",
+    title: "O que você acha que o curso deve ser concluído",
+    link1: "Seu Caminho para uma Fotografia Melhor",
+    link2: "Adicionar submissão",
     time: "17:52",
   },
 ];

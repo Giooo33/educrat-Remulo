@@ -2,7 +2,7 @@ export const contactData = [
   {
     id: 1,
     icon: "/assets/img/contact-1/1.svg",
-    address: "328 Queensberry Street, North Melbourne VIC 3051, Australia.",
+    address: "328 Queensberry Street, North Melbourne VIC 3051, Austrália.",
   },
   {
     id: 2,

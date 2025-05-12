@@ -18,7 +18,7 @@ export default function Dictionary() {
       <div className="dashboard__content bg-light-4">
         <div className="row pb-50 mb-10">
           <div className="col-auto">
-            <h1 className="text-30 lh-12 fw-700">Digital Literacy</h1>
+            <h1 className="text-30 lh-12 fw-700">Alfabetização Digital</h1>
 
             <PageLinksTwo />
           </div>
@@ -28,16 +28,16 @@ export default function Dictionary() {
           <div className="col-12">
             <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4">
               <div className="d-flex items-center py-20 px-30 border-bottom-light">
-                <h2 className="text-17 lh-1 fw-500">Page Head</h2>
+                <h2 className="text-17 lh-1 fw-500">Cabeçalho da Página</h2>
               </div>
 
               <div className="py-30 px-30">
                 <div className="row y-gap-15 justify-between items-center mb-30">
-                  <div className="col-auto">Search</div>
+                  <div className="col-auto">Pesquisar</div>
 
                   <div className="col-auto">
                     <a href="#" className="button -md -purple-1 text-white">
-                      Add a New Entry
+                      Adicionar uma Nova Entrada
                     </a>
                   </div>
                 </div>
@@ -45,7 +45,7 @@ export default function Dictionary() {
                 <div className="row">
                   <div className="col-auto">
                     <div className="text-18 lh-1 fw-500 text-dark-1 mb-20">
-                      First name
+                      Primeiro Nome
                     </div>
                   </div>
 
@@ -53,7 +53,7 @@ export default function Dictionary() {
                     <div className="d-flex x-gap-10 y-gap-10 flex-wrap">
                       <div>
                         <div className="py-8 pr-5 d-flex justify-center items-center">
-                          All
+                          Todos
                         </div>
                       </div>
 
@@ -117,7 +117,7 @@ export default function Dictionary() {
                     href="#"
                     className="button -icon -purple-3 h-50 text-purple-1"
                   >
-                    Forum Netiquette
+                    Etiqueta no Fórum
                     <i className="icon-arrow-top-right text-13 ml-10"></i>
                   </a>
 
@@ -138,7 +138,7 @@ export default function Dictionary() {
                       data-el-toggle=".js-category-toggle"
                       data-el-toggle-active=".js-category-active"
                     >
-                      <span className="js-dropdown-title">Jump to...</span>
+                      <span className="js-dropdown-title">Ir para...</span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
 
@@ -149,25 +149,25 @@ export default function Dictionary() {
                       <div className="text-14 y-gap-15 js-dropdown-list">
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Animation
+                            Animação
                           </a>
                         </div>
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Design
+                            Projeto
                           </a>
                         </div>
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Illustration
+                            Ilustração
                           </a>
                         </div>
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Business
+                            Negócios
                           </a>
                         </div>
                       </div>
@@ -178,7 +178,7 @@ export default function Dictionary() {
                     href="#"
                     className="button -icon -purple-3 h-50 text-purple-1"
                   >
-                    Share Examples Of Digital
+                    Compartilhar Exemplos de Digital
                     <i className="icon-arrow-top-right text-13 ml-10"></i>
                   </a>
                 </div>

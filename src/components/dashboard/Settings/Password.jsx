@@ -11,31 +11,31 @@ export default function Password({ activeTab }) {
       <form onSubmit={handleSubmit} className="contact-form row y-gap-30">
         <div className="col-md-7">
           <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-            Current password
+            Senha atual
           </label>
 
-          <input required type="text" placeholder="Current password" />
+          <input required type="text" placeholder="Senha atual" />
         </div>
 
         <div className="col-md-7">
           <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-            New password
+            Nova senha
           </label>
 
-          <input required type="text" placeholder="New password" />
+          <input required type="text" placeholder="Nova senha" />
         </div>
 
         <div className="col-md-7">
           <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-            Confirm New Password
+            Confirmar nova senha
           </label>
 
-          <input required type="text" placeholder="Confirm New Password" />
+          <input required type="text" placeholder="Confirmar nova senha" />
         </div>
 
         <div className="col-12">
           <button className="button -md -purple-1 text-white">
-            Save Password
+            Salvar Senha
           </button>
         </div>
       </form>

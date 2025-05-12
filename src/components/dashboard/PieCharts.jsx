@@ -8,9 +8,9 @@ import {
 } from "recharts";
 
 const data = [
-  { name: "Direct", value: 400 },
-  { name: "Referal", value: 300 },
-  { name: "Organic", value: 300 },
+  { name: "Direto", value: 400 },
+  { name: "Referência", value: 300 },
+  { name: "Orgânico", value: 300 },
 ];
 const COLORS = ["#336CFB", "#336CFB", "#336CFB", "#336CFB"];
 const PieChartComponent = () => {

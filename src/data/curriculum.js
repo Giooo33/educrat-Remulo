@@ -1,20 +1,20 @@
 export const curriculum = [
   {
     id: 1,
-    title: "Introduction to JavaScript",
+    title: "Introdução ao JavaScript",
     items: [
-      { id: 1, title: "Introduction" },
-      { id: 2, title: "Installing Development Software" },
-      { id: 3, title: "Hello World Project from GitHub" },
+      { id: 1, title: "Introdução" },
+      { id: 2, title: "Instalando o Software de Desenvolvimento" },
+      { id: 3, title: "Projeto Hello World do GitHub" },
     ],
   },
   {
     id: 2,
-    title: "Introduction to JavaScript",
+    title: "Introdução ao JavaScript",
     items: [
-      { id: 1, title: "Introduction" },
-      { id: 2, title: "Installing Development Software" },
-      { id: 3, title: "Hello World Project from GitHub" },
+      { id: 1, title: "Introdução" },
+      { id: 2, title: "Instalando o Software de Desenvolvimento" },
+      { id: 3, title: "Projeto Hello World do GitHub" },
     ],
   },
   // Add more sections as needed

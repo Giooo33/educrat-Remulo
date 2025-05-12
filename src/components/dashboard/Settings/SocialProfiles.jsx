@@ -14,7 +14,7 @@ export default function SocialProfiles({ activeTab }) {
             Twitter
           </label>
 
-          <input required type="text" placeholder="Twitter Profile" />
+          <input required type="text" placeholder="Perfil do Twitter" />
         </div>
 
         <div className="col-md-6">
@@ -22,7 +22,7 @@ export default function SocialProfiles({ activeTab }) {
             Facebook
           </label>
 
-          <input required type="text" placeholder="Facebook Profile" />
+          <input required type="text" placeholder="Perfil do Facebook" />
         </div>
 
         <div className="col-md-6">
@@ -30,20 +30,20 @@ export default function SocialProfiles({ activeTab }) {
             Instagram
           </label>
 
-          <input required type="text" placeholder="Instagram Profile" />
+          <input required type="text" placeholder="Perfil do Instagram" />
         </div>
 
         <div className="col-md-6">
           <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-            LinkedIn Profile URL
+            URL do Perfil no LinkedIn
           </label>
 
-          <input required type="text" placeholder="LinkedIn Profile" />
+          <input required type="text" placeholder="Perfil do LinkedIn" />
         </div>
 
         <div className="col-12">
           <button className="button -md -purple-1 text-white">
-            Save Social Profile
+            Salvar Perfil Social
           </button>
         </div>
       </form>

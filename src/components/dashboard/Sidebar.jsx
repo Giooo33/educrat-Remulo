@@ -19,7 +19,10 @@ export default function Sidebar() {
             className="d-flex items-center text-17 lh-1 fw-500 "
           >
             <i className={`${elm.iconClass} mr-15`}></i>
-            {elm.text}
+            {elm.text === "Dashboard" && "Painel de Controle"}
+            {elm.text === "Courses" && "Cursos"}
+            {elm.text === "Settings" && "Configurações"}
+            {elm.text === "Logout" && "Sair"}
           </Link>
         </div>
       ))}

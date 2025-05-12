@@ -14,7 +14,7 @@ export default function News() {
               data-aos="fade-left"
               data-aos-duration={600}
             >
-              <h2 className="sectionTitle__title ">Resources & News</h2>
+              <h2 className="sectionTitle__title ">Recursos & Notícias</h2>
 
               <p className="sectionTitle__text ">
                 Lorem ipsum dolor sit amet, consectetur.
@@ -31,7 +31,7 @@ export default function News() {
               to="/blog-list-1"
               className="button -icon -purple-3 text-purple-1"
             >
-              Browse Blog
+              Navegar no blog
               <i className="icon-arrow-top-right text-13 ml-10"></i>
             </Link>
           </div>

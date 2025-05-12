@@ -30,7 +30,7 @@ const SearchToggle = ({ allClasses, color }) => {
                   required
                   type="text"
                   className="col-12 text-18 lh-12 text-dark-1 fw-500"
-                  placeholder="What do you want to learn?"
+                  placeholder="O que você quer aprender?"
                 />
 
                 <button
@@ -44,33 +44,33 @@ const SearchToggle = ({ allClasses, color }) => {
 
               <div className="header-search__content mt-30">
                 <div className="text-17 text-dark-1 fw-500">
-                  Popular Right Now
+                  Populares Agora
                 </div>
 
                 <div className="d-flex y-gap-5 flex-column mt-20">
                   <Link to={`/courses/${5}`} className="text-dark-1">
-                    The Ultimate Drawing Course - Beginner to Advanced
+                    O curso de desenho definitivo - do iniciante ao avançado
                   </Link>
                   <Link to="/courses-single-2/3" className="text-dark-1">
-                    Character Art School: Complete Character Drawing Course
+                    Escola de Arte de Personagens: Curso Completo de Desenho de Personagens
                   </Link>
                   <Link to="/courses-single-3/3" className="text-dark-1">
-                    Complete Blender Creator: Learn 3D Modelling for Beginners
+                    Complete Blender Creator: Aprenda modelagem 3D para iniciantes
                   </Link>
                   <Link to="/courses-single-4/3" className="text-dark-1">
-                    User Experience Design Essentials - Adobe XD UI UX Design
+                    Fundamentos do design de experiência do usuário - Design de UI e UX do Adobe XD
                   </Link>
                   <Link to="/courses-single-5/3" className="text-dark-1">
-                    Graphic Design Masterclass - Learn GREAT Design
+                    Masterclass de Design Gráfico - Aprenda um ÓTIMO Design
                   </Link>
                   <Link to="/courses-single-6/3" className="text-dark-1">
-                    Adobe Photoshop CC – Essentials Training Course
+                    Adobe Photoshop CC – Curso de Treinamento Essencial
                   </Link>
                 </div>
 
                 <div className="mt-30">
                   <button className="uppercase underline">
-                    PRESS ENTER TO SEE ALL SEARCH RESULTS
+                    PRESSIONE ENTER PARA VER TODOS OS RESULTADOS DA PESQUISA
                   </button>
                 </div>
               </div>

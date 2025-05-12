@@ -23,16 +23,16 @@ export const stepsTwo = [
   {
     id: 1,
     imageSrc: "/assets/img/home-3/works/1.svg",
-    text: "Browse courses from our expert contributors.",
+    text: "Navegue pelos cursos de nossos especialistas.",
   },
   {
     id: 2,
     imageSrc: "/assets/img/home-3/works/2.svg",
-    text: "Purchase quickly and securely.",
+    text: "Compre de forma rápida e segura.",
   },
   {
     id: 3,
     imageSrc: "/assets/img/home-3/works/3.svg",
-    text: "That’s it! Start learning right away.",
+    text: "É isso! Comece a aprender imediatamente.",
   },
 ];

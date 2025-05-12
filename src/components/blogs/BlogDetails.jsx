@@ -50,7 +50,7 @@ export default function BlogDetails({ id }) {
                 <div className="col-xl-8 col-lg-9 col-md-11">
                   <div className="blogCard__content">
                     <h4 className="text-18 fw-500">
-                      What makes a good brand book?
+                      O que faz um bom manual de marca?
                     </h4>
                     <p className="mt-30">
                       Sed viverra ipsum nunc aliquet bibendum enim facilisis
@@ -73,7 +73,7 @@ export default function BlogDetails({ id }) {
                         At urna condimentum mattis pellentesque id nibh. Laoreet
                         non curabitur
                       </li>
-                      <li>Magna etiam tempor orci eu lobortis elementum.</li>
+                      <li>Magna também tempor orci eu lobortis elementum.</li>
                       <li>
                         Bibendum est ultricies integer quis. Semper eget duis at
                         tellus.
@@ -166,7 +166,7 @@ export default function BlogDetails({ id }) {
                 <div className="row y-gap-20 justify-between items-center">
                   <div className="col-auto">
                     <div className="d-flex items-center">
-                      <div className="lh-1 text-dark-1 fw-500 mr-30">Share</div>
+                      <div className="lh-1 text-dark-1 fw-500 mr-30">Compartilhar</div>
 
                       <div className="d-flex x-gap-15">
                         <a href="#">Fb</a>
@@ -207,7 +207,7 @@ export default function BlogDetails({ id }) {
 
                   <div className="ml-30 md:ml-20">
                     <h4 className="text-17 lh-15 fw-500">Brooklyn Simmons</h4>
-                    <div className="mt-5">Medical Assistant</div>
+                    <div className="mt-5">Assistente Médico</div>
                     <p className="mt-25">
                       Etiam vitae leo et diam pellentesque porta. Sed eleifend
                       ultricies risus, vel rutrum erat commodo ut. Praesent
@@ -236,9 +236,9 @@ export default function BlogDetails({ id }) {
                           ></i>
                         </div>
                         <div className="related-nav__content">
-                          <div className="text-17 text-dark-1 fw-500">Prev</div>
+                          <div className="text-17 text-dark-1 fw-500">Anterior</div>
                           <p className="text-dark-1 mt-8">
-                            5 awesome steps to get rid of stress and routine
+                            5 passos incríveis para se livrar do estresse e da rotina
                           </p>
                         </div>
                       </a>
@@ -290,9 +290,9 @@ export default function BlogDetails({ id }) {
                         className="related-nav__item -next text-right decoration-none"
                       >
                         <div className="related-nav__content">
-                          <div className="text-17 text-dark-1 fw-500">Next</div>
+                          <div className="text-17 text-dark-1 fw-500">Próximo</div>
                           <p className="text-dark-1 mt-8">
-                            Happy clients leave positive feedback less often
+                            Clientes felizes deixam feedback positivo com menos frequência
                           </p>
                         </div>
                         <div className="related-nav__arrow">
@@ -312,7 +312,7 @@ export default function BlogDetails({ id }) {
               <div className="col-xl-8 col-lg-9 col-md-11">
                 <div className="blogPost -comments">
                   <div className="blogPost__content">
-                    <h2 className="text-20 fw-500">Reviews</h2>
+                    <h2 className="text-20 fw-500">Avaliações</h2>
 
                     <ul className="comments__list mt-30">
                       <li className="comments__item">
@@ -332,7 +332,7 @@ export default function BlogDetails({ id }) {
                               <h4 className="text-17 fw-500 lh-15">
                                 Ali Tufan
                                 <span className="text-13 text-light-1 fw-400">
-                                  3 Days ago
+                                  3 Dias atrás
                                 </span>
                               </h4>
 
@@ -340,27 +340,26 @@ export default function BlogDetails({ id }) {
                             </div>
 
                             <h5 className="text-15 fw-500 mt-15">
-                              The best LMS Design
+                              O melhor design de LMS
                             </h5>
                             <div className="comments__text mt-10">
                               <p>
-                                This course is a very applicable. Professor Ng
-                                explains precisely each algorithm and even tries
-                                to give an intuition for mathematical and
-                                statistic concepts behind each algorithm. Thank
-                                you very much.
+                                Este curso é muito aplicável. O professor Ng
+                                explica precisamente cada algoritmo e até tenta
+                                dar uma intuição para conceitos matemáticos e
+                                estatísticos por trás de cada algoritmo. Muito obrigado.
                               </p>
                             </div>
 
                             <div className="comments__helpful mt-20">
                               <span className="text-13 text-purple-1">
-                                Was this review helpful?
+                                Esta avaliação foi útil?
                               </span>
                               <button className="button text-13 -sm -purple-1 text-white">
-                                Yes
+                                Sim
                               </button>
                               <button className="button text-13 -sm -light-7 text-purple-1">
-                                No
+                                Não
                               </button>
                             </div>
                           </div>
@@ -384,7 +383,7 @@ export default function BlogDetails({ id }) {
                               <h4 className="text-17 fw-500 lh-15">
                                 Ali Tufan
                                 <span className="text-13 text-light-1 fw-400">
-                                  3 Days ago
+                                  3 Dias atrás
                                 </span>
                               </h4>
 
@@ -392,27 +391,26 @@ export default function BlogDetails({ id }) {
                             </div>
 
                             <h5 className="text-15 fw-500 mt-15">
-                              The best LMS Design
+                              O melhor design de LMS
                             </h5>
                             <div className="comments__text mt-10">
                               <p>
-                                This course is a very applicable. Professor Ng
-                                explains precisely each algorithm and even tries
-                                to give an intuition for mathematical and
-                                statistic concepts behind each algorithm. Thank
-                                you very much.
+                                Este curso é muito aplicável. O professor Ng
+                                explica precisamente cada algoritmo e até tenta
+                                dar uma intuição para conceitos matemáticos e
+                                estatísticos por trás de cada algoritmo. Muito obrigado.
                               </p>
                             </div>
 
                             <div className="comments__helpful mt-20">
                               <span className="text-13 text-purple-1">
-                                Was this review helpful?
+                                Esta avaliação foi útil?
                               </span>
                               <button className="button text-13 -sm -purple-1 text-white">
-                                Yes
+                                Sim
                               </button>
                               <button className="button text-13 -sm -light-7 text-purple-1">
-                                No
+                                Não
                               </button>
                             </div>
                           </div>
@@ -423,11 +421,11 @@ export default function BlogDetails({ id }) {
                 </div>
 
                 <div className="respondForm pt-30">
-                  <h3 className="text-20 fw-500">Write a Review</h3>
+                  <h3 className="text-20 fw-500">Escreva uma Avaliação</h3>
 
                   <div className="mt-30">
                     <h4 className="text-16 fw-500">
-                      What is it like to Course?
+                      Como é o curso?
                     </h4>
                     <div className="d-flex x-gap-10 pt-10">
                       <div className="icon-star text-14 text-yellow-1"></div>
@@ -444,23 +442,23 @@ export default function BlogDetails({ id }) {
                   >
                     <div className="col-12">
                       <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                        Review Title
+                        Título da Avaliação
                       </label>
                       <input
                         required
                         type="text"
                         name="title"
-                        placeholder="Great Courses"
+                        placeholder="Ótimos Cursos"
                       />
                     </div>
                     <div className="col-12">
                       <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                        Review Content
+                        Conteúdo da Avaliação
                       </label>
                       <textarea
                         required
                         name="comment"
-                        placeholder="Message"
+                        placeholder="Mensagem"
                         rows="8"
                       ></textarea>
                     </div>
@@ -471,7 +469,7 @@ export default function BlogDetails({ id }) {
                         id="submit"
                         className="button -md -purple-1 text-white"
                       >
-                        Submit Review
+                        Enviar Avaliação
                       </button>
                     </div>
                   </form>

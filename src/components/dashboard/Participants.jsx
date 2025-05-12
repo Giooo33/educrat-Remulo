@@ -13,7 +13,7 @@ export default function Participants() {
       <div className="dashboard__content bg-light-4">
         <div className="row pb-50 mb-10">
           <div className="col-auto">
-            <h1 className="text-30 lh-12 fw-700">Participants</h1>
+            <h1 className="text-30 lh-12 fw-700">Participantes</h1>
 
             <PageLinksTwo />
           </div>
@@ -23,13 +23,13 @@ export default function Participants() {
           <div className="col-12">
             <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
               <div className="d-flex items-center py-20 px-30 border-bottom-light">
-                <h2 className="text-17 lh-1 fw-500">Page Head</h2>
+                <h2 className="text-17 lh-1 fw-500">Cabeçalho da Página</h2>
               </div>
 
               <div className="py-30 px-30">
                 <div className="border-light rounded-8">
                   <div className="d-flex items-center py-25 px-30">
-                    <div className="text-dark-1 mr-15">Match</div>
+                    <div className="text-dark-1 mr-15">Corresponder</div>
 
                     <div
                       id="dd16button"
@@ -48,7 +48,7 @@ export default function Participants() {
                         data-el-toggle=".js-category-toggle"
                         data-el-toggle-active=".js-category-active"
                       >
-                        <span className="js-dropdown-title">Any</span>
+                        <span className="js-dropdown-title">Qualquer</span>
                         <i className="icon text-9 ml-40 icon-chevron-down"></i>
                       </div>
 
@@ -59,32 +59,32 @@ export default function Participants() {
                         <div className="text-14 y-gap-15 js-dropdown-list">
                           <div>
                             <a href="#" className="d-block js-dropdown-link">
-                              Animation
+                              Animação
                             </a>
                           </div>
 
                           <div>
                             <a href="#" className="d-block js-dropdown-link">
-                              Design
+                              Projeto
                             </a>
                           </div>
 
                           <div>
                             <a href="#" className="d-block js-dropdown-link">
-                              Illustration
+                              Ilustração
                             </a>
                           </div>
 
                           <div>
                             <a href="#" className="d-block js-dropdown-link">
-                              Business
+                              Negócios
                             </a>
                           </div>
                         </div>
                       </div>
                     </div>
 
-                    <div className="text-dark-1 ml-15">of the following:</div>
+                    <div className="text-dark-1 ml-15">dos seguintes:</div>
                   </div>
 
                   <div className="px-30 py-30 border-top-light">
@@ -93,7 +93,7 @@ export default function Participants() {
                         <div className="col-md-auto">
                           <div className="row x-gap-20 y-gap-10 items-center">
                             <div className="col-auto">
-                              <div className="text-dark-1">Match</div>
+                              <div className="text-dark-1">Corresponder</div>
                             </div>
                             <div className="col-md-auto">
                               <div
@@ -113,7 +113,7 @@ export default function Participants() {
                                   data-el-toggle=".js-category-toggle"
                                   data-el-toggle-active=".js-category-active"
                                 >
-                                  <span className="js-dropdown-title">Any</span>
+                                  <span className="js-dropdown-title">Qualquer</span>
                                   <i className="icon text-9 ml-40 icon-chevron-down"></i>
                                 </div>
 
@@ -127,7 +127,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Animation
+                                        Animação
                                       </a>
                                     </div>
 
@@ -136,7 +136,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Design
+                                        Projeto
                                       </a>
                                     </div>
 
@@ -145,7 +145,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Illustration
+                                        Ilustração
                                       </a>
                                     </div>
 
@@ -154,7 +154,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Business
+                                        Negócios
                                       </a>
                                     </div>
                                   </div>
@@ -179,7 +179,7 @@ export default function Participants() {
                                   data-el-toggle=".js-category-toggle"
                                   data-el-toggle-active=".js-category-active"
                                 >
-                                  <span className="js-dropdown-title">Any</span>
+                                  <span className="js-dropdown-title">Qualquer</span>
                                   <i className="icon text-9 ml-40 icon-chevron-down"></i>
                                 </div>
 
@@ -193,7 +193,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Animation
+                                        Animação
                                       </a>
                                     </div>
 
@@ -202,7 +202,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Design
+                                        Projeto
                                       </a>
                                     </div>
 
@@ -211,7 +211,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Illustration
+                                        Ilustração
                                       </a>
                                     </div>
 
@@ -220,7 +220,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Business
+                                        Negócios
                                       </a>
                                     </div>
                                   </div>
@@ -240,7 +240,7 @@ export default function Participants() {
                         <div className="col-md-auto">
                           <div className="row x-gap-20 y-gap-10 items-center">
                             <div className="col-auto">
-                              <div className="text-dark-1">Match</div>
+                              <div className="text-dark-1">Corresponder</div>
                             </div>
                             <div className="col-md-auto">
                               <div
@@ -260,7 +260,7 @@ export default function Participants() {
                                   data-el-toggle=".js-category-toggle"
                                   data-el-toggle-active=".js-category-active"
                                 >
-                                  <span className="js-dropdown-title">Any</span>
+                                  <span className="js-dropdown-title">Qualquer</span>
                                   <i className="icon text-9 ml-40 icon-chevron-down"></i>
                                 </div>
 
@@ -274,7 +274,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Animation
+                                        Animação
                                       </a>
                                     </div>
 
@@ -283,7 +283,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Design
+                                        Projeto
                                       </a>
                                     </div>
 
@@ -292,7 +292,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Illustration
+                                        Ilustração
                                       </a>
                                     </div>
 
@@ -301,7 +301,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Business
+                                        Negócios
                                       </a>
                                     </div>
                                   </div>
@@ -326,7 +326,7 @@ export default function Participants() {
                                   data-el-toggle=".js-category-toggle"
                                   data-el-toggle-active=".js-category-active"
                                 >
-                                  <span className="js-dropdown-title">Any</span>
+                                  <span className="js-dropdown-title">Qualquer</span>
                                   <i className="icon text-9 ml-40 icon-chevron-down"></i>
                                 </div>
 
@@ -340,7 +340,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Animation
+                                        Animação
                                       </a>
                                     </div>
 
@@ -349,7 +349,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Design
+                                        Projeto
                                       </a>
                                     </div>
 
@@ -358,7 +358,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Illustration
+                                        Ilustração
                                       </a>
                                     </div>
 
@@ -367,7 +367,7 @@ export default function Participants() {
                                         href="#"
                                         className="d-block js-dropdown-link"
                                       >
-                                        Business
+                                        Negócios
                                       </a>
                                     </div>
                                   </div>
@@ -385,7 +385,7 @@ export default function Participants() {
                     <div className="row y-gap-20 justify-between items-center pt-30">
                       <div className="col-auto">
                         <a href="#" className="text-purple-1 fw-500 underline">
-                          + Add condition
+                          + Adicionar condição
                         </a>
                       </div>
 
@@ -393,12 +393,12 @@ export default function Participants() {
                         <div className="d-flex x-gap-20 y-gap-20 flex-wrap">
                           <div>
                             <button className="button h-50 px-25 -dark-1 -dark-button-white text-white">
-                              Apply Filters
+                              Aplicar Filtros
                             </button>
                           </div>
                           <div>
                             <button className="button h-50 px-25 -outline-dark-1 text-dark-1">
-                              Cancel Filters
+                              Cancelar Filtros
                             </button>
                           </div>
                         </div>
@@ -408,12 +408,12 @@ export default function Participants() {
                 </div>
 
                 <div className="text-18 fw-500 text-dark-1 lh-12 mt-30">
-                  First name
+                  Primeiro Nome
                 </div>
                 <div className="d-flex x-gap-10 y-gap-10 flex-wrap pt-20">
                   <div>
                     <div className="py-8 pr-5 d-flex justify-center items-center">
-                      All
+                      Todos
                     </div>
                   </div>
 
@@ -441,18 +441,18 @@ export default function Participants() {
                     <div className="row x-gap-10">
                       <div className="col-lg-5">
                         <div className="text-purple-1">
-                          First name / Surname
+                          Primeiro Nome / Sobrenome
                         </div>
                       </div>
                       <div className="col-lg-2">
-                        <div className="text-purple-1">Roles</div>
+                        <div className="text-purple-1">Funções</div>
                       </div>
                       <div className="col-lg-2">
-                        <div className="text-purple-1">Groups</div>
+                        <div className="text-purple-1">Grupos</div>
                       </div>
                       <div className="col-lg-3">
                         <div className="text-purple-1">
-                          Last access to course
+                          Último acesso ao curso
                         </div>
                       </div>
                     </div>

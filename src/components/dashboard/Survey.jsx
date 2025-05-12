@@ -11,7 +11,7 @@ export default function Survey() {
       <div className="dashboard__content bg-light-4">
         <div className="row pb-50 mb-10">
           <div className="col-auto">
-            <h1 className="text-30 lh-12 fw-700">Survey</h1>
+            <h1 className="text-30 lh-12 fw-700">Pesquisa</h1>
 
             <PageLinksTwo />
           </div>
@@ -21,22 +21,22 @@ export default function Survey() {
           <div className="col-12">
             <div className="rounded-16 bg-white -dark-bg-dark-1 shadow-4 h-100">
               <div className="d-flex items-center py-20 px-30 border-bottom-light">
-                <h2 className="text-17 lh-1 fw-500">Page Head</h2>
+                <h2 className="text-17 lh-1 fw-500">Cabeçalho da Página</h2>
               </div>
 
               <div className="py-30 px-30">
                 <h4 className="text-24 lh-12 fw-500">
-                  Your views on this course
+                  Sua opinião sobre este curso
                 </h4>
                 <div className="mt-15">
-                  Mode: User's name will be logged and shown with answers
+                  Modo: O nome do usuário será registrado e exibido com as respostas
                 </div>
 
                 <div className="mt-50">
                   <div className="row y-gap-20">
                     <div className="col-lg-4">
                       <div className="text-dark-1">
-                        How do you rate this course?
+                        Como você avalia este curso?
                       </div>
                     </div>
 
@@ -48,7 +48,7 @@ export default function Survey() {
                             <div className="radio__icon"></div>
                           </div>
                         </div>
-                        <div className=" ml-12">Outstanding</div>
+                        <div className=" ml-12">Excelente</div>
                       </div>
 
                       <div className="form-radio d-flex items-center mt-10">
@@ -58,7 +58,7 @@ export default function Survey() {
                             <div className="radio__icon"></div>
                           </div>
                         </div>
-                        <div className=" ml-12">Good</div>
+                        <div className=" ml-12">Bom</div>
                       </div>
 
                       <div className="form-radio d-flex items-center mt-10">
@@ -68,7 +68,7 @@ export default function Survey() {
                             <div className="radio__icon"></div>
                           </div>
                         </div>
-                        <div className=" ml-12">Satisfactory</div>
+                        <div className=" ml-12">Satisfatório</div>
                       </div>
 
                       <div className="form-radio d-flex items-center mt-10">
@@ -78,7 +78,7 @@ export default function Survey() {
                             <div className="radio__icon"></div>
                           </div>
                         </div>
-                        <div className=" ml-12">Poor</div>
+                        <div className=" ml-12">Ruim</div>
                       </div>
                     </div>
                   </div>
@@ -86,8 +86,7 @@ export default function Survey() {
                   <div className="row y-gap-20 pt-40">
                     <div className="col-lg-4">
                       <div className="text-dark-1">
-                        In one word, how would you describe the course to other
-                        students?
+                        Em uma palavra, como você descreveria o curso para outros alunos?
                       </div>
                     </div>
 
@@ -103,7 +102,7 @@ export default function Survey() {
                   <div className="row y-gap-20 pt-40">
                     <div className="col-lg-4">
                       <div className="text-dark-1">
-                        Did you use the mobile app?
+                        Você usou o aplicativo móvel?
                       </div>
                     </div>
 
@@ -115,7 +114,7 @@ export default function Survey() {
                             <div className="radio__icon"></div>
                           </div>
                         </div>
-                        <div className=" ml-12">Yes</div>
+                        <div className=" ml-12">Sim</div>
                       </div>
 
                       <div className="form-radio d-flex items-center mt-10">
@@ -125,7 +124,7 @@ export default function Survey() {
                             <div className="radio__icon"></div>
                           </div>
                         </div>
-                        <div className=" ml-12">No</div>
+                        <div className=" ml-12">Não</div>
                       </div>
                     </div>
                   </div>
@@ -137,7 +136,7 @@ export default function Survey() {
                       href="#"
                       className="button px-50 -dark-1 -dark-button-white h-50 text-white"
                     >
-                      Next Page
+                      Próxima Página
                     </a>
                   </div>
                   <div>
@@ -145,7 +144,7 @@ export default function Survey() {
                       href="#"
                       className="button px-50 -outline-dark-1 h-50 text-dark-1"
                     >
-                      Cancel
+                      Cancelar
                     </a>
                   </div>
                 </div>
@@ -155,7 +154,7 @@ export default function Survey() {
                     href="#"
                     className="button -icon -purple-3 h-50 text-purple-1"
                   >
-                    Forum Netiquette
+                    Fórum de Etiqueta
                     <i className="icon-arrow-top-right text-13 ml-10"></i>
                   </a>
 
@@ -176,7 +175,7 @@ export default function Survey() {
                       data-el-toggle=".js-category-toggle"
                       data-el-toggle-active=".js-category-active"
                     >
-                      <span className="js-dropdown-title">Jump to...</span>
+                      <span className="js-dropdown-title">Ir para...</span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
 
@@ -187,7 +186,7 @@ export default function Survey() {
                       <div className="text-14 y-gap-15 js-dropdown-list">
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Animation
+                            Animação
                           </a>
                         </div>
 
@@ -199,13 +198,13 @@ export default function Survey() {
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Illustration
+                            Ilustração
                           </a>
                         </div>
 
                         <div>
                           <a href="#" className="d-block js-dropdown-link">
-                            Business
+                            Negócios
                           </a>
                         </div>
                       </div>
@@ -216,7 +215,7 @@ export default function Survey() {
                     href="#"
                     className="button -icon -purple-3 h-50 text-purple-1"
                   >
-                    Share Examples Of Digital
+                    Compartilhar Exemplos de Digital
                     <i className="icon-arrow-top-right text-13 ml-10"></i>
                   </a>
                 </div>

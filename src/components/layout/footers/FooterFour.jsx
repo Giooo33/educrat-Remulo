@@ -20,7 +20,7 @@ export default function FooterFour() {
             <div className="col-auto">
               <div className="footer-header-socials">
                 <div className="footer-header-socials__title text-dark-1">
-                  Follow us on social media
+                  Siga-nos nas redes sociais
                 </div>
                 <div className="footer-header-socials__list">
                   <Socials />
@@ -35,13 +35,13 @@ export default function FooterFour() {
             <FooterLinks allClasses="text-17 fw-500 uppercase mb-25" />
 
             <div className="col-xl-4 ol-md-4 col-sm-6">
-              <div className="text-17 fw-500 uppercase mb-25">GET IN TOUCH</div>
+              <div className="text-17 fw-500 uppercase mb-25">ENTRE EM CONTATO</div>
               <div className="footer-columns-form">
-                <div>We don’t send spam so don’t worry.</div>
+                <div>Não enviamos spam, então não se preocupe.</div>
                 <form onSubmit={handleSubmit}>
                   <div className="form-group">
                     <input required type="text" placeholder="Email..." />
-                    <button type="submit">Submit</button>
+                    <button type="submit">Enviar</button>
                   </div>
                 </form>
               </div>
@@ -53,7 +53,7 @@ export default function FooterFour() {
           <div className="row justify-between y-gap-20">
             <div className="col-md-6">
               <div className="footer-footer__copyright">
-                © {new Date().getFullYear()} Educrat. All Right Reserved.
+                © {new Date().getFullYear()} Educrat. Todos os direitos reservados.
               </div>
             </div>
 
@@ -68,7 +68,7 @@ export default function FooterFour() {
                     href="#"
                     className="button -white px-30 py-20 rounded-200 text-black -light-4  -purple-3 text-purple-1"
                   >
-                    English
+                    Português
                   </a>
                 </div>
               </div>

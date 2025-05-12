@@ -27,16 +27,16 @@ export default function GetApp() {
                 data-aos="fade-up"
                 data-aos-duration={500}
               >
-                Learn From
-                <br /> <span>Anywhere</span>
+                Aprenda com
+                <br /> <span>Em qualquer lugar</span>
               </h2>
               <p
                 className="app-content__text"
                 data-aos="fade-up"
                 data-aos-duration={600}
               >
-                Take classes on the go with the educrat app. Stream or download
-                to watch on the plane, the subway, or wherever you learn best.
+                Faça aulas em qualquer lugar com o aplicativo educrat. 
+                Transmita ou baixe para assistir no avião, no metrô ou onde você aprender melhor.
               </p>
               <div className="app-content__buttons">
                 <Link to="#">

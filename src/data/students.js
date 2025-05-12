@@ -3,7 +3,7 @@ export const students = [
     id: 1,
     imgSrc: "/assets/img/home-2/students/1.png",
     name: "Brooklyn Simmons",
-    title: "Web Designer",
+    title: "Designer Web",
     socials: [
       { icon: "fa fa-facebook", link: "#" },
       { icon: "fa fa-twitter", link: "#" },
@@ -17,7 +17,7 @@ export const students = [
     id: 2,
     imgSrc: "/assets/img/home-2/students/2.png",
     name: "Cody Fisher",
-    title: "Dog Trainer",
+    title: "Treinador de Cães",
     socials: [
       { icon: "fa fa-facebook", link: "#" },
       { icon: "fa fa-twitter", link: "#" },
@@ -31,7 +31,7 @@ export const students = [
     id: 3,
     imgSrc: "/assets/img/home-2/students/3.png",
     name: "Marvin McKinney",
-    title: "President of Sales",
+    title: "Presidente de Vendas",
     socials: [
       { icon: "fa fa-facebook", link: "#" },
       { icon: "fa fa-twitter", link: "#" },
@@ -45,7 +45,7 @@ export const students = [
     id: 4,
     imgSrc: "/assets/img/home-2/students/4.png",
     name: "Jane Cooper",
-    title: "Marketing Coordinator",
+    title: "Coordenadora de Marketing",
     socials: [
       { icon: "fa fa-facebook", link: "#" },
       { icon: "fa fa-twitter", link: "#" },
@@ -59,7 +59,7 @@ export const students = [
     id: 5,
     imgSrc: "/assets/img/home-2/students/5.png",
     name: "Ali Tufan",
-    title: "Marketing Coordinator",
+    title: "Coordenador de Marketing",
     socials: [
       { icon: "fa fa-facebook", link: "#" },
       { icon: "fa fa-twitter", link: "#" },

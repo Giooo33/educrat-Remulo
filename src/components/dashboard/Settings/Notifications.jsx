@@ -12,10 +12,10 @@ export default function Notifications({ activeTab }) {
         <div className="row">
           <div className="col-12">
             <div className="text-16 fw-500 text-dark-1">
-              Notifications - Choose when and how to be notified
+              Notificações - Escolha quando e como ser notificado
             </div>
             <p className="text-14 lh-13 mt-5">
-              Select push and email notifications you'd like to receive
+              Selecione notificações push e por e-mail que você gostaria de receber
             </p>
           </div>
         </div>
@@ -24,7 +24,7 @@ export default function Notifications({ activeTab }) {
           <div className="row y-gap-20 justify-between">
             <div className="col-auto">
               <div className="text-16 fw-500 text-dark-1">
-                Choose when and how to be notified
+                Escolha quando e como ser notificado
               </div>
             </div>
           </div>
@@ -32,9 +32,9 @@ export default function Notifications({ activeTab }) {
           <div className="pt-30">
             <div className="row y-gap-20 justify-between">
               <div className="col-auto">
-                <div className="text-16 fw-500 text-dark-1">Subscriptions</div>
+                <div className="text-16 fw-500 text-dark-1">Inscrições</div>
                 <p className="text-14 lh-13 mt-5">
-                  Notify me about activity from the profiles I'm subscribed to
+                  Notifique-me sobre atividades dos perfis que estou inscrito
                 </p>
               </div>
               <div className="col-auto">
@@ -52,10 +52,10 @@ export default function Notifications({ activeTab }) {
             <div className="row y-gap-20 justify-between">
               <div className="col-auto">
                 <div className="text-16 fw-500 text-dark-1">
-                  Recommended Courses
+                  Cursos Recomendados
                 </div>
                 <p className="text-14 lh-13 mt-5">
-                  Notify me about activity from the profiles I'm subscribed to
+                  Notifique-me sobre atividades dos perfis que estou inscrito
                 </p>
               </div>
               <div className="col-auto">
@@ -73,10 +73,10 @@ export default function Notifications({ activeTab }) {
             <div className="row y-gap-20 justify-between">
               <div className="col-auto">
                 <div className="text-16 fw-500 text-dark-1">
-                  Replies to my comments
+                  Respostas aos meus comentários
                 </div>
                 <p className="text-14 lh-13 mt-5">
-                  Notify me about activity from the profiles I'm subscribed to
+                  Notifique-me sobre atividades dos perfis que estou inscrito
                 </p>
               </div>
               <div className="col-auto">
@@ -94,10 +94,10 @@ export default function Notifications({ activeTab }) {
             <div className="row y-gap-20 justify-between">
               <div className="col-auto">
                 <div className="text-16 fw-500 text-dark-1">
-                  Activity on my comments
+                  Atividade nos meus comentários
                 </div>
                 <p className="text-14 lh-13 mt-5">
-                  Notify me about activity from the profiles I'm subscribed to
+                  Notifique-me sobre atividades dos perfis que estou inscrito
                 </p>
               </div>
               <div className="col-auto">
@@ -116,7 +116,7 @@ export default function Notifications({ activeTab }) {
           <div className="row y-gap-20 justify-between">
             <div className="col-auto">
               <div className="text-16 fw-500 text-dark-1">
-                Email notifications
+                Notificações por e-mail
               </div>
             </div>
           </div>
@@ -125,11 +125,10 @@ export default function Notifications({ activeTab }) {
             <div className="row y-gap-20 justify-between">
               <div className="col-auto">
                 <div className="text-16 fw-500 text-dark-1">
-                  Send me emails about my Cursus activity and updates I
-                  requested
+                  Envie-me e-mails sobre minha atividade no Cursus e atualizações que solicitei
                 </div>
                 <p className="text-14 lh-13 mt-5">
-                  Notify me about activity from the profiles I'm subscribed to
+                  Notifique-me sobre atividades dos perfis que estou inscrito
                 </p>
               </div>
               <div className="col-auto">
@@ -147,11 +146,10 @@ export default function Notifications({ activeTab }) {
             <div className="row y-gap-20 justify-between">
               <div className="col-auto">
                 <div className="text-16 fw-500 text-dark-1">
-                  Promotions, course recommendations, and helpful resources from
-                  Cursus.
+                  Promoções, recomendações de cursos e recursos úteis do Cursus.
                 </div>
                 <p className="text-14 lh-13 mt-5">
-                  Notify me about activity from the profiles I'm subscribed to
+                  Notifique-me sobre atividades dos perfis que estou inscrito
                 </p>
               </div>
               <div className="col-auto">
@@ -169,11 +167,10 @@ export default function Notifications({ activeTab }) {
             <div className="row y-gap-20 justify-between">
               <div className="col-auto">
                 <div className="text-16 fw-500 text-dark-1">
-                  Announcements from instructors whose course(s) I’m enrolled
-                  in.
+                  Anúncios de instrutores cujos cursos estou matriculado.
                 </div>
                 <p className="text-14 lh-13 mt-5">
-                  Notify me about activity from the profiles I'm subscribed to
+                  Notifique-me sobre atividades dos perfis que estou inscrito
                 </p>
               </div>
               <div className="col-auto">
@@ -191,7 +188,7 @@ export default function Notifications({ activeTab }) {
         <div className="row pt-30">
           <div className="col-12">
             <button className="button -md -purple-1 text-white">
-              Save Changes
+              Salvar Alterações
             </button>
           </div>
         </div>
