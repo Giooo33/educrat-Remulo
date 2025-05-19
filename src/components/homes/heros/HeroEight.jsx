@@ -11,15 +11,15 @@ export default function HeroEight() {
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="500">
             <div className="masthead__content">
               <div className="text-17 lh-15 text-orange-1 fw-500 mb-10">
-                Start learning for free
+                Comece a aprender gratuitamente
               </div>
               <h1 className="masthead__title">
-                Studies can now be done online much easily
+                Agora é muito mais fácil estudar online
               </h1>
               <p className="mt-5">
-                You can access 7900+ different courses from 600
+                Você pode acessar mais de 7900 cursos diferentes de 600
                 <br className="lg:d-none" />
-                professional trainers for free
+                instrutores profissionais gratuitamente
               </p>
               <div className="row items-center x-gap-20 y-gap-20 pt-20">
                 <div className="col-auto">
@@ -27,7 +27,7 @@ export default function HeroEight() {
                     to="/signup"
                     className="button -md -orange-1 text-white"
                   >
-                    Join For Free
+                    Inscreva-se Gratuitamente
                   </Link>
                 </div>
                 <div className="col-auto">
@@ -35,7 +35,7 @@ export default function HeroEight() {
                     to="/courses-list-6"
                     className="button -md -outline-light-5 text-dark-1"
                   >
-                    Find Courses
+                    Encontrar Cursos
                   </Link>
                 </div>
               </div>
@@ -45,7 +45,7 @@ export default function HeroEight() {
                   <div key={i} className="col-xl-4 col-auto">
                     <div className="text-dark-1">
                       <div className="mr-10">
-                        <img src={elm.imageSrc} alt="icon" />
+                        <img src={elm.imageSrc} alt="ícone" />
                       </div>
                       <div className="fw-500 lh-11 mt-10">
                         {elm.text.split(" ").slice(0, -1).join()}
@@ -60,7 +60,7 @@ export default function HeroEight() {
 
           <div className="col-lg-6 " data-aos="fade-up" data-aos-delay="750">
             <div className="masthead__image">
-              <img src="/assets/img/home-8/hero/image.png" alt="image" />
+              <img src="/assets/img/home-8/hero/image.png" alt="imagem" />
             </div>
           </div>
         </div>

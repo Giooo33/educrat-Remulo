@@ -189,12 +189,12 @@ export default function CourseListTwo() {
             <div className="row">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">User Interface Courses</h1>
+                  <h1 className="page-header__title">Cursos de Interface do Usuário</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    Write an introductory description of the category.
+                    Escreva uma descrição introdutória da categoria.
                   </p>
                 </div>
               </div>
@@ -216,11 +216,11 @@ export default function CourseListTwo() {
                   <div className="row y-gap-20 items-center justify-between pb-30">
                     <div className="col-auto">
                       <div className="text-14 lh-12">
-                        Showing{" "}
+                        Mostrando{" "}
                         <span className="text-dark-1 fw-500">
                           {sortedFilteredData.length}
                         </span>{" "}
-                        total results
+                        resultados no total
                       </div>
                     </div>
 
@@ -229,7 +229,7 @@ export default function CourseListTwo() {
                         <div className="col-auto">
                           <div className="d-flex items-center">
                             <div className="text-14 lh-12 fw-500 text-dark-1 mr-20">
-                              Sort by:
+                              Ordenar por:
                             </div>
 
                             <div
@@ -299,7 +299,7 @@ export default function CourseListTwo() {
                           >
                             <button className="button h-50 px-30 -light-7 text-purple-1">
                               <i className="icon-filter mr-10"></i>
-                              Filter
+                              Filtrar
                             </button>
                           </div>
                         </div>
@@ -315,7 +315,7 @@ export default function CourseListTwo() {
                       <div className="row x-gap-60 y-gap-40">
                         <div className="col-xl-3 col-lg-4 col-sm-6">
                           <div className="sidebar__item">
-                            <h5 className="sidebar__title">Category</h5>
+                            <h5 className="sidebar__title">Categoria</h5>
                             <div className="sidebar-checkbox">
                               <div
                                 className="sidebar-checkbox__item"
@@ -335,7 +335,7 @@ export default function CourseListTwo() {
                                 </div>
 
                                 <div className="sidebar-checkbox__title">
-                                  All
+                                  Todas
                                 </div>
                                 <div className="sidebar-checkbox__count"></div>
                               </div>
@@ -382,7 +382,7 @@ export default function CourseListTwo() {
                                 href="#"
                                 className="text-14 fw-500 underline text-purple-1"
                               >
-                                Show more
+                                Mostrar mais
                               </a>
                             </div>
                           </div>
@@ -390,7 +390,7 @@ export default function CourseListTwo() {
 
                         <div className="col-xl-3 col-lg-4 col-sm-6">
                           <div className="sidebar__item">
-                            <h5 className="sidebar__title">Ratings</h5>
+                            <h5 className="sidebar__title">Avaliações</h5>
                             <div className="sidebar-checkbox">
                               <div
                                 className="sidebar-checkbox__item"
@@ -414,7 +414,7 @@ export default function CourseListTwo() {
                                 </div>
                                 <div className="sidebar-checkbox__title d-flex items-center">
                                   <div className="d-flex x-gap-5 pr-10"></div>
-                                  All
+                                  Todas
                                 </div>
                                 <div className="sidebar-checkbox__count"></div>
                               </div>
@@ -471,7 +471,7 @@ export default function CourseListTwo() {
 
                         <div className="col-xl-3 col-lg-4 col-sm-6">
                           <div className="sidebar__item">
-                            <h5 className="sidebar__title">Instructors</h5>
+                            <h5 className="sidebar__title">Instrutores</h5>
                             <div className="sidebar-checkbox">
                               <div
                                 className="sidebar-checkbox__item"
@@ -491,7 +491,7 @@ export default function CourseListTwo() {
                                 </div>
 
                                 <div className="sidebar-checkbox__title">
-                                  All
+                                  Todos
                                 </div>
                                 <div className="sidebar-checkbox__count"></div>
                               </div>
@@ -538,7 +538,7 @@ export default function CourseListTwo() {
                                 href="#"
                                 className="text-14 fw-500 underline text-purple-1"
                               >
-                                Show more
+                                Mostrar mais
                               </a>
                             </div>
                           </div>
@@ -546,7 +546,7 @@ export default function CourseListTwo() {
 
                         <div className="col-xl-3 col-lg-4 col-sm-6">
                           <div className="sidebar__item">
-                            <h5 className="sidebar__title">Price</h5>
+                            <h5 className="sidebar__title">Preço</h5>
                             <div className="sidebar-checkbox">
                               {prices.map((item, index) => (
                                 <div
@@ -592,7 +592,7 @@ export default function CourseListTwo() {
 
                         <div className="col-xl-3 col-lg-4 col-sm-6">
                           <div className="sidebar__item">
-                            <h5 className="sidebar__title">Level</h5>
+                            <h5 className="sidebar__title">Nível</h5>
                             <div className="sidebar-checkbox">
                               <div
                                 className="sidebar-checkbox__item cursor"
@@ -612,7 +612,7 @@ export default function CourseListTwo() {
                                 </div>
 
                                 <div className="sidebar-checkbox__title">
-                                  All
+                                  Todos
                                 </div>
                                 <div className="sidebar-checkbox__count"></div>
                               </div>
@@ -657,7 +657,7 @@ export default function CourseListTwo() {
 
                         <div className="col-xl-3 col-lg-4 col-sm-6">
                           <div className="sidebar__item">
-                            <h5 className="sidebar__title">Languange</h5>
+                            <h5 className="sidebar__title">Idioma</h5>
                             <div className="sidebar-checkbox">
                               <div
                                 className="sidebar-checkbox__item"
@@ -677,7 +677,7 @@ export default function CourseListTwo() {
                                 </div>
 
                                 <div className="sidebar-checkbox__title">
-                                  All
+                                  Todos
                                 </div>
                                 <div className="sidebar-checkbox__count"></div>
                               </div>
@@ -724,7 +724,7 @@ export default function CourseListTwo() {
                                 href="#"
                                 className="text-14 fw-500 underline text-purple-1"
                               >
-                                Show more
+                                Mostrar mais
                               </a>
                             </div>
                           </div>
@@ -732,7 +732,7 @@ export default function CourseListTwo() {
 
                         <div className="col-xl-3 col-lg-4 col-sm-6">
                           <div className="sidebar__item">
-                            <h5 className="sidebar__title">Duration</h5>
+                            <h5 className="sidebar__title">Duração</h5>
                             <div className="sidebar-checkbox">
                               <div
                                 className="sidebar-checkbox__item cursor"
@@ -751,7 +751,7 @@ export default function CourseListTwo() {
                                   </div>
                                 </div>
                                 <div className="sidebar-checkbox__title">
-                                  All
+                                  Todas
                                 </div>
                                 <div className="sidebar-checkbox__count"></div>
                               </div>
@@ -818,7 +818,7 @@ export default function CourseListTwo() {
                             <img
                               className="w-1/1"
                               src={elm.imageSrc}
-                              alt="image"
+                              alt="imagem"
                             />
                             <div className="coursesCard__image_overlay rounded-8"></div>
                           </div>
@@ -836,7 +836,7 @@ export default function CourseListTwo() {
                                 <div>
                                   <div className="px-15 rounded-200 bg-green-1">
                                     <span className="text-11 lh-1 uppercase fw-500 text-dark-1">
-                                      Best sellers
+                                      Mais vendidos
                                     </span>
                                   </div>
                                 </div>
@@ -872,11 +872,11 @@ export default function CourseListTwo() {
                               <div className="mr-8">
                                 <img
                                   src="/assets/img/coursesCards/icons/1.svg"
-                                  alt="icon"
+                                  alt="ícone"
                                 />
                               </div>
                               <div className="text-14 lh-1">
-                                {elm.lessonCount} lesson
+                                {elm.lessonCount} aula
                               </div>
                             </div>
 
@@ -884,7 +884,7 @@ export default function CourseListTwo() {
                               <div className="mr-8">
                                 <img
                                   src="/assets/img/coursesCards/icons/2.svg"
-                                  alt="icon"
+                                  alt="ícone"
                                 />
                               </div>
                               <div className="text-14 lh-1">{`${Math.floor(
@@ -896,7 +896,7 @@ export default function CourseListTwo() {
                               <div className="mr-8">
                                 <img
                                   src="/assets/img/coursesCards/icons/3.svg"
-                                  alt="icon"
+                                  alt="ícone"
                                 />
                               </div>
                               <div className="text-14 lh-1">{elm.level}</div>
@@ -905,20 +905,20 @@ export default function CourseListTwo() {
 
                           <div className="coursesCard-footer">
                             <div className="coursesCard-footer__author">
-                              <img src={elm.authorImageSrc} alt="image" />
+                              <img src={elm.authorImageSrc} alt="imagem" />
                               <div>{elm.authorName}</div>
                             </div>
 
                             <div className="coursesCard-footer__price">
                               {elm.paid ? (
                                 <>
-                                  <div>${elm.originalPrice}</div>
-                                  <div>${elm.discountedPrice}</div>
+                                  <div>R${elm.originalPrice}</div>
+                                  <div>R${elm.discountedPrice}</div>
                                 </>
                               ) : (
                                 <>
                                   <div></div>
-                                  <div>Free</div>
+                                  <div>Gratuito</div>
                                 </>
                               )}
                             </div>
@@ -955,7 +955,7 @@ export default function CourseListTwo() {
                           className="accordion__button items-center"
                           onClick={() => setCategoryOpen((pre) => !pre)}
                         >
-                          <h5 className="sidebar__title">Category</h5>
+                          <h5 className="sidebar__title">Categoria</h5>
 
                           <div className="accordion__icon">
                             <div className="icon icon-chevron-down"></div>
@@ -987,7 +987,7 @@ export default function CourseListTwo() {
                                 </div>
 
                                 <div className="sidebar-checkbox__title">
-                                  All
+                                  Todas
                                 </div>
                                 <div className="sidebar-checkbox__count"></div>
                               </div>
@@ -1035,7 +1035,7 @@ export default function CourseListTwo() {
                                 href="#"
                                 className="text-14 fw-500 underline text-purple-1"
                               >
-                                Show more
+                                Mostrar mais
                               </a>
                             </div>
                           </div>
@@ -1055,7 +1055,7 @@ export default function CourseListTwo() {
                           className="accordion__button items-center"
                           onClick={() => setRatingOpen((pre) => !pre)}
                         >
-                          <h5 className="sidebar__title">Ratings</h5>
+                          <h5 className="sidebar__title">Avaliações</h5>
 
                           <div className="accordion__icon">
                             <div className="icon icon-chevron-down"></div>
@@ -1093,7 +1093,7 @@ export default function CourseListTwo() {
                                   <div className="d-flex x-gap-5 pr-10">
                                     <Star star={5} textSize={"text-11"} />
                                   </div>
-                                  All
+                                  Todas
                                 </div>
                                 <div className="sidebar-checkbox__count"></div>
                               </div>
@@ -1159,7 +1159,7 @@ export default function CourseListTwo() {
                           className="accordion__button items-center"
                           onClick={() => setInstractorOpen((pre) => !pre)}
                         >
-                          <h5 className="sidebar__title">Instructors</h5>
+                          <h5 className="sidebar__title">Instrutores</h5>
 
                           <div className="accordion__icon">
                             <div className="icon icon-chevron-down"></div>
@@ -1191,7 +1191,7 @@ export default function CourseListTwo() {
                                 </div>
 
                                 <div className="sidebar-checkbox__title">
-                                  All
+                                  Todos
                                 </div>
                                 <div className="sidebar-checkbox__count"></div>
                               </div>
@@ -1238,7 +1238,7 @@ export default function CourseListTwo() {
                                 href="#"
                                 className="text-14 fw-500 underline text-purple-1"
                               >
-                                Show more
+                                Mostrar mais
                               </a>
                             </div>
                           </div>
@@ -1258,7 +1258,7 @@ export default function CourseListTwo() {
                           className="accordion__button items-center"
                           onClick={() => setPriceOpen((pre) => !pre)}
                         >
-                          <h5 className="sidebar__title">Price</h5>
+                          <h5 className="sidebar__title">Preço</h5>
 
                           <div className="accordion__icon">
                             <div className="icon icon-chevron-down"></div>
@@ -1327,7 +1327,7 @@ export default function CourseListTwo() {
                           className="accordion__button items-center"
                           onClick={() => setLevelOpen((pre) => !pre)}
                         >
-                          <h5 className="sidebar__title">Level</h5>
+                          <h5 className="sidebar__title">Nível</h5>
 
                           <div className="accordion__icon">
                             <div className="icon icon-chevron-down"></div>
@@ -1359,7 +1359,7 @@ export default function CourseListTwo() {
                                 </div>
 
                                 <div className="sidebar-checkbox__title">
-                                  All
+                                  Todos
                                 </div>
                                 <div className="sidebar-checkbox__count"></div>
                               </div>
@@ -1415,7 +1415,7 @@ export default function CourseListTwo() {
                           className="accordion__button items-center"
                           onClick={() => setOpenLanguage((pre) => !pre)}
                         >
-                          <h5 className="sidebar__title">Languange</h5>
+                          <h5 className="sidebar__title">Idioma</h5>
 
                           <div className="accordion__icon">
                             <div className="icon icon-chevron-down"></div>
@@ -1446,7 +1446,7 @@ export default function CourseListTwo() {
                                   </div>
                                 </div>
                                 <div className="sidebar-checkbox__title">
-                                  All
+                                  Todos
                                 </div>
                                 <div className="sidebar-checkbox__count"></div>
                               </div>
@@ -1492,7 +1492,7 @@ export default function CourseListTwo() {
                                 href="#"
                                 className="text-14 fw-500 underline text-purple-1"
                               >
-                                Show more
+                                Mostrar mais
                               </a>
                             </div>
                           </div>
@@ -1512,7 +1512,7 @@ export default function CourseListTwo() {
                           className="accordion__button items-center"
                           onClick={() => setDurationOpen((pre) => !pre)}
                         >
-                          <h5 className="sidebar__title">Duration</h5>
+                          <h5 className="sidebar__title">Duração</h5>
 
                           <div className="accordion__icon">
                             <div className="icon icon-chevron-down"></div>
@@ -1543,7 +1543,7 @@ export default function CourseListTwo() {
                                   </div>
                                 </div>
                                 <div className="sidebar-checkbox__title">
-                                  All
+                                  Todas
                                 </div>
                                 <div className="sidebar-checkbox__count"></div>
                               </div>

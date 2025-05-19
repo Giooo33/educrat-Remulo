@@ -13,11 +13,11 @@ export default function LearningSelection() {
           <div className="col-auto">
             <div className="sectionTitle ">
               <h2 className="sectionTitle__title ">
-                Get personal learning recommendations
+                Receba recomendações personalizadas de aprendizado
               </h2>
 
               <p className="sectionTitle__text ">
-                Enhance your skills with best Online courses
+                Aprimore suas habilidades com os melhores cursos online
               </p>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function LearningSelection() {
                 data-el-toggle-active=".js-drop1-active"
               >
                 <span className="js-dropdown-title">
-                  {currentCategory == "All" ? "Category" : currentCategory}
+                  {currentCategory == "All" ? "Categoria" : currentCategory}
                 </span>
                 <i className="icon text-9 ml-40 icon-chevron-down"></i>
               </div>
@@ -88,7 +88,7 @@ export default function LearningSelection() {
                 data-el-toggle-active=".js-drop3-active"
               >
                 <span className="js-dropdown-title">
-                  {currentdifficulty == "All" ? "Diffiulty" : currentdifficulty}
+                  {currentdifficulty == "All" ? "Dificuldade" : currentdifficulty}
                 </span>
                 <i className="icon text-9 ml-40 icon-chevron-down"></i>
               </div>
@@ -123,7 +123,7 @@ export default function LearningSelection() {
               to="/courses-list-1"
               className="button -md -purple-1 text-white"
             >
-              Get Started Now
+              Comece agora
             </Link>
           </div>
         </div>

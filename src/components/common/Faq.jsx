@@ -11,11 +11,11 @@ export default function Faq() {
           <div className="col-xl-8 col-lg-9 col-md-11">
             <div className="sectionTitle ">
               <h2 className="sectionTitle__title ">
-                Frequently Asked Questions.
+                Perguntas Frequentes
               </h2>
 
               <p className="sectionTitle__text ">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                Tire suas dúvidas sobre nossos serviços.
               </p>
             </div>
 

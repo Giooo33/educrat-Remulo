@@ -124,14 +124,14 @@ export default function HeaderDashboard() {
                 <div className="text-white d-flex items-center lg:d-none mr-15">
                   <div className="dropdown bg-transparent px-0 py-0">
                     <div className="d-flex items-center text-14 text-dark-1">
-                      All Pages
+                      Todas as Páginas
                       <i className="text-9 icon-chevron-down ml-10"></i>
                     </div>
                     <div className="dropdown__item -dark-bg-dark-2 -dark-border-white-10">
                       <div className="text-14 y-gap-15">
                         <div>
                           <Link to="/dashboard" className="d-block text-dark-1">
-                            Dashboard
+                            Painel
                           </Link>
                         </div>
                         <div>
@@ -139,7 +139,7 @@ export default function HeaderDashboard() {
                             to="/dshb-courses"
                             className="d-block text-dark-1"
                           >
-                            My Courses
+                            Meus Cursos
                           </Link>
                         </div>
                         <div>
@@ -147,7 +147,7 @@ export default function HeaderDashboard() {
                             to="/dshb-bookmarks"
                             className="d-block text-dark-1"
                           >
-                            Bookmarks
+                            Favoritos
                           </Link>
                         </div>
                         <div>
@@ -155,7 +155,7 @@ export default function HeaderDashboard() {
                             to="/dshb-listing"
                             className="d-block text-dark-1"
                           >
-                            Add Listing
+                            Adicionar Listagem
                           </Link>
                         </div>
                         <div>
@@ -163,7 +163,7 @@ export default function HeaderDashboard() {
                             to="/dshb-reviews"
                             className="d-block text-dark-1"
                           >
-                            Reviews
+                            Avaliações
                           </Link>
                         </div>
                         <div>
@@ -171,7 +171,7 @@ export default function HeaderDashboard() {
                             to="/dshb-settings"
                             className="d-block text-dark-1"
                           >
-                            Settings
+                            Configurações
                           </Link>
                         </div>
                       </div>
@@ -257,7 +257,7 @@ export default function HeaderDashboard() {
                                     {elm.heading}
                                   </h4>
                                   <div className="text-13 lh-1 mt-10">
-                                    {elm.time} Hours Ago
+                                    {elm.time} Horas Atrás
                                   </div>
                                 </div>
                               </div>

@@ -32,7 +32,7 @@ export default function HeaderThree() {
                     <input
                       required
                       type="text"
-                      placeholder="What do you want to learn?"
+                      placeholder="O que você quer aprender?"
                     />
                     <button type="submit">
                       <i className="icon icon-search"></i>
@@ -73,13 +73,13 @@ export default function HeaderThree() {
                   to="/login"
                   className="button px-30 h-50 -outline-dark-1 text-dark-1"
                 >
-                  Log in
+                  Entrar
                 </Link>
                 <Link
                   to="/signup"
                   className="button px-30 h-50 -dark-1 text-white ml-10"
                 >
-                  Sign up
+                  Cadastrar-se
                 </Link>
               </div>
             </div>

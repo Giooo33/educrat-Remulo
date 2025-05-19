@@ -11,7 +11,7 @@ export default function FooterEight() {
         <div className="row y-gap-30 pb-60">
           <div className="col-xl-4 col-lg-5 col-md-6">
             <div className="footer-header__logo">
-              <img src="/assets/img/footer/footer-logo.svg" alt="logo" />
+              <img src="/assets/img/footer/AlvoEdu.png" alt="logo" />
             </div>
 
             <div className="mt-30">
@@ -24,7 +24,7 @@ export default function FooterEight() {
             <div className="mt-30 pr-20">
               <div className="lh-17 text-white">
                 329 Queensberry Street, North Melbourne VIC 3051, Austrália.
-                hi@educrat.com
+                hi@AlvoEdu.com
               </div>
             </div>
 
@@ -46,7 +46,7 @@ export default function FooterEight() {
           <div className="row justify-between items-center y-gap-20">
             <div className="col-auto">
               <div className="d-flex items-center h-100 text-white">
-                © {new Date().getFullYear()} Educrat. Todos os direitos reservados.
+                © {new Date().getFullYear()} AlvoEdu. Todos os direitos reservados.
               </div>
             </div>
 

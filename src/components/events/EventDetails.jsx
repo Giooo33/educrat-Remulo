@@ -48,22 +48,22 @@ export default function EventDetails({ id }) {
                   <div className="d-flex x-gap-50 pt-12">
                     <div className="text-white">
                       <div className="text-40 lh-12 fw-700">20</div>
-                      <div className="text-15">Days</div>
+                      <div className="text-15">Dias</div>
                     </div>
 
                     <div className="text-white">
                       <div className="text-40 lh-12 fw-700">32</div>
-                      <div className="text-15">Hours</div>
+                      <div className="text-15">Horas</div>
                     </div>
 
                     <div className="text-white">
                       <div className="text-40 lh-12 fw-700">57</div>
-                      <div className="text-15">Minutes</div>
+                      <div className="text-15">Minutos</div>
                     </div>
 
                     <div className="text-white">
                       <div className="text-40 lh-12 fw-700">13</div>
-                      <div className="text-15">Seconds</div>
+                      <div className="text-15">Segundos</div>
                     </div>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ export default function EventDetails({ id }) {
         <div className="container">
           <div className="row y-gap-50">
             <div className="col-xl-8 col-lg-8 lg:order-2">
-              <h4 className="text-20">About The Event</h4>
+              <h4 className="text-20">Sobre o Evento</h4>
               <p className="text-light-1 mt-30">
                 Phasellus enim magna, varius et commodo ut, ultricies vitae
                 velit. Ut nulla tellus, eleifend euismod pellentesque vel,
@@ -88,24 +88,17 @@ export default function EventDetails({ id }) {
                 nascetur.
                 <br />
                 <br />
-                This course is aimed at people interested in UI/UX Design. We’ll
-                start from the very beginning and work all the way through, step
-                by step. If you already have some UI/UX Design experience but
-                want to get up to speed using Adobe XD then this course is
-                perfect for you too!
+                Este curso é destinado a pessoas interessadas em Design UI/UX. Começaremos do início e avançaremos passo a passo. Se você já tem alguma experiência em UI/UX Design, mas quer se atualizar usando Adobe XD, este curso também é perfeito para você!
                 <br />
                 <br />
-                First, we will go over the differences between UX and UI Design.
-                We will look at what our brief for this real-world project is,
-                then we will learn about low-fidelity wireframes and how to make
-                use of existing UI design kits.
+                Primeiro, vamos abordar as diferenças entre UX e UI Design. Veremos qual é o nosso briefing para este projeto do mundo real, depois aprenderemos sobre wireframes de baixa fidelidade e como utilizar kits de design de UI existentes.
               </p>
               <button className="button underline text-purple-1 mt-30">
-                Show More
+                Mostrar mais
               </button>
 
               <div className="mt-60">
-                <h4 className="text-20 mb-30">What you'll learn</h4>
+                <h4 className="text-20 mb-30">O que você vai aprender</h4>
                 <div className="row x-gap-100 justfiy-between">
                   <div className="col-md-6">
                     <div className="y-gap-20">
@@ -136,7 +129,7 @@ export default function EventDetails({ id }) {
               </div>
 
               <div className="mt-60">
-                <h4 className="text-20">Event Content</h4>
+                <h4 className="text-20">Conteúdo do Evento</h4>
                 <ul className="ul-list y-gap-15 pt-30">
                   {eventContent.map((elm, i) => (
                     <li key={i}>{elm}</li>
@@ -145,7 +138,7 @@ export default function EventDetails({ id }) {
               </div>
 
               <div className="mt-60">
-                <h4 className="text-20 mb-30">Our Speakers</h4>
+                <h4 className="text-20 mb-30">Nossos Palestrantes</h4>
                 <div className="row y-gap-30">
                   {instractorsNine.slice(0, 4).map((elm, i) => (
                     <div key={i} className="col-lg-3 col-md-6">
@@ -168,7 +161,7 @@ export default function EventDetails({ id }) {
 
               <div className="blogPost -comments mt-60">
                 <div className="blogPost__content">
-                  <h2 className="text-20 fw-500">Reviews</h2>
+                  <h2 className="text-20 fw-500">Avaliações</h2>
 
                   <ul className="comments__list mt-30">
                     <li className="comments__item">
@@ -188,7 +181,7 @@ export default function EventDetails({ id }) {
                             <h4 className="text-17 fw-500 lh-15">
                               Ali Tufan
                               <span className="text-13 text-light-1 fw-400">
-                                3 Days ago
+                                3 dias atrás
                               </span>
                             </h4>
 
@@ -196,27 +189,23 @@ export default function EventDetails({ id }) {
                           </div>
 
                           <h5 className="text-15 fw-500 mt-15">
-                            The best LMS Design
+                            O melhor Design de LMS
                           </h5>
                           <div className="comments__text mt-10">
                             <p>
-                              This course is a very applicable. Professor Ng
-                              explains precisely each algorithm and even tries
-                              to give an intuition for mathematical and
-                              statistic concepts behind each algorithm. Thank
-                              you very much.
+                              Este curso é muito aplicável. O professor Ng explica precisamente cada algoritmo e ainda tenta dar uma intuição para os conceitos matemáticos e estatísticos por trás de cada algoritmo. Muito obrigado.
                             </p>
                           </div>
 
                           <div className="comments__helpful mt-20">
                             <span className="text-13 text-purple-1">
-                              Was this review helpful?
+                              Esta avaliação foi útil?
                             </span>
                             <button className="button text-13 -sm -purple-1 text-white">
-                              Yes
+                              Sim
                             </button>
                             <button className="button text-13 -sm -light-7 text-purple-1">
-                              No
+                              Não
                             </button>
                           </div>
                         </div>
@@ -240,7 +229,7 @@ export default function EventDetails({ id }) {
                             <h4 className="text-17 fw-500 lh-15">
                               Ali Tufan
                               <span className="text-13 text-light-1 fw-400">
-                                3 Days ago
+                                3 dias atrás
                               </span>
                             </h4>
 
@@ -248,27 +237,23 @@ export default function EventDetails({ id }) {
                           </div>
 
                           <h5 className="text-15 fw-500 mt-15">
-                            The best LMS Design
+                            O melhor Design de LMS
                           </h5>
                           <div className="comments__text mt-10">
                             <p>
-                              This course is a very applicable. Professor Ng
-                              explains precisely each algorithm and even tries
-                              to give an intuition for mathematical and
-                              statistic concepts behind each algorithm. Thank
-                              you very much.
+                              Este curso é muito aplicável. O professor Ng explica precisamente cada algoritmo e ainda tenta dar uma intuição para os conceitos matemáticos e estatísticos por trás de cada algoritmo. Muito obrigado.
                             </p>
                           </div>
 
                           <div className="comments__helpful mt-20">
                             <span className="text-13 text-purple-1">
-                              Was this review helpful?
+                              Esta avaliação foi útil?
                             </span>
                             <button className="button text-13 -sm -purple-1 text-white">
-                              Yes
+                              Sim
                             </button>
                             <button className="button text-13 -sm -light-7 text-purple-1">
-                              No
+                              Não
                             </button>
                           </div>
                         </div>
@@ -279,10 +264,10 @@ export default function EventDetails({ id }) {
               </div>
 
               <div className="respondForm mt-60">
-                <h3 className="text-20 fw-500">Write a Review</h3>
+                <h3 className="text-20 fw-500">Escreva uma Avaliação</h3>
 
                 <div className="mt-30">
-                  <h4 className="text-16 fw-500">What is it like to Course?</h4>
+                  <h4 className="text-16 fw-500">Como foi o curso?</h4>
                   <div className="d-flex x-gap-10 pt-10">
                     <Star textSize={"text-14"} star={5} />
                   </div>
@@ -294,23 +279,23 @@ export default function EventDetails({ id }) {
                 >
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Review Title
+                      Título da Avaliação
                     </label>
                     <input
                       required
                       type="text"
                       name="title"
-                      placeholder="Great Courses"
+                      placeholder="Ótimos Cursos"
                     />
                   </div>
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Review Content
+                      Conteúdo da Avaliação
                     </label>
                     <textarea
                       required
                       name="comment"
-                      placeholder="Message"
+                      placeholder="Mensagem"
                       rows="8"
                     ></textarea>
                   </div>
@@ -321,7 +306,7 @@ export default function EventDetails({ id }) {
                       id="submit"
                       className="button -md -purple-1 text-white"
                     >
-                      Submit Review
+                      Enviar Avaliação
                     </button>
                   </Link>
                 </form>
@@ -331,11 +316,11 @@ export default function EventDetails({ id }) {
             <div className="col-xl-4 col-lg-4 lg:order-1">
               <div className="event-info bg-white rounded-8 px-30 py-30 border-light shadow-1">
                 <div className="d-flex justify-between items-center">
-                  <div className="text-24 lh-1 fw-500 text-dark-1">$96.00</div>
+                  <div className="text-24 lh-1 fw-500 text-dark-1">R$96,00</div>
 
                   <div className="d-flex items-center">
                     <div className="text-light-1 line-through mr-10">
-                      $76.00
+                      R$76,00
                     </div>
                     <div className="text-14 fw-500 text-dark-1 px-15 py-5 bg-green-1 rounded-4">
                       91% off
@@ -346,7 +331,7 @@ export default function EventDetails({ id }) {
                 <div className="d-flex justify-between mt-30 pb-10">
                   <div className="d-flex items-center text-dark-1">
                     <div className="icon-location"></div>
-                    <div className="ml-10">Total Slot</div>
+                    <div className="ml-10">Total de Vagas</div>
                   </div>
                   <div>587</div>
                 </div>
@@ -354,7 +339,7 @@ export default function EventDetails({ id }) {
                 <div className="d-flex justify-between pt-10 border-top-light">
                   <div className="d-flex items-center text-dark-1">
                     <div className="icon-location"></div>
-                    <div className="ml-10">Booked Slot</div>
+                    <div className="ml-10">Vagas Reservadas</div>
                   </div>
                   <div>987</div>
                 </div>
@@ -363,7 +348,7 @@ export default function EventDetails({ id }) {
                   onClick={() => addEventToCart(data.id)}
                   className="button -md col-12 -purple-1 text-white mt-30 cursor"
                 >
-                  {isAddedToCartEvents(data.id) ? "Booked" : "Book Now"}
+                  {isAddedToCartEvents(data.id) ? "Reservado" : "Reservar Agora"}
                 </div>
 
                 <div className="d-flex justify-center pt-25">

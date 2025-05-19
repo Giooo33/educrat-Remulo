@@ -50,8 +50,8 @@ export default function CountdownRegistration() {
             <div className="col-lg-5">
               <div className="bg-white rounded-16 px-30 py-30">
                 <h3 className="text-20 lh-15 text-center">
-                  Create Your
-                  <span className="text-purple-1">Free Account</span>
+                  Crie sua
+                  <span className="text-purple-1">Conta Gratuita</span>
                 </h3>
                 <form
                   onSubmit={handleSubmit}
@@ -59,35 +59,32 @@ export default function CountdownRegistration() {
                 >
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Email Address
+                      Endereço de e-mail
                     </label>
                     <input
                       required
                       type="text"
                       name="email"
-                      placeholder="Email..."
+                      placeholder="E-mail..."
                     />
                   </div>
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Password
+                      Senha
                     </label>
                     <input
                       required
                       type="password"
                       name="password"
-                      placeholder="Password..."
+                      placeholder="Senha..."
                     />
                   </div>
                   <div className="col-12">
                     <button className="button -md -purple-1 w-1/1 text-white">
-                      Start Learning For Free
+                      Comece a aprender gratuitamente
                     </button>
                     <div className="text-13 lh-17 mt-15">
-                      By continuing, you accept our Terms of Use, our Privacy
-                      Policy and that your data is stored in the USA. You
-                      confirm you are at least 16 years old (13 if you are an
-                      authorized Classrooms user).
+                      Ao continuar, você aceita nossos Termos de Uso, nossa Política de Privacidade e que seus dados sejam armazenados nos EUA. Você confirma que tem pelo menos 16 anos (13 se for um usuário autorizado do Classrooms).
                     </div>
                   </div>
                 </form>
@@ -96,10 +93,10 @@ export default function CountdownRegistration() {
 
             <div className="offset-xl-2 col-xl-4 offset-lg-1 col-lg-5 col-md-9">
               <h2 className="text-30 lh-13 text-white">
-                Register Now and Get a 70% Discount
+                Cadastre-se agora e ganhe 70% de desconto
               </h2>
               <p className="text-lg text-white mt-10">
-                Get 100 Online Courses For Free
+                Ganhe 100 cursos online gratuitamente
               </p>
 
               <div className="js-countdown">
@@ -109,7 +106,7 @@ export default function CountdownRegistration() {
                       <div className="text-45 lh-12 fw-700 js-countdown-days">
                         {timerDays}
                       </div>
-                      <div className="mt-5">Days</div>
+                      <div className="mt-5">Dias</div>
                     </div>
                   </div>
 
@@ -118,7 +115,7 @@ export default function CountdownRegistration() {
                       <div className="text-45 lh-12 fw-700 js-countdown-hours">
                         {timerHours}
                       </div>
-                      <div className="mt-5">Hours</div>
+                      <div className="mt-5">Horas</div>
                     </div>
                   </div>
 
@@ -127,7 +124,7 @@ export default function CountdownRegistration() {
                       <div className="text-45 lh-12 fw-700 js-countdown-minutes">
                         {timerMinutes}
                       </div>
-                      <div className="mt-5">Minutes</div>
+                      <div className="mt-5">Minutos</div>
                     </div>
                   </div>
 
@@ -136,7 +133,7 @@ export default function CountdownRegistration() {
                       <div className="text-45 lh-12 fw-700 js-countdown-seconds">
                         {timerSeconds}
                       </div>
-                      <div className="mt-5">Seconds</div>
+                      <div className="mt-5">Segundos</div>
                     </div>
                   </div>
                 </div>

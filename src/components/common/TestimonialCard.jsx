@@ -17,7 +17,7 @@ export default function TestimonialCard({ data, index }) {
         <div className="row y-gap-30 md:text-center md:justify-center">
           <div className="col-md-auto">
             <div className="testimonials__image">
-              <img src={data.image} alt="image" />
+              <img src={data.image} alt="imagem" />
             </div>
           </div>
 

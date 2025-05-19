@@ -17,10 +17,10 @@ export default function CourseSlider() {
         <div className="row">
           <div className="col-auto">
             <div className="sectionTitle ">
-              <h2 className="sectionTitle__title ">You May Like</h2>
+              <h2 className="sectionTitle__title ">Você pode gostar</h2>
 
               <p className="sectionTitle__text ">
-                10,000+ unique online course list designs
+                Mais de 10.000 designs únicos de listas de cursos online
               </p>
             </div>
           </div>
@@ -101,7 +101,7 @@ export default function CourseSlider() {
                                 />
                               </div>
                               <div className="text-14 lh-1">
-                                {elm.lessonCount} lesson
+                                {elm.lessonCount} aula
                               </div>
                             </div>
 
@@ -137,13 +137,13 @@ export default function CourseSlider() {
                             <div className="coursesCard-footer__price">
                               {elm.paid ? (
                                 <>
-                                  <div>${elm.originalPrice}</div>
-                                  <div>${elm.discountedPrice}</div>
+                                  <div>R${elm.originalPrice}</div>
+                                  <div>R${elm.discountedPrice}</div>
                                 </>
                               ) : (
                                 <>
                                   <div></div>
-                                  <div>Free</div>
+                                  <div>Grátis</div>
                                 </>
                               )}
                             </div>

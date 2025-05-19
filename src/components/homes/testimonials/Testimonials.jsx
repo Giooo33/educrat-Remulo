@@ -44,10 +44,10 @@ export default function Testimonials({ backgroundComponent }) {
         <div className="row y-gap-20 justify-center text-center">
           <div className="col-auto">
             <div className="sectionTitle ">
-              <h2 className="sectionTitle__title ">Testimonials</h2>
+              <h2 className="sectionTitle__title ">Depoimentos</h2>
 
               <p className="sectionTitle__text ">
-                10,000+ unique online course list designs
+                Mais de 10.000 designs únicos de listas de cursos online
               </p>
             </div>
           </div>

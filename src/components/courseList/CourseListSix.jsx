@@ -186,7 +186,7 @@ export default function CourseListSix() {
       <div className="container">
         <div className="row">
           <div className="col-auto">
-            <h2 className="text-24 lh-12">All User Interface courses</h2>
+            <h2 className="text-24 lh-12">Todos os cursos de Interface do Usuário</h2>
           </div>
         </div>
 
@@ -205,7 +205,7 @@ export default function CourseListSix() {
                         className="accordion__button items-center"
                         onClick={() => setCategoryOpen((pre) => !pre)}
                       >
-                        <h5 className="sidebar__title">Category</h5>
+                        <h5 className="sidebar__title">Categoria</h5>
 
                         <div className="accordion__icon">
                           <div className="icon icon-chevron-down"></div>
@@ -236,7 +236,7 @@ export default function CourseListSix() {
                                 </div>
                               </div>
 
-                              <div className="sidebar-checkbox__title">All</div>
+                              <div className="sidebar-checkbox__title">Todos</div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
                             {categories.map((elm, i) => (
@@ -283,7 +283,7 @@ export default function CourseListSix() {
                               href="#"
                               className="text-14 fw-500 underline text-purple-1"
                             >
-                              Show more
+                              Mostrar mais
                             </a>
                           </div>
                         </div>
@@ -303,7 +303,7 @@ export default function CourseListSix() {
                         className="accordion__button items-center"
                         onClick={() => setRatingOpen((pre) => !pre)}
                       >
-                        <h5 className="sidebar__title">Ratings</h5>
+                        <h5 className="sidebar__title">Avaliações</h5>
 
                         <div className="accordion__icon">
                           <div className="icon icon-chevron-down"></div>
@@ -341,7 +341,7 @@ export default function CourseListSix() {
                                 <div className="d-flex x-gap-5 pr-10">
                                   <Star star={5} textSize={"text-11"} />
                                 </div>
-                                All
+                                Todos
                               </div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
@@ -407,7 +407,7 @@ export default function CourseListSix() {
                         className="accordion__button items-center"
                         onClick={() => setInstractorOpen((pre) => !pre)}
                       >
-                        <h5 className="sidebar__title">Instructors</h5>
+                        <h5 className="sidebar__title">Instrutores</h5>
 
                         <div className="accordion__icon">
                           <div className="icon icon-chevron-down"></div>
@@ -438,7 +438,7 @@ export default function CourseListSix() {
                                 </div>
                               </div>
 
-                              <div className="sidebar-checkbox__title">All</div>
+                              <div className="sidebar-checkbox__title">Todos</div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
                             {instractorNames.map((elm, i) => (
@@ -484,7 +484,7 @@ export default function CourseListSix() {
                               href="#"
                               className="text-14 fw-500 underline text-purple-1"
                             >
-                              Show more
+                              Mostrar mais
                             </a>
                           </div>
                         </div>
@@ -504,7 +504,7 @@ export default function CourseListSix() {
                         className="accordion__button items-center"
                         onClick={() => setPriceOpen((pre) => !pre)}
                       >
-                        <h5 className="sidebar__title">Price</h5>
+                        <h5 className="sidebar__title">Preço</h5>
 
                         <div className="accordion__icon">
                           <div className="icon icon-chevron-down"></div>
@@ -573,7 +573,7 @@ export default function CourseListSix() {
                         className="accordion__button items-center"
                         onClick={() => setLevelOpen((pre) => !pre)}
                       >
-                        <h5 className="sidebar__title">Level</h5>
+                        <h5 className="sidebar__title">Nível</h5>
 
                         <div className="accordion__icon">
                           <div className="icon icon-chevron-down"></div>
@@ -604,7 +604,7 @@ export default function CourseListSix() {
                                 </div>
                               </div>
 
-                              <div className="sidebar-checkbox__title">All</div>
+                              <div className="sidebar-checkbox__title">Todos</div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
                             {levels.map((elm, i) => (
@@ -659,7 +659,7 @@ export default function CourseListSix() {
                         className="accordion__button items-center"
                         onClick={() => setOpenLanguage((pre) => !pre)}
                       >
-                        <h5 className="sidebar__title">Languange</h5>
+                        <h5 className="sidebar__title">Idioma</h5>
 
                         <div className="accordion__icon">
                           <div className="icon icon-chevron-down"></div>
@@ -689,7 +689,7 @@ export default function CourseListSix() {
                                   <div className="form-checkbox__icon icon-check"></div>
                                 </div>
                               </div>
-                              <div className="sidebar-checkbox__title">All</div>
+                              <div className="sidebar-checkbox__title">Todos</div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
                             {languages.map((elm, i) => (
@@ -732,7 +732,7 @@ export default function CourseListSix() {
                               href="#"
                               className="text-14 fw-500 underline text-purple-1"
                             >
-                              Show more
+                              Mostrar mais
                             </a>
                           </div>
                         </div>
@@ -752,7 +752,7 @@ export default function CourseListSix() {
                         className="accordion__button items-center"
                         onClick={() => setDurationOpen((pre) => !pre)}
                       >
-                        <h5 className="sidebar__title">Duration</h5>
+                        <h5 className="sidebar__title">Duração</h5>
 
                         <div className="accordion__icon">
                           <div className="icon icon-chevron-down"></div>
@@ -780,7 +780,7 @@ export default function CourseListSix() {
                                   <div className="form-checkbox__icon icon-check"></div>
                                 </div>
                               </div>
-                              <div className="sidebar-checkbox__title">All</div>
+                              <div className="sidebar-checkbox__title">Todos</div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
                             {duration.map((elm, i) => (
@@ -838,12 +838,12 @@ export default function CourseListSix() {
                 <div className="row y-gap-20 items-center justify-between pb-30">
                   <div className="col-auto">
                     <div className="text-14 lh-12">
-                      Showing{" "}
+                      Exibindo{" "}
                       <span className="text-dark-1 fw-500">
                         {" "}
                         {filteredData.length}
                       </span>{" "}
-                      total results
+                      resultados no total
                     </div>
                   </div>
 
@@ -852,7 +852,7 @@ export default function CourseListSix() {
                       <div className="col-auto">
                         <div className="d-flex items-center">
                           <div className="text-14 lh-12 fw-500 text-dark-1 mr-20">
-                            Sort by:
+                            Ordenar por:
                           </div>
 
                           <div
@@ -922,7 +922,7 @@ export default function CourseListSix() {
                         >
                           <button className="button h-50 px-30 -light-7 text-purple-1">
                             <i className="icon-filter mr-10"></i>
-                            Filter
+                            Filtrar
                           </button>
                         </div>
                       </div>
@@ -938,7 +938,7 @@ export default function CourseListSix() {
                     <div className="row x-gap-60 y-gap-40">
                       <div className="col-xl-3 col-lg-4 col-sm-6">
                         <div className="sidebar__item">
-                          <h5 className="sidebar__title">Category</h5>
+                          <h5 className="sidebar__title">Categoria</h5>
                           <div className="sidebar-checkbox">
                             <div
                               className="sidebar-checkbox__item"
@@ -957,7 +957,7 @@ export default function CourseListSix() {
                                 </div>
                               </div>
 
-                              <div className="sidebar-checkbox__title">All</div>
+                              <div className="sidebar-checkbox__title">Todos</div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
                             {categories.map((item, index) => (
@@ -1003,7 +1003,7 @@ export default function CourseListSix() {
                               href="#"
                               className="text-14 fw-500 underline text-purple-1"
                             >
-                              Show more
+                              Mostrar mais
                             </a>
                           </div>
                         </div>
@@ -1011,7 +1011,7 @@ export default function CourseListSix() {
 
                       <div className="col-xl-3 col-lg-4 col-sm-6">
                         <div className="sidebar__item">
-                          <h5 className="sidebar__title">Ratings</h5>
+                          <h5 className="sidebar__title">Avaliações</h5>
                           <div className="sidebar-checkbox">
                             <div
                               className="sidebar-checkbox__item"
@@ -1035,7 +1035,7 @@ export default function CourseListSix() {
                               </div>
                               <div className="sidebar-checkbox__title d-flex items-center">
                                 <div className="d-flex x-gap-5 pr-10"></div>
-                                All
+                                Todos
                               </div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
@@ -1092,7 +1092,7 @@ export default function CourseListSix() {
 
                       <div className="col-xl-3 col-lg-4 col-sm-6">
                         <div className="sidebar__item">
-                          <h5 className="sidebar__title">Instructors</h5>
+                          <h5 className="sidebar__title">Instrutores</h5>
                           <div className="sidebar-checkbox">
                             <div
                               className="sidebar-checkbox__item"
@@ -1111,7 +1111,7 @@ export default function CourseListSix() {
                                 </div>
                               </div>
 
-                              <div className="sidebar-checkbox__title">All</div>
+                              <div className="sidebar-checkbox__title">Todos</div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
                             {instractorNames.map((item, index) => (
@@ -1157,7 +1157,7 @@ export default function CourseListSix() {
                               href="#"
                               className="text-14 fw-500 underline text-purple-1"
                             >
-                              Show more
+                              Mostrar mais
                             </a>
                           </div>
                         </div>
@@ -1165,7 +1165,7 @@ export default function CourseListSix() {
 
                       <div className="col-xl-3 col-lg-4 col-sm-6">
                         <div className="sidebar__item">
-                          <h5 className="sidebar__title">Price</h5>
+                          <h5 className="sidebar__title">Preço</h5>
                           <div className="sidebar-checkbox">
                             {prices.map((item, index) => (
                               <div
@@ -1211,7 +1211,7 @@ export default function CourseListSix() {
 
                       <div className="col-xl-3 col-lg-4 col-sm-6">
                         <div className="sidebar__item">
-                          <h5 className="sidebar__title">Level</h5>
+                          <h5 className="sidebar__title">Nível</h5>
                           <div className="sidebar-checkbox">
                             <div
                               className="sidebar-checkbox__item cursor"
@@ -1230,7 +1230,7 @@ export default function CourseListSix() {
                                 </div>
                               </div>
 
-                              <div className="sidebar-checkbox__title">All</div>
+                              <div className="sidebar-checkbox__title">Todos</div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
                             {levels.map((item, index) => (
@@ -1274,7 +1274,7 @@ export default function CourseListSix() {
 
                       <div className="col-xl-3 col-lg-4 col-sm-6">
                         <div className="sidebar__item">
-                          <h5 className="sidebar__title">Languange</h5>
+                          <h5 className="sidebar__title">Idioma</h5>
                           <div className="sidebar-checkbox">
                             <div
                               className="sidebar-checkbox__item"
@@ -1293,7 +1293,7 @@ export default function CourseListSix() {
                                 </div>
                               </div>
 
-                              <div className="sidebar-checkbox__title">All</div>
+                              <div className="sidebar-checkbox__title">Todos</div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
                             {languages.map((item, index) => (
@@ -1339,7 +1339,7 @@ export default function CourseListSix() {
                               href="#"
                               className="text-14 fw-500 underline text-purple-1"
                             >
-                              Show more
+                              Mostrar mais
                             </a>
                           </div>
                         </div>
@@ -1347,7 +1347,7 @@ export default function CourseListSix() {
 
                       <div className="col-xl-3 col-lg-4 col-sm-6">
                         <div className="sidebar__item">
-                          <h5 className="sidebar__title">Duration</h5>
+                          <h5 className="sidebar__title">Duração</h5>
                           <div className="sidebar-checkbox">
                             <div
                               className="sidebar-checkbox__item cursor"
@@ -1363,7 +1363,7 @@ export default function CourseListSix() {
                                   <div className="form-checkbox__icon icon-check"></div>
                                 </div>
                               </div>
-                              <div className="sidebar-checkbox__title">All</div>
+                              <div className="sidebar-checkbox__title">Todos</div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
                             {duration.map((item, index) => (
@@ -1468,7 +1468,7 @@ export default function CourseListSix() {
                                 alt="icon"
                               />
                               <div className="text-14 lh-1">
-                                {elm.lessonCount} lesson
+                                {elm.lessonCount} aula
                               </div>
                             </div>
                           </div>
@@ -1507,17 +1507,17 @@ export default function CourseListSix() {
                         {elm.paid ? (
                           <>
                             <div className="text-15 lh-1 fw-500 line-through">
-                              ${elm.originalPrice}
+                              R${elm.originalPrice}
                             </div>
                             <div className="text-24 lh-1 fw-500 text-dark-1 mt-10">
-                              ${elm.discountedPrice}
+                              R${elm.discountedPrice}
                             </div>
                           </>
                         ) : (
                           <>
                             <div></div>
                             <div className="text-24 lh-1 fw-500 text-dark-1 mt-10">
-                              Free
+                              Grátis
                             </div>
                           </>
                         )}

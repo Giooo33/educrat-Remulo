@@ -76,7 +76,7 @@ export default function Reviews() {
         <div className="row items-center justify-between">
           <div className="col-auto">
             <div className="text-13 lh-1">
-              © 2022 Educrat. Todos os Direitos Reservados.
+              © 2022 AlvoEdu. Todos os Direitos Reservados.
             </div>
           </div>
 

@@ -41,7 +41,7 @@ export default function HeaderEight() {
                 </div>
                 <div className="d-flex items-center text-dark-1">
                   <div className="icon-email mr-10"></div>
-                  <div className="text-13 lh-1">hello@educrat.com</div>
+                  <div className="text-13 lh-1">contato@AlvoEdu.com</div>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ export default function HeaderEight() {
                 </div>
 
                 <div className="d-flex items-center text-dark-1 text-13 sm:d-none">
-                  English <i className="icon-chevron-down text-9 ml-10"></i>
+                  Português <i className="icon-chevron-down text-9 ml-10"></i>
                 </div>
               </div>
             </div>
@@ -112,13 +112,13 @@ export default function HeaderEight() {
 
               <div className="header-right__buttons d-flex items-center ml-30 xl:ml-20 lg:d-none">
                 <Link to="/login" className="button -underline text-dark-1">
-                  Log in
+                  Entrar
                 </Link>
                 <Link
                   to="/signup"
                   className="button px-25 h-50 -dark-1 text-white ml-20"
                 >
-                  Sign up
+                  Cadastrar-se
                 </Link>
               </div>
             </div>

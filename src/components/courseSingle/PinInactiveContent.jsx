@@ -29,15 +29,15 @@ export default function PinInactiveContent({ pageItem }) {
               {pageItem.paid ? (
                 <>
                   <div className="text-24 lh-1 text-dark-1 fw-500">
-                    ${pageItem.discountedPrice}
+                    R${pageItem.discountedPrice}
                   </div>
                   <div className="lh-1 line-through">
-                    ${pageItem.originalPrice}
+                    R${pageItem.originalPrice}
                   </div>
                 </>
               ) : (
                 <>
-                  <div className="text-24 lh-1 text-dark-1 fw-500">Free</div>
+                  <div className="text-24 lh-1 text-dark-1 fw-500">Grátis</div>
                   <div></div>
                 </>
               )}
@@ -48,22 +48,22 @@ export default function PinInactiveContent({ pageItem }) {
               onClick={() => addCourseToCart(pageItem.id)}
             >
               {isAddedToCartCourses(pageItem.id)
-                ? "Already Added"
-                : "Add To Cart"}
+                ? "Já adicionado"
+                : "Adicionar ao carrinho"}
             </button>
             <button className="button -md -outline-dark-1 text-dark-1 w-1/1 mt-10">
-              Buy Now
+              Comprar agora
             </button>
 
             <div className="text-14 lh-1 text-center mt-30">
-              30-Day Money-Back Guarantee
+              Garantia de devolução em 30 dias
             </div>
 
             <div className="mt-25">
               <div className="d-flex justify-between py-8 ">
                 <div className="d-flex items-center text-dark-1">
                   <div className="icon-video-file"></div>
-                  <div className="ml-10">Lessons</div>
+                  <div className="ml-10">Aulas</div>
                 </div>
                 <div>20</div>
               </div>
@@ -71,7 +71,7 @@ export default function PinInactiveContent({ pageItem }) {
               <div className="d-flex justify-between py-8 border-top-light">
                 <div className="d-flex items-center text-dark-1">
                   <div className="icon-puzzle"></div>
-                  <div className="ml-10">Quizzes</div>
+                  <div className="ml-10">Questionários</div>
                 </div>
                 <div>3</div>
               </div>
@@ -79,41 +79,41 @@ export default function PinInactiveContent({ pageItem }) {
               <div className="d-flex justify-between py-8 border-top-light">
                 <div className="d-flex items-center text-dark-1">
                   <div className="icon-clock-2"></div>
-                  <div className="ml-10">Duration</div>
+                  <div className="ml-10">Duração</div>
                 </div>
-                <div>13 Hours</div>
+                <div>13 Horas</div>
               </div>
 
               <div className="d-flex justify-between py-8 border-top-light">
                 <div className="d-flex items-center text-dark-1">
                   <div className="icon-bar-chart-2"></div>
-                  <div className="ml-10">Skill level</div>
+                  <div className="ml-10">Nível</div>
                 </div>
-                <div>Beginner</div>
+                <div>Iniciante</div>
               </div>
 
               <div className="d-flex justify-between py-8 border-top-light">
                 <div className="d-flex items-center text-dark-1">
                   <div className="icon-translate"></div>
-                  <div className="ml-10">Language</div>
+                  <div className="ml-10">Idioma</div>
                 </div>
-                <div>English</div>
+                <div>Inglês</div>
               </div>
 
               <div className="d-flex justify-between py-8 border-top-light">
                 <div className="d-flex items-center text-dark-1">
                   <div className="icon-badge"></div>
-                  <div className="ml-10">Certificate</div>
+                  <div className="ml-10">Certificado</div>
                 </div>
-                <div>Yes</div>
+                <div>Sim</div>
               </div>
 
               <div className="d-flex justify-between py-8 border-top-light">
                 <div className="d-flex items-center text-dark-1">
                   <div className="icon-infinity"></div>
-                  <div className="ml-10">Full lifetime access</div>
+                  <div className="ml-10">Acesso vitalício</div>
                 </div>
-                <div>Yes</div>
+                <div>Sim</div>
               </div>
             </div>
 

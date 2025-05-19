@@ -15,11 +15,11 @@ export default function TestimonialsFour() {
           <div className="col-auto">
             <div className="sectionTitle ">
               <h2 className="sectionTitle__title text-white">
-                People Say About Educrat
+                O que dizem sobre a AlvoEdu
               </h2>
 
               <p className="sectionTitle__text text-white">
-                10,000+ unique online course list designs
+                Mais de 10.000 designs únicos de listas de cursos online
               </p>
             </div>
           </div>

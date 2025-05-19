@@ -43,7 +43,7 @@ export default function HeroSix() {
           <img
             style={{ width: "100%", height: "100%" }}
             src="/assets/img/home-6/hero/bg.png"
-            alt="image"
+            alt="imagem"
           />
         </div>
 
@@ -52,10 +52,10 @@ export default function HeroSix() {
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="500">
               <div className="masthead__content">
                 <h1 className="masthead__title">
-                  More Than{" "}
+                  Mais de{" "}
                   <span className="text-purple-1 underline">3.500+</span>{" "}
-                  <br className="md:d-none" /> Education Courses
-                  <br className="md:d-none" /> Online Join Us Today
+                  <br className="md:d-none" /> Cursos de Educação
+                  <br className="md:d-none" /> Online. Junte-se a nós hoje
                 </h1>
 
                 <div className="row items-center x-gap-30 y-gap-20 pt-30">
@@ -64,7 +64,7 @@ export default function HeroSix() {
                       to="/courses-list-1"
                       className="button -md -dark-1 -rounded text-white"
                     >
-                      Get Started
+                      Começar
                     </Link>
                   </div>
 
@@ -77,7 +77,7 @@ export default function HeroSix() {
                       <div className="d-flex justify-center items-center size-60 rounded-full border-dark-1-lg">
                         <div className="icon-play text-20 text-dark-1 pl-5"></div>
                       </div>
-                      <div className="ml-10">Watch Video</div>
+                      <div className="ml-10">Assistir Vídeo</div>
                     </div>
                   </div>
                 </div>
@@ -87,7 +87,7 @@ export default function HeroSix() {
                     <div key={i} className="col-xl-4">
                       <div className="d-flex items-center text-dark-1">
                         <div className="mr-10">
-                          <img src={elm.imageSrc} alt="icon" />
+                          <img src={elm.imageSrc} alt="ícone" />
                         </div>
                         <div className="fw-500 lh-1 pt-3">{elm.text}</div>
                       </div>
@@ -104,7 +104,7 @@ export default function HeroSix() {
                     className="js-mouse-move"
                     data-move="40"
                     src="/assets/img/home-6/hero/2.png"
-                    alt="image"
+                    alt="imagem"
                   />
                 </div>
                 <div className="-img-2">
@@ -112,7 +112,7 @@ export default function HeroSix() {
                     className="js-mouse-move"
                     data-move="40"
                     src="/assets/img/home-6/hero/1.png"
-                    alt="image"
+                    alt="imagem"
                   />
                 </div>
                 <div className="-img-3">
@@ -120,27 +120,27 @@ export default function HeroSix() {
                     className="js-mouse-move"
                     data-move="40"
                     src="/assets/img/home-6/hero/3.png"
-                    alt="image"
+                    alt="imagem"
                   />
                 </div>
 
                 <div data-move="30" className="-el-1 md:d-none js-mouse-move">
                   <div className="img-el -w-250 px-20 py-20 d-flex items-center bg-white rounded-8">
                     <div className="size-50 d-flex justify-center items-center bg-red-2 rounded-full">
-                      <img src="/assets/img/masthead/1.svg" alt="icon" />
+                      <img src="/assets/img/masthead/1.svg" alt="ícone" />
                     </div>
                     <div className="ml-20">
                       <div className="text-orange-1 text-16 fw-500 lh-1">
                         3.000 +
                       </div>
-                      <div className="mt-3">Free Courses</div>
+                      <div className="mt-3">Cursos Gratuitos</div>
                     </div>
                   </div>
                 </div>
 
                 <div data-move="60" className="-el-2 md:d-none js-mouse-move">
                   <div className="img-el -w-260 px-20 py-20 d-flex items-center bg-white rounded-8">
-                    <img src="/assets/img/masthead/4.png" alt="icon" />
+                    <img src="/assets/img/masthead/4.png" alt="ícone" />
                     <div className="ml-20">
                       <div className="text-dark-1 text-16 fw-500 lh-1">
                         Ali Tufan
@@ -171,14 +171,14 @@ export default function HeroSix() {
                   <div className="img-el px-40 py-20 shadow-4 d-flex items-center bg-white rounded-8">
                     <div className="img-el__side">
                       <div className="size-50 d-flex justify-center items-center bg-purple-1 rounded-full">
-                        <img src="/assets/img/masthead/2.svg" alt="icon" />
+                        <img src="/assets/img/masthead/2.svg" alt="ícone" />
                       </div>
                     </div>
                     <div className="">
                       <div className="text-purple-1 text-16 fw-500 lh-1">
-                        Congrats!
+                        Parabéns!
                       </div>
-                      <div className="mt-3">Your Admission Completed</div>
+                      <div className="mt-3">Sua matrícula foi concluída</div>
                     </div>
                   </div>
                 </div>

@@ -23,7 +23,7 @@ const masthead_info = [
 
 const hero_content = {
   title: "Aprenda novas habilidades online com os melhores",
-  text_underline: "Educators",
+  text_underline: "Educadores",
   info_hero: (
     <>
       Desenvolva habilidades com cursos, certificados e diplomas on-line
@@ -76,7 +76,7 @@ const HomeHero = () => {
     <>
       <section className="masthead -type-1 js-mouse-move-container">
         <div className="masthead__bg">
-          <img src={"/assets/img/home-1/hero/bg.png"} alt="image" />
+          <img src={"/assets/img/home-1/hero/bg.png"} alt="imagem" />
         </div>
 
         <div className="container">
@@ -135,7 +135,7 @@ const HomeHero = () => {
                       className="masthead-info__item d-flex items-center text-white"
                     >
                       <div className="masthead-info__icon mr-10">
-                        <img src={item.icon} alt="icon" />
+                        <img src={item.icon} alt="ícone" />
                       </div>
                       <div className="masthead-info__title lh-1">
                         {item.text}
@@ -158,14 +158,14 @@ const HomeHero = () => {
                     data-move="40"
                     style={{ objectFit: "cover" }}
                     src={"/assets/img/masthead/1.png"}
-                    alt="image"
+                    alt="imagem"
                   />
                   <div
                     data-move="30"
                     className="lg:d-none img-el -w-250 px-20 py-20 d-flex items-center bg-white rounded-8 js-mouse-move"
                   >
                     <div className="size-50 d-flex justify-center items-center bg-red-2 rounded-full">
-                      <img src={"/assets/img/masthead/1.svg"} alt="icon" />
+                      <img src={"/assets/img/masthead/1.svg"} alt="ícone" />
                     </div>
                     <div className="ml-20">
                       <div className="text-orange-1 text-16 fw-500 lh-1">
@@ -182,13 +182,13 @@ const HomeHero = () => {
                     data-move="70"
                     src={"/assets/img/masthead/2.png"}
                     style={{ objectFit: "cover" }}
-                    alt="image"
+                    alt="imagem"
                   />
                   <div
                     data-move="60"
                     className="lg:d-none img-el -w-260 px-20 py-20 d-flex items-center bg-white rounded-8 js-mouse-move"
                   >
-                    <img src={"/assets/img/masthead/4.png"} alt="icon" />
+                    <img src={"/assets/img/masthead/4.png"} alt="ícone" />
                     <div className="ml-20">
                       <div className="text-dark-1 text-16 fw-500 lh-1">
                         Ali Tufan
@@ -211,7 +211,7 @@ const HomeHero = () => {
                     data-move="40"
                     src={"/assets/img/masthead/3.png"}
                     style={{ objectFit: "cover" }}
-                    alt="image"
+                    alt="imagem"
                   />
                   <div
                     data-move="30"
@@ -222,7 +222,7 @@ const HomeHero = () => {
                         <img
                           style={{ objectFit: "cover" }}
                           src={"/assets/img/masthead/2.svg"}
-                          alt="icon"
+                          alt="ícone"
                         />
                       </div>
                     </div>

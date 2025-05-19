@@ -68,13 +68,13 @@ export default function HeaderSix() {
 
               <div className="header-right__buttons d-flex items-center ml-30 xl:ml-20 lg:d-none">
                 <Link to="/login" className="button -underline text-dark-1">
-                  Log in
+                  Entrar
                 </Link>
                 <Link
                   to="/signup"
                   className="button h-50 px-40 -purple-1 -rounded text-white ml-30 xl:ml-20"
                 >
-                  Sign up
+                  Cadastrar-se
                 </Link>
               </div>
             </div>

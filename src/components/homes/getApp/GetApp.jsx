@@ -27,15 +27,15 @@ export default function GetApp() {
                 data-aos="fade-up"
                 data-aos-duration={500}
               >
-                Aprenda com
-                <br /> <span>Em qualquer lugar</span>
+                Aprenda
+                <br /> <span>de qualquer lugar</span>
               </h2>
               <p
                 className="app-content__text"
                 data-aos="fade-up"
                 data-aos-duration={600}
               >
-                Faça aulas em qualquer lugar com o aplicativo educrat. 
+                Faça aulas em qualquer lugar com o aplicativo AlvoEdu.
                 Transmita ou baixe para assistir no avião, no metrô ou onde você aprender melhor.
               </p>
               <div className="app-content__buttons">
@@ -43,7 +43,7 @@ export default function GetApp() {
                   <img
                     style={{ height: "100%", width: "100%" }}
                     src="/assets/img/app/buttons/1.svg"
-                    alt="button"
+                    alt="botão"
                     data-aos="fade-up"
                     data-aos-duration={600}
                   />
@@ -52,7 +52,7 @@ export default function GetApp() {
                   <img
                     style={{ height: "100%", width: "100%" }}
                     src="/assets/img/app/buttons/2.svg"
-                    alt="button"
+                    alt="botão"
                     data-aos="fade-up"
                     data-aos-duration={600}
                   />

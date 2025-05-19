@@ -10,7 +10,7 @@ export default function Features() {
             <div key={i} className="col-xl-3 col-md-6">
               <div className="d-flex items-center">
                 <div className="mr-20">
-                  <img src={elm.imgSrc} alt="icon" />
+                  <img src={elm.imgSrc} alt="ícone" />
                 </div>
 
                 <div>

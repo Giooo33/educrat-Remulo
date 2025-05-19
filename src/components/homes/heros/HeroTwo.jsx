@@ -72,19 +72,19 @@ export default function HeroTwo() {
               data-aos-delay="500"
             >
               <h1 className="mainSlider__title text-white">
-                Learn Your Way With Educrat To{" "}
+                Aprenda do seu jeito com a AlvoEdu para{" "}
                 <span className="text-green-1 underline">Web Design</span>
               </h1>
 
               <p className="mainSlider__text text-white">
-                More than 6.500 online courses
+                Mais de 6.500 cursos online
               </p>
 
               <div className="mainSlider__form">
                 <input
                   required
                   type="text"
-                  placeholder="What do you want to learn today?"
+                  placeholder="O que você quer aprender hoje?"
                 />
 
                 <button
@@ -92,7 +92,7 @@ export default function HeroTwo() {
                   onClick={() => navigate("/courses-list-1")}
                 >
                   <i className="icon icon-search mr-15"></i>
-                  Search
+                  Buscar
                 </button>
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function HeroTwo() {
           {featureTwo.map((elm, i) => (
             <div key={i} className="col-xl-3 col-md-4 col-sm-6">
               <div className="mainSlider-item text-center">
-                <img src={elm.imgSrc} alt="icon" />
+                <img src={elm.imgSrc} alt="ícone" />
                 <h4 className="text-20 fw-500 lh-18 text-white mt-8">
                   {elm.title}
                 </h4>

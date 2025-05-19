@@ -2,8 +2,8 @@ import gsap from "gsap";
 
 import { useNavigate } from "react-router-dom";
 import React, { useEffect, useState } from "react";
-const categoriesOne = ["Category 1", "Category 2", "Category 3"];
-const categoriesTwo = ["Category 1", "Category 2", "Category 3"];
+const categoriesOne = ["Categoria 1", "Categoria 2", "Categoria 3"];
+const categoriesTwo = ["Categoria 1", "Categoria 2", "Categoria 3"];
 export default function HeroNine() {
   const navigate = useNavigate();
   const [categoryOne, setCategoryOne] = useState("");
@@ -47,7 +47,7 @@ export default function HeroNine() {
         <img
           style={{ width: "100%" }}
           src="/assets/img/home-9/hero/bg.png"
-          alt="image"
+          alt="imagem"
         />
       </div>
 
@@ -60,11 +60,11 @@ export default function HeroNine() {
           >
             <div className="masthead__content">
               <h1 className="masthead__title text-white is-in-view">
-                Find a perfect Online Course
+                Encontre o curso online perfeito
               </h1>
               <p className="masthead__text text-16 lh-2 text-white pt-10 is-in-view">
-                You can access 7900+ different courses from 600
-                <br className="lg:d-none" /> professional trainers for free
+                Você pode acessar mais de 7900 cursos diferentes de 600
+                <br className="lg:d-none" /> instrutores profissionais gratuitamente
               </p>
 
               <div>
@@ -80,7 +80,7 @@ export default function HeroNine() {
                           style={{ outline: "none" }}
                           required
                           type="text"
-                          placeholder="Your Search"
+                          placeholder="Sua busca"
                         />
                       </div>
                     </div>
@@ -91,7 +91,7 @@ export default function HeroNine() {
                           <div className="d-flex items-center">
                             <i className="icon-basket mr-10"></i>
                             <span className="js-dropdown-title">
-                              {categoryOne ? categoryOne : "Category"}
+                              {categoryOne ? categoryOne : "Categoria"}
                             </span>
                           </div>
                           <i className="icon text-9 icon-chevron-down ml-10"></i>
@@ -126,7 +126,7 @@ export default function HeroNine() {
                           <div className="d-flex items-center">
                             <i className="icon-basket mr-10"></i>
                             <span className="js-dropdown-title">
-                              {categoryTwo ? categoryTwo : "Category"}
+                              {categoryTwo ? categoryTwo : "Categoria"}
                             </span>
                           </div>
                           <i className="icon text-9 icon-chevron-down ml-10"></i>
@@ -160,7 +160,7 @@ export default function HeroNine() {
                         onClick={() => navigate("/courses-list-2")}
                         className="button -dark-1 text-white -dark-button-dark-1"
                       >
-                        Search
+                        Buscar
                       </button>
                     </div>
                   </form>
@@ -169,7 +169,7 @@ export default function HeroNine() {
 
               <div>
                 <div className="text-white mt-20 is-in-view">
-                  Trending Search: Development, Business, Design, Merketing
+                  Busca em alta: Desenvolvimento, Negócios, Design, Marketing
                 </div>
               </div>
             </div>
@@ -186,7 +186,7 @@ export default function HeroNine() {
                   data-move="20"
                   className="js-mouse-move"
                   src="/assets/img/home-9/hero/1.png"
-                  alt="image"
+                  alt="imagem"
                 />
               </div>
 
@@ -195,7 +195,7 @@ export default function HeroNine() {
                   className="js-mouse-move"
                   data-move="40"
                   src="/assets/img/home-9/hero/2.png"
-                  alt="icon"
+                  alt="ícone"
                 />
               </div>
               <div className="-el-2">
@@ -203,7 +203,7 @@ export default function HeroNine() {
                   className="js-mouse-move"
                   data-move="40"
                   src="/assets/img/home-9/hero/3.png"
-                  alt="icon"
+                  alt="ícone"
                 />
               </div>
               <div className="-el-3">
@@ -211,7 +211,7 @@ export default function HeroNine() {
                   className="js-mouse-move"
                   data-move="40"
                   src="/assets/img/home-9/hero/4.png"
-                  alt="icon"
+                  alt="ícone"
                 />
               </div>
             </div>

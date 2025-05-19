@@ -49,5 +49,9 @@ Event Checkout
 	Além disso, removemos as rotas das páginas não listadas, excluímos os componentes e arquivos das páginas não utilizadas e eliminamos importações associadas nos arquivos onde estavam sendo utilizadas.
 	Na terceira etapa, transformamos a página Home em um botão único sem dar outras opções a não ser o “Home1” agora “Home”. Os textos e estilos, optei em ajustá-los posteriormente. Na sequência, na página cursos, retiramos a coluna curso populares e também a opção explorar, nos arquivos do código. Depois apagamos a página pages do site no Menu do site, retirando o botão.  
 
+	Finalizei a tradução de todo site e agora estou fazendo a parte 2.
+
+	Troquei todos os nomes "educrat" do site para "AlvoEdu"
+
 
 

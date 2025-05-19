@@ -25,7 +25,7 @@ export default function HeaderTen() {
 
           <div className="col-auto lg:d-none">
             <div className="text-20 lh-1 text-white fw-500">
-              The Ultimate Drawing Course Beginner to Advanced
+              O Curso Definitivo de Desenho: Do Iniciante ao Avançado
             </div>
           </div>
 
@@ -33,7 +33,7 @@ export default function HeaderTen() {
             <div className="header-right d-flex items-center">
               <div className="header-right__buttons">
                 <a href="#" className="button -sm -rounded -white text-dark-1">
-                  Back to Course
+                  Voltar para o Curso
                 </a>
               </div>
             </div>

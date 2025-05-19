@@ -94,7 +94,7 @@ export default function HeaderNine({ setIsSidebarClosed, setMessageOpen }) {
                   required
                   className="bg-light-4 pr-50"
                   type="text"
-                  placeholder="What do you want to learn?"
+                  placeholder="O que você quer aprender?"
                 />
                 <button className="text-light-1" type="submit">
                   <i className="icon-search text-20"></i>
@@ -178,7 +178,7 @@ export default function HeaderNine({ setIsSidebarClosed, setMessageOpen }) {
                                   {elm.heading}
                                 </h4>
                                 <div className="text-13 lh-1 mt-10">
-                                  {elm.time} Hours Ago
+                                  {elm.time} Horas Atrás
                                 </div>
                               </div>
                             </div>

@@ -12,13 +12,13 @@ export default function ContactTwo() {
             <div className="row">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">Contact Us</h1>
+                  <h1 className="page-header__title">Contato</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    We’re on a mission to deliver engaging, curated
-                    <br /> courses at a reasonable price.
+                    Nossa missão é oferecer cursos envolventes e selecionados
+                    <br /> a um preço acessível.
                   </p>
                 </div>
               </div>
@@ -31,7 +31,7 @@ export default function ContactTwo() {
         <div className="container">
           <div className="row y-gap-50 justify-between">
             <div className="col-xl-5 col-lg-6">
-              <h3 className="text-24 lh-1 fw-500">Our offices</h3>
+              <h3 className="text-24 lh-1 fw-500">Nossos escritórios</h3>
               <div className="row y-gap-30 pt-40">
                 {locationData.map((elm, i) => (
                   <div key={i} className="col-sm-6">
@@ -56,7 +56,7 @@ export default function ContactTwo() {
 
             <div className="col-lg-6">
               <div className="px-40 py-40 bg-white border-light shadow-1 rounded-8 contact-form-to-top">
-                <h3 className="text-24 fw-500">Send a Message</h3>
+                <h3 className="text-24 fw-500">Envie uma mensagem</h3>
                 <p className="mt-25">
                   Neque convallis a cras semper auctor. Libero id faucibus nisl
                   <br /> tincidunt egetnvallis.
@@ -68,33 +68,33 @@ export default function ContactTwo() {
                 >
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Name
+                      Nome
                     </label>
                     <input
                       required
                       type="text"
                       name="title"
-                      placeholder="Name..."
+                      placeholder="Nome..."
                     />
                   </div>
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Email Address
+                      E-mail
                     </label>
                     <input
                       required
                       type="text"
                       name="title"
-                      placeholder="Email..."
+                      placeholder="E-mail..."
                     />
                   </div>
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Message...
+                      Mensagem...
                     </label>
                     <textarea
                       name="comment"
-                      placeholder="Message"
+                      placeholder="Mensagem"
                       rows="8"
                       required
                     ></textarea>
@@ -106,7 +106,7 @@ export default function ContactTwo() {
                       id="submit"
                       className="button -md -purple-1 text-white"
                     >
-                      Send Message
+                      Enviar mensagem
                     </button>
                   </div>
                 </form>

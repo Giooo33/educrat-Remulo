@@ -8,10 +8,10 @@ export default function StepsOne() {
         <div className="row y-gap-20 justify-center text-center">
           <div className="col-auto">
             <div className="sectionTitle ">
-              <h2 className="sectionTitle__title ">How it works?</h2>
+              <h2 className="sectionTitle__title ">Como funciona?</h2>
 
               <p className="sectionTitle__text ">
-                10,000+ unique online course list designs
+                Mais de 10.000 designs únicos de listas de cursos online
               </p>
             </div>
           </div>
@@ -23,7 +23,7 @@ export default function StepsOne() {
               <div className="col-xl-2 col-lg-3 col-md-6">
                 <div className="d-flex flex-column items-center text-center">
                   <div className="relative size-120 d-flex justify-center items-center rounded-full bg-light-4">
-                    <img src={elm.imageSrc} alt="image" />
+                    <img src={elm.imageSrc} alt="imagem" />
                     <div className="side-badge">
                       <div className="size-35 d-flex justify-center items-center rounded-full bg-dark-1 -dark-bg-purple-1">
                         <span className="text-14 fw-500 text-white">
@@ -41,14 +41,14 @@ export default function StepsOne() {
               {i === 0 && (
                 <div className="col-auto xl:d-none">
                   <div className="pt-30">
-                    <img src="/assets/img/misc/lines/1.svg" alt="icon" />
+                    <img src="/assets/img/misc/lines/1.svg" alt="ícone" />
                   </div>
                 </div>
               )}
               {i === 1 && (
                 <div className="col-auto xl:d-none">
                   <div className="pt-30">
-                    <img src="/assets/img/misc/lines/2.svg" alt="icon" />
+                    <img src="/assets/img/misc/lines/2.svg" alt="ícone" />
                   </div>
                 </div>
               )}

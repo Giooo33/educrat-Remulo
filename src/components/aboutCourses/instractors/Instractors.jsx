@@ -1,9 +1,9 @@
 const categories = [
-  { label: "All Categories" },
-  { label: "Animation" },
+  { label: "Todas as Categorias" },
+  { label: "Animação" },
   { label: "Design" },
-  { label: "Illustration" },
-  { label: "Business" },
+  { label: "Ilustração" },
+  { label: "Negócios" },
 ];
 import React, { useState, useEffect } from "react";
 import { teamMembers, sortingOptions } from "@/data/instractors";
@@ -12,7 +12,7 @@ import PaginationTwo from "@/components/common/PaginationTwo";
 
 import { Link } from "react-router-dom";
 export default function Instractors() {
-  const [currentCategory, setCurrentCategory] = useState("All Categories");
+  const [currentCategory, setCurrentCategory] = useState("Todas as Categorias");
   const [pageNumber, setPageNumber] = useState(1);
   const [pageData, setPageData] = useState([]);
   const [currentSortingOption, setCurrentSortingOption] = useState("Default");
@@ -33,7 +33,7 @@ export default function Instractors() {
     document.getElementById("dd30content").classList.remove("-is-el-visible");
   };
   useEffect(() => {
-    if (currentCategory == "All Categories") {
+    if (currentCategory == "Todas as Categorias") {
       setPageData(teamMembers);
     } else {
       setPageData([
@@ -55,14 +55,13 @@ export default function Instractors() {
               <div className="col-auto">
                 <div>
                   <h1 className="page-header__tsetCurrentCategoryitle">
-                    Instructors
+                    Instrutores
                   </h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    We’re on a mission to deliver engaging, curated courses at a
-                    reasonable price.
+                    Nossa missão é oferecer cursos envolventes e selecionados por um preço acessível.
                   </p>
                 </div>
               </div>
@@ -76,9 +75,9 @@ export default function Instractors() {
           <div className="row y-gap-20 items-center justify-between pb-30">
             <div className="col-auto">
               <div className="text-14 lh-12">
-                Showing{" "}
+                Exibindo{" "}
                 <span className="text-dark-1 fw-500">{pageData.length}</span>{" "}
-                total results
+                resultados no total
               </div>
             </div>
 
@@ -89,7 +88,7 @@ export default function Instractors() {
                     <input
                       className="bg-light-3 pr-50"
                       type="text"
-                      placeholder="Search Instructors"
+                      placeholder="Buscar Instrutores"
                     />
                     <button className="" type="submit">
                       <i className="icon-search text-20"></i>
@@ -115,9 +114,9 @@ export default function Instractors() {
                       data-el-toggle-active=".js-category-active"
                     >
                       <span className="js-dropdown-title">
-                        {currentCategory != "All Categories"
+                        {currentCategory != "Todas as Categorias"
                           ? currentCategory
-                          : "Category"}
+                          : "Categoria"}
                       </span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
@@ -169,7 +168,7 @@ export default function Instractors() {
                       data-el-toggle-active=".js-category-active"
                     >
                       <span className="js-dropdown-title">
-                        Sort by: {currentSortingOption}
+                        Ordenar por: {currentSortingOption}
                       </span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
@@ -239,14 +238,14 @@ export default function Instractors() {
                         <div className="d-flex items-center">
                           <div className="icon-person-3 text-14"></div>
                           <div className="text-13 lh-1 ml-8">
-                            {elm.students} Students
+                            {elm.students} Alunos
                           </div>
                         </div>
 
                         <div className="d-flex items-center">
                           <div className="icon-play text-14"></div>
                           <div className="text-13 lh-1 ml-8">
-                            {elm.courses} Course
+                            {elm.courses} Curso
                           </div>
                         </div>
                       </div>

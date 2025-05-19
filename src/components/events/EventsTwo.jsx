@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 export default function EventsTwo() {
   const [pageItems, setPageItems] = useState([]);
   const [ddActive, setDdActive] = useState(false);
-  const [currentCategory, setCurrentCategory] = useState("All Categories");
+  const [currentCategory, setCurrentCategory] = useState("Todas as Categorias");
   useEffect(() => {
-    if (currentCategory == "All Categories") {
+    if (currentCategory == "Todas as Categorias") {
       setPageItems(events);
     } else {
       let filtered = events.filter((elm) => elm.category == currentCategory);
@@ -23,13 +23,12 @@ export default function EventsTwo() {
             <div className="row justify-center text-center">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">Event</h1>
+                  <h1 className="page-header__title">Evento</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    We’re on a mission to deliver engaging, curated courses at a
-                    reasonable price.
+                    Nossa missão é oferecer cursos envolventes e selecionados a um preço acessível.
                   </p>
                 </div>
               </div>
@@ -45,12 +44,12 @@ export default function EventsTwo() {
               <div className="pr-30 lg:pr-0">
                 <div className="sidebar -blog -no-border">
                   <div className="sidebar__item">
-                    <h5 className="sidebar__title">Find Event</h5>
+                    <h5 className="sidebar__title">Buscar Evento</h5>
 
                     <div className="sidebar-content -event">
                       <div className="sidebar-event">
                         <input
-                          placeholder={"Event From"}
+                          placeholder={"Evento de"}
                           style={{
                             border: "none",
                             outline: "none",
@@ -66,7 +65,7 @@ export default function EventsTwo() {
                       </div>
                       <div className="sidebar-event">
                         <input
-                          placeholder={"All Categories"}
+                          placeholder={"Todas as Categorias"}
                           style={{
                             border: "none",
                             outline: "none",
@@ -82,7 +81,7 @@ export default function EventsTwo() {
                       </div>
                       <div className="sidebar-event">
                         <input
-                          placeholder={"Location"}
+                          placeholder={"Localização"}
                           style={{
                             border: "none",
                             outline: "none",
@@ -98,7 +97,7 @@ export default function EventsTwo() {
                       </div>
                       <div className="sidebar-event">
                         <input
-                          placeholder={"Keyword"}
+                          placeholder={"Palavra-chave"}
                           style={{
                             border: "none",
                             outline: "none",
@@ -116,7 +115,7 @@ export default function EventsTwo() {
                   </div>
 
                   <div className="sidebar__item">
-                    <h5 className="sidebar__title">Recent Posts</h5>
+                    <h5 className="sidebar__title">Posts Recentes</h5>
 
                     <div className="sidebar-content -recent y-gap-20">
                       {events.slice(0, 3).map((elm, i) => (
@@ -169,15 +168,15 @@ export default function EventsTwo() {
               <div className="row y-gap-20 items-center justify-between pb-30">
                 <div className="col-auto">
                   <div className="text-14 lh-12">
-                    Showing <span className="text-dark-1 fw-500">250</span>{" "}
-                    total results
+                    Exibindo <span className="text-dark-1 fw-500">250</span>{" "}
+                    resultados no total
                   </div>
                 </div>
 
                 <div className="col-auto">
                   <div className="d-flex items-center">
                     <div className="text-14 lh-12 fw-500 text-dark-1 mr-20">
-                      Sort by:
+                      Ordenar por:
                     </div>
 
                     <div
@@ -192,8 +191,8 @@ export default function EventsTwo() {
                         data-el-toggle-active=".js-category-active"
                       >
                         <span className="js-dropdown-title">
-                          {currentCategory == "All Categories"
-                            ? "Most Popular"
+                          {currentCategory == "Todas as Categorias"
+                            ? "Mais Populares"
                             : currentCategory}
                         </span>
                         <i className="icon text-9 ml-40 icon-chevron-down"></i>

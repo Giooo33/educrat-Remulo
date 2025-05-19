@@ -18,7 +18,7 @@ export default function ContactOne() {
         <div className="container">
           <div className="row y-gap-50 justify-between">
             <div className="col-lg-4">
-              <h3 className="text-24 fw-500">Keep In Touch With Us.</h3>
+              <h3 className="text-24 fw-500">Fique em contato conosco.</h3>
               <p className="mt-25">
                 Neque convallis a cras semper auctor. Libero id faucibus nisl
                 tincidunt egetnvallis.
@@ -28,7 +28,7 @@ export default function ContactOne() {
                 {contactData.map((elm, i) => (
                   <div key={i} className="d-flex items-center">
                     <div className="d-flex justify-center items-center size-60 rounded-full bg-light-7">
-                      <img src={elm.icon} alt="icon" />
+                      <img src={elm.icon} alt="ícone" />
                     </div>
                     <div className="ml-20">
                       {elm.address
@@ -47,7 +47,7 @@ export default function ContactOne() {
             </div>
 
             <div className="col-lg-7">
-              <h3 className="text-24 fw-500">Send a Message.</h3>
+              <h3 className="text-24 fw-500">Envie uma mensagem.</h3>
               <p className="mt-25">
                 Neque convallis a cras semper auctor. Libero id faucibus nisl
                 <br /> tincidunt egetnvallis.
@@ -59,34 +59,34 @@ export default function ContactOne() {
               >
                 <div className="col-md-6">
                   <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                    Name
+                    Nome
                   </label>
                   <input
                     required
                     type="text"
                     name="title"
-                    placeholder="Name..."
+                    placeholder="Nome..."
                   />
                 </div>
                 <div className="col-md-6">
                   <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                    Email Address
+                    E-mail
                   </label>
                   <input
                     required
                     type="text"
                     name="title"
-                    placeholder="Email..."
+                    placeholder="E-mail..."
                   />
                 </div>
                 <div className="col-12">
                   <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                    Message...
+                    Mensagem...
                   </label>
                   <textarea
                     required
                     name="comment"
-                    placeholder="Message"
+                    placeholder="Mensagem"
                     rows="8"
                   ></textarea>
                 </div>
@@ -97,7 +97,7 @@ export default function ContactOne() {
                     id="submit"
                     className="button -md -purple-1 text-white"
                   >
-                    Send Message
+                    Enviar mensagem
                   </button>
                 </div>
               </form>

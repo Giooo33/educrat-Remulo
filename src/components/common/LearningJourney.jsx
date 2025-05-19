@@ -11,11 +11,11 @@ export default function LearningJourney() {
           <div className="col-auto">
             <div className="sectionTitle ">
               <h2 className="sectionTitle__title text-white">
-                Start your Learning Journey Today!
+                Comece sua jornada de aprendizado hoje!
               </h2>
 
               <p className="sectionTitle__text text-white">
-                Lorem ipsum dolor sit amet, consectetur.
+                Aprenda no seu ritmo, com os melhores conteúdos.
               </p>
             </div>
           </div>

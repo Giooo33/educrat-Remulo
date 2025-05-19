@@ -7,11 +7,10 @@ export default function FeaturesEight() {
         <div className="row justify-center text-center">
           <div className="col-xl-6 col-lg-7">
             <div className="sectionTitle ">
-              <h2 className="sectionTitle__title ">What is Educrat?</h2>
+              <h2 className="sectionTitle__title ">O que é AlvoEdu?</h2>
 
               <p className="sectionTitle__text ">
-                Learn the data skills you need online at your own pace—from
-                non-coding essentials to data science and machine learning.
+                Aprenda as habilidades de dados que você precisa online no seu próprio ritmo — desde o essencial sem programação até ciência de dados e aprendizado de máquina.
               </p>
             </div>
           </div>
@@ -22,7 +21,7 @@ export default function FeaturesEight() {
             <img
               className="w-1/1"
               src="/assets/img/home-8/what/1.png"
-              alt="image"
+              alt="imagem"
             />
           </div>
 
@@ -36,7 +35,7 @@ export default function FeaturesEight() {
                   data-aos-duration={(i + 1) * 250}
                 >
                   <div className="d-flex justify-center items-center size-70 bg-orange-5 rounded-full">
-                    <img src={elm.icon} alt="icon" />
+                    <img src={elm.icon} alt="ícone" />
                   </div>
                   <div className="ml-20">
                     <h5 className="text-18 lh-11 text-dark-1 fw-500">
@@ -54,7 +53,7 @@ export default function FeaturesEight() {
               data-aos-duration={500}
             >
               <a href="#" className="button -md -orange-1 text-white">
-                Start Learning For Free
+                Comece a aprender gratuitamente
               </a>
             </div>
           </div>

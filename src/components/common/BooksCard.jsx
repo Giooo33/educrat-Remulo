@@ -17,7 +17,7 @@ export default function BooksCard({ data }) {
           style={{ width: "100%" }}
           className="w-1/1"
           src={data.imgSrc}
-          alt="book"
+          alt="livro"
         />
         <h5 className="text-17 fw-500 mt-15">{data.title}</h5>
 
@@ -31,9 +31,9 @@ export default function BooksCard({ data }) {
         </div>
 
         <div className="d-flex items-center pt-15">
-          <div className="text-15 lh-1 line-through">${data.price}</div>
+          <div className="text-15 lh-1 line-through">R${data.price}</div>
           <div className="text-18 lh-1 text-purple-1 fw-500 ml-10">
-            ${data.discountPrice}
+            R${data.discountPrice}
           </div>
         </div>
       </div>

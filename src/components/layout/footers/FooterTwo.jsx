@@ -33,7 +33,7 @@ export default function FooterTwo() {
 
           <div className="col-xl-4 col-lg-5 col-md-6">
             <div className="footer-header__logo">
-              <img src="/assets/img/footer/footer-logo.svg" alt="logo" />
+              <img src="/assets/img/footer/AlvoEdu.png" alt="logo" />
             </div>
 
             <div className="d-flex justify-between mt-30">
@@ -48,7 +48,7 @@ export default function FooterTwo() {
               <div className="">
                 <div className="text-white opac-70">Precisa de suporte ao vivo?</div>
                 <div className="text-18 lh-1 fw-500 text-white mt-5">
-                  hi@educrat.comv
+                  hi@AlvoEdu.comv
                 </div>
               </div>
             </div>
@@ -108,7 +108,7 @@ export default function FooterTwo() {
           <div className="row justify-between items-center y-gap-20">
             <div className="col-auto">
               <div className="d-flex items-center h-100 text-white">
-                © {new Date().getFullYear()} Educrat. Todos os direitos reservados.
+                © {new Date().getFullYear()} AlvoEdu. Todos os direitos reservados.
               </div>
             </div>
 

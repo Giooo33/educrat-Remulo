@@ -9,10 +9,10 @@ import CourseContent from "./CourseContent";
 import Instractor from "./Instractor";
 import Reviews from "./Reviews";
 const menuItems = [
-  { id: 1, href: "#overview", text: "Overview", isActive: true },
-  { id: 2, href: "#course-content", text: "Course Content", isActive: false },
-  { id: 3, href: "#instructors", text: "Instructors", isActive: false },
-  { id: 4, href: "#reviews", text: "Reviews", isActive: false },
+  { id: 1, href: "#overview", text: "Visão Geral", isActive: true },
+  { id: 2, href: "#course-content", text: "Conteúdo do Curso", isActive: false },
+  { id: 3, href: "#instructors", text: "Instrutores", isActive: false },
+  { id: 4, href: "#reviews", text: "Avaliações", isActive: false },
 ];
 
 export default function CourseDetailsTwo({ id }) {
@@ -39,12 +39,12 @@ export default function CourseDetailsTwo({ id }) {
                 <div className="d-flex x-gap-15 y-gap-10 pb-20">
                   <div>
                     <div className="badge px-15 py-8 text-11 bg-green-1 text-dark-1 fw-400">
-                      BEST SELLER
+                      MAIS VENDIDO
                     </div>
                   </div>
                   <div>
                     <div className="badge px-15 py-8 text-11 bg-orange-1 text-white fw-400">
-                      NEW
+                      NOVO
                     </div>
                   </div>
                   <div>
@@ -61,8 +61,7 @@ export default function CourseDetailsTwo({ id }) {
                 </div>
 
                 <p className="col-xl-9 mt-20">
-                  Use XD to get a job in UI Design, User Interface, User
-                  Experience design, UX design & Web Design
+                  Use o XD para conseguir um emprego em Design de UI, Interface do Usuário, Design de Experiência do Usuário, UX design & Web Design
                 </p>
 
                 <div className="d-flex x-gap-30 y-gap-10 items-center flex-wrap pt-20">
@@ -81,13 +80,13 @@ export default function CourseDetailsTwo({ id }) {
                   <div className="d-flex items-center text-light-1">
                     <div className="icon icon-person-3 text-13"></div>
                     <div className="text-14 ml-8">
-                      853 enrolled on this course
+                      853 inscritos neste curso
                     </div>
                   </div>
 
                   <div className="d-flex items-center text-light-1">
                     <div className="icon icon-wall-clock text-13"></div>
-                    <div className="text-14 ml-8">Last updated 11/2021</div>
+                    <div className="text-14 ml-8">Última atualização 11/2021</div>
                   </div>
                 </div>
 

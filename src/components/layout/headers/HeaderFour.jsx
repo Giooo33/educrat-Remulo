@@ -59,13 +59,13 @@ export default function HeaderFour() {
                   href="#"
                   className="button -underline text-dark-1 -before-border py-3 pl-30 xl:pl-20"
                 >
-                  Log in
+                  Entrar
                 </a>
                 <a
                   href="#"
                   className="button h-50 px-25 -purple-3 -rounded text-purple-1 ml-20"
                 >
-                  Sign up
+                  Cadastrar-se
                 </a>
               </div>
             </div>

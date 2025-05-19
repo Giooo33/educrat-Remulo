@@ -24,17 +24,17 @@ export default function HeroThree() {
           >
             <div className="masthead__content">
               <div className="masthead__subtitle fw-500 text-green-1 text-17 lh-15">
-                Start learning for free
+                Comece a aprender gratuitamente
               </div>
               <h1 className="masthead__title text-white mt-10">
-                Explore your creativity with thousands of online classes.
+                Explore sua criatividade com milhares de aulas online.
               </h1>
               <div className="masthead__button mt-20">
                 <Link
                   to="/courses-list-1"
                   className="button -md -white text-dark-1"
                 >
-                  Find Courses
+                  Encontrar Cursos
                 </Link>
               </div>
             </div>
@@ -47,18 +47,18 @@ export default function HeroThree() {
           >
             <div className="masthead-form">
               <h4 className="masthead-form__title text-center text-20 lh-15 fw-500 mb-30">
-                Create Your <span className="text-purple-1">Free Account</span>
+                Crie sua <span className="text-purple-1">Conta Gratuita</span>
               </h4>
 
               <form onSubmit={handleSubmit}>
                 <div className="masthead-form__group">
-                  <label>Email Address</label>
-                  <input required type="text" placeholder="Your Email" />
+                  <label>E-mail</label>
+                  <input required type="text" placeholder="Seu e-mail" />
                 </div>
 
                 <div className="masthead-form__group">
-                  <label>Password</label>
-                  <input required type="text" placeholder="Your Password" />
+                  <label>Senha</label>
+                  <input required type="text" placeholder="Sua senha" />
                 </div>
 
                 <div className="masthead-form__group">
@@ -66,15 +66,14 @@ export default function HeroThree() {
                     type="submit"
                     className="button -md -purple-1 text-white"
                   >
-                    Start Learning For Free
+                    Comece a aprender gratuitamente
                   </button>
                 </div>
 
                 <div className="masthead-form__desc">
-                  By continuing, you accept our Terms of Use, our Privacy Policy
-                  and that your data is stored in the USA. You confirm you are
-                  at least 16 years old (13 if you are an authorized Classrooms
-                  user).
+                  Ao continuar, você aceita nossos Termos de Uso, nossa Política de Privacidade
+                  e que seus dados sejam armazenados nos EUA. Você confirma que tem
+                  pelo menos 16 anos (13 se for um usuário autorizado do Classrooms).
                 </div>
               </form>
             </div>

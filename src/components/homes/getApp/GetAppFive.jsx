@@ -19,26 +19,26 @@ export default function GetAppFive() {
           <div className="col-lg-5">
             <div className="app-content">
               <h2 className="app-content__title" data-aos="fade-up">
-                Learn From
-                <br /> <span>Anywhere</span>
+                Aprenda
+                <br /> <span>de qualquer lugar</span>
               </h2>
               <p className="app-content__text" data-aos="fade-up">
-                Take classes on the go with the educrat app. Stream or download
-                to watch on the plane, the subway, or wherever you learn best.
+                Faça aulas em qualquer lugar com o aplicativo AlvoEdu.
+                Transmita ou baixe para assistir no avião, no metrô ou onde você aprender melhor.
               </p>
               <div className="app-content__buttons">
                 <Link data-aos="fade-up" data-aos-duration={400} to="#">
                   <img
                     style={{ height: "100%", width: "100%" }}
                     src="/assets/img/app/buttons/1.svg"
-                    alt="button"
+                    alt="botão"
                   />
                 </Link>
                 <Link data-aos="fade-up" data-aos-duration={400} to="#">
                   <img
                     style={{ height: "100%", width: "100%" }}
                     src="/assets/img/app/buttons/2.svg"
-                    alt="button"
+                    alt="botão"
                   />
                 </Link>
               </div>

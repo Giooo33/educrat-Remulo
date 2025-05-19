@@ -6,14 +6,14 @@ export default function BacomeStudent() {
       <div className="container">
         <div className="row y-gap-30 items-center">
           <div className="col-xl-4 offset-xl-1 order-lg-1 col-lg-6 order-2">
-            <h3 className="text-24 lh-1">Become a Student</h3>
+            <h3 className="text-24 lh-1">Torne-se um Estudante</h3>
             <p className="mt-20">
-              Join millions of people from around the world learning together.
-              Online learning is as easy and natural as chatting..
+              Junte-se a milhões de pessoas do mundo todo aprendendo juntas.
+              O aprendizado online é tão fácil e natural quanto conversar.
             </p>
             <div className="d-inline-block mt-20">
               <a href="#" className="button -md -outline-dark-2 text-dark-2">
-                Apply Now
+                Inscreva-se Agora
               </a>
             </div>
           </div>
@@ -22,7 +22,7 @@ export default function BacomeStudent() {
             <img
               className="w-1/1"
               src="/assets/img/home-2/about/2.png"
-              alt="image"
+              alt="imagem"
             />
           </div>
         </div>

@@ -15,7 +15,7 @@ export default function Tabs() {
               data-tab-target=".-tab-item-1"
               type="button"
             >
-              Become an Instructor
+              Torne-se um Instrutor
             </button>
             <button
               onClick={() => setActiveTab(2)}
@@ -25,7 +25,7 @@ export default function Tabs() {
               data-tab-target=".-tab-item-2"
               type="button"
             >
-              Instructor Rules
+              Regras do Instrutor
             </button>
             <button
               onClick={() => setActiveTab(3)}
@@ -35,7 +35,7 @@ export default function Tabs() {
               data-tab-target=".-tab-item-3"
               type="button"
             >
-              Start with Courses
+              Comece com Cursos
             </button>
           </div>
 
@@ -46,16 +46,11 @@ export default function Tabs() {
               } `}
             >
               <p className="text-light-1">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English.
+                É um fato conhecido que um leitor se distrairá com o conteúdo legível de uma página ao examinar seu layout.
+                O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, ao contrário de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça inglês legível.
                 <br />
                 <br />
-                Many desktop publishing packages and web page editors now use
-                Lorem Ipsum as their default model text, and a search for 'lorem
-                ipsum' will uncover many web sites still in their infancy.
+                Muitos pacotes de editoração eletrônica e editores de páginas da web agora usam Lorem Ipsum como seu texto padrão, e uma busca por 'lorem ipsum' revelará muitos sites ainda em sua infância.
               </p>
             </div>
             <div
@@ -64,11 +59,8 @@ export default function Tabs() {
               } `}
             >
               <p className="text-light-1">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English.
+                É um fato conhecido que um leitor se distrairá com o conteúdo legível de uma página ao examinar seu layout.
+                O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, ao contrário de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça inglês legível.
               </p>
             </div>
             <div
@@ -77,9 +69,7 @@ export default function Tabs() {
               } `}
             >
               <p className="text-light-1">
-                Many desktop publishing packages and web page editors now use
-                Lorem Ipsum as their default model text, and a search for 'lorem
-                ipsum' will uncover many web sites still in their infancy.
+                Muitos pacotes de editoração eletrônica e editores de páginas da web agora usam Lorem Ipsum como seu texto padrão, e uma busca por 'lorem ipsum' revelará muitos sites ainda em sua infância.
               </p>
             </div>
           </div>

@@ -4,9 +4,9 @@ import Pagination from "../common/Pagination";
 import { Link } from "react-router-dom";
 export default function EventsOne() {
   const [pageItems, setPageItems] = useState([]);
-  const [currentCategory, setCurrentCategory] = useState("All Categories");
+  const [currentCategory, setCurrentCategory] = useState("Todas as Categorias");
   useEffect(() => {
-    if (currentCategory == "All Categories") {
+    if (currentCategory == "Todas as Categorias") {
       setPageItems(events);
     } else {
       let filtered = events.filter((elm) => elm.category == currentCategory);
@@ -22,13 +22,12 @@ export default function EventsOne() {
             <div className="row justify-center text-center">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">Event</h1>
+                  <h1 className="page-header__title">Evento</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    We’re on a mission to deliver engaging, curated courses at a
-                    reasonable price.
+                    Nossa missão é oferecer cursos envolventes e selecionados a um preço acessível.
                   </p>
                 </div>
               </div>
@@ -94,7 +93,7 @@ export default function EventsOne() {
                                 to={`/events/${elm.id}`}
                                 className="button -sm -rounded -outline-purple-1 text-purple-1 px-25"
                               >
-                                Buy
+                                Comprar
                               </Link>
                             </div>
                           </div>

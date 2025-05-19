@@ -40,7 +40,7 @@ export default function HeaderTwo() {
                 </div>
                 <div className="d-flex items-center text-white">
                   <div className="icon-email mr-10"></div>
-                  <div className="text13 lh-1">hello@educrat.com</div>
+                  <div className="text13 lh-1">contato@AlvoEdu.com</div>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ export default function HeaderTwo() {
                 </div>
 
                 <div className="d-flex items-center text-white text-13 sm:d-none">
-                  English <i className="icon-chevron-down text-9 ml-10"></i>
+                  Português <i className="icon-chevron-down text-9 ml-10"></i>
                 </div>
               </div>
             </div>
@@ -103,13 +103,13 @@ export default function HeaderTwo() {
 
               <div className="header-right__buttons d-flex items-center ml-30 xl:ml-20 md:d-none">
                 <Link to="/login" className="button -underline text-white">
-                  Log in
+                  Entrar
                 </Link>
                 <Link
                   to="/signup"
                   className="button px-25 h-50 -white text-dark-1 -rounded ml-30 xl:ml-20"
                 >
-                  Sign up
+                  Cadastrar-se
                 </Link>
               </div>
             </div>

@@ -11,12 +11,12 @@ export default function CourseContent() {
   return (
     <>
       <div id="course-content" className="pt-60 lg:pt-40">
-        <h2 className="text-20 fw-500">Course Content</h2>
+        <h2 className="text-20 fw-500">Conteúdo do Curso</h2>
 
         <div className="d-flex justify-between items-center mt-30">
-          <div className="">27 sections • 95 lectures</div>
+          <div className="">27 seções • 95 aulas</div>
           <a href="#" className="underline text-purple-1">
-            Expand All Sections
+            Expandir Todas as Seções
           </a>
         </div>
 
@@ -45,12 +45,12 @@ export default function CourseContent() {
                       </div>
                     </div>
                     <span className="text-17 fw-500 text-dark-1">
-                      Course Content
+                      Conteúdo do Curso
                     </span>
                   </div>
 
                   <div>
-                    {elm.lessons.length} lectures • {elm.duration} min
+                    {elm.lessons.length} aulas • {elm.duration} min
                   </div>
                 </div>
 
@@ -74,13 +74,13 @@ export default function CourseContent() {
                               onClick={() => setIsOpen(true)}
                               className="text-14 lh-1 text-purple-1 underline cursor "
                             >
-                              Preview
+                              Prévia
                             </span>
                             <a
                               href="#"
                               className="text-14 lh-1 text-purple-1 underline"
                             >
-                              {elm.duration} question
+                              {elm.duration} questão
                             </a>
                             <a
                               href="#"

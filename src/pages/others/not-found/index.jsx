@@ -9,9 +9,9 @@ import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
   title:
-    "Page not found || Educrat - Professional LMS Online Education Course ReactJS Template",
+    "Page not found || AlvoEdu - Professional LMS Online Education Course ReactJS Template",
   description:
-    "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+    "Elevate your e-learning content with AlvoEdu, the most impressive LMS template for online courses, education and LMS platforms.",
 };
 export default function NotFoundpage() {
   return (

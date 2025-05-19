@@ -8,11 +8,10 @@ export default function FindCourse() {
         <div className="row y-gap-20 justify-between items-center">
           <div className="col-xl-4 col-lg-5">
             <h2 className="text-30 lh-15 text-white">
-              Finding Your Right Courses
+              Encontre os cursos certos para você
             </h2>
             <p className="text-white mt-10">
-              Use the list below to bring attention to your product’s key
-              differentiator.
+              Use a lista abaixo para destacar o principal diferencial do seu produto.
             </p>
           </div>
 
@@ -21,7 +20,7 @@ export default function FindCourse() {
               to="/courses-list-1"
               className="button -md -white text-dark-1"
             >
-              Get Started
+              Começar
             </Link>
           </div>
         </div>

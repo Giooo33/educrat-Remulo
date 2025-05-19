@@ -50,15 +50,15 @@ export default function HeroFour() {
           >
             <div className="masthead__content pl-32 lg:pl-0">
               <h1 className="masthead__title">
-                Find Your Preferred
-                <br /> <span className="text-purple-1">Courses</span> & Improve
-                Your Skills
+                Encontre seus
+                <br /> <span className="text-purple-1">Cursos</span> Preferidos & Melhore
+                suas Habilidades
               </h1>
 
               <p className="masthead__text text-17 text-dark-1 mt-25">
-                Build skills with courses, certificates, and degrees online from
+                Desenvolva habilidades com cursos, certificados e graduações online de
                 <br className="lg:d-none" />
-                world-class universities and companies.
+                universidades e empresas de renome mundial.
               </p>
 
               <div className="masthead-search mt-30">
@@ -67,7 +67,7 @@ export default function HeroFour() {
                     <input
                       required
                       type="text"
-                      placeholder="What do you want to learn today?"
+                      placeholder="O que você quer aprender hoje?"
                     />
 
                     <button
@@ -80,11 +80,11 @@ export default function HeroFour() {
                 </div>
 
                 <div className="masthead-search__searches mt-40">
-                  Trending Search:
-                  <Link to={`/courses/${6}`}>Development</Link>,
-                  <Link to="/courses-single-2/3">Business</Link>,
+                  Busca em alta:
+                  <Link to={`/courses/${6}`}>Desenvolvimento</Link>,
+                  <Link to="/courses-single-2/3">Negócios</Link>,
                   <Link to="/courses-single-6/3">Design</Link>,
-                  <a href="#">Merketing</a>
+                  <a href="#">Marketing</a>
                 </div>
               </div>
             </div>
@@ -100,14 +100,14 @@ export default function HeroFour() {
                 <div className="masthead-image__shape xl:d-none">
                   <img
                     src="/assets/img/home-4/masthead/shape.svg"
-                    alt="image"
+                    alt="imagem"
                   />
                 </div>
                 <img
                   data-move="20"
                   className="js-mouse-move"
                   src="/assets/img/home-4/masthead/1.png"
-                  alt="image"
+                  alt="imagem"
                 />
               </div>
 
@@ -117,13 +117,13 @@ export default function HeroFour() {
                   className="lg:d-none img-el -w-250 px-20 py-20 d-flex items-center bg-white rounded-8 js-mouse-move"
                 >
                   <div className="size-50 d-flex justify-center items-center bg-red-2 rounded-full">
-                    <img src="/assets/img/masthead/1.svg" alt="icon" />
+                    <img src="/assets/img/masthead/1.svg" alt="ícone" />
                   </div>
                   <div className="ml-20">
                     <div className="text-orange-1 text-16 fw-500 lh-1">
                       3.000 +
                     </div>
-                    <div className="mt-3">Free Courses</div>
+                    <div className="mt-3">Cursos Gratuitos</div>
                   </div>
                 </div>
               </div>
@@ -135,14 +135,14 @@ export default function HeroFour() {
                 >
                   <div className="img-el__side">
                     <div className="size-50 d-flex justify-center items-center bg-dark-1 rounded-full">
-                      <img src="/assets/img/masthead/2.svg" alt="icon" />
+                      <img src="/assets/img/masthead/2.svg" alt="ícone" />
                     </div>
                   </div>
                   <div className="">
                     <div className="text-purple-1 text-16 fw-500 lh-1">
-                      Congrats!
+                      Parabéns!
                     </div>
-                    <div className="mt-3">Your Admission Completed</div>
+                    <div className="mt-3">Sua matrícula foi concluída</div>
                   </div>
                 </div>
               </div>

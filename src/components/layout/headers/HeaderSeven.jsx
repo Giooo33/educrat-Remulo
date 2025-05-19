@@ -73,13 +73,13 @@ export default function HeaderSeven() {
 
               <div className="header-right__buttons d-flex items-center ml-30 xl:ml-20 lg:d-none">
                 <Link to="/login" className="button -underline text-purple-1">
-                  Log in
+                  Entrar
                 </Link>
                 <Link
                   to="/signup"
                   className="button h-50 px-30 -purple-3 -rounded text-purple-1 ml-15"
                 >
-                  Sign up
+                  Cadastrar-se
                 </Link>
               </div>
             </div>

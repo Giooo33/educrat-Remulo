@@ -191,12 +191,12 @@ export default function CourseListFour() {
             <div className="row">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">User Interface Courses</h1>
+                  <h1 className="page-header__title">Cursos de interface do usuário</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    Write an introductory description of the category.
+                    Escreva uma descrição introdutória da categoria.
                   </p>
                 </div>
               </div>
@@ -210,11 +210,11 @@ export default function CourseListFour() {
           <div className="row y-gap-20 items-center justify-between pb-30">
             <div className="col-12">
               <div className="text-14 lh-12">
-                Showing{" "}
+                Mostrando{" "}
                 <span className="text-dark-1 fw-500">
                   {filteredData.length}
                 </span>{" "}
-                total results
+                resultados totais
               </div>
             </div>
 
@@ -241,7 +241,7 @@ export default function CourseListFour() {
                       <span className="js-dropdown-title">
                         {filterCategories.length
                           ? filterCategories[0]
-                          : "Category"}
+                          : "Categorias"}
                       </span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
@@ -312,7 +312,7 @@ export default function CourseListFour() {
                       <span className="js-dropdown-title">
                         {filterRatingRange.length
                           ? `${filterRatingRange[0]} to ${filterRatingRange[1]}`
-                          : "Ratings"}
+                          : "Avaliações"}
                       </span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
@@ -338,7 +338,7 @@ export default function CourseListFour() {
                               filterRatingRange.length == 0 ? "activeMenu" : ""
                             } `}
                           >
-                            All
+                            Todos
                           </span>
                         </div>
                         {rating.map((elm, i) => (
@@ -384,7 +384,7 @@ export default function CourseListFour() {
                       <span className="js-dropdown-title">
                         {filterInstractors.length
                           ? filterInstractors[0]
-                          : "Instructors"}
+                          : "Instrutores"}
                       </span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
@@ -410,7 +410,7 @@ export default function CourseListFour() {
                               filterInstractors.length == 0 ? "activeMenu" : ""
                             } `}
                           >
-                            All
+                            Todos
                           </span>
                         </div>
                         {instractorNames.map((elm, i) => (
@@ -453,7 +453,7 @@ export default function CourseListFour() {
                       data-el-toggle-active=".js-price-active"
                     >
                       <span className="js-dropdown-title">
-                        {filterPrice != "All" ? filterPrice : "Price"}
+                        {filterPrice != "All" ? filterPrice : "Preço"}
                       </span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
@@ -501,7 +501,7 @@ export default function CourseListFour() {
                       data-el-toggle-active=".js-level-active"
                     >
                       <span className="js-dropdown-title">
-                        {filterLevels.length ? filterLevels[0] : "Level"}
+                        {filterLevels.length ? filterLevels[0] : "Nível"}
                       </span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
@@ -570,7 +570,7 @@ export default function CourseListFour() {
                       <span className="js-dropdown-title">
                         {filterlanguange.length
                           ? filterlanguange[0]
-                          : "Langunage"}
+                          : "Linguagem"}
                       </span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
@@ -596,7 +596,7 @@ export default function CourseListFour() {
                               filterlanguange.length == 0 ? "activeMenu" : ""
                             } `}
                           >
-                            All
+                            Todos
                           </span>
                         </div>
                         {languages.map((elm, i) => (
@@ -643,7 +643,7 @@ export default function CourseListFour() {
                           ? `${Math.round(
                               filterDuration[0] / 60,
                             )}h to ${Math.round(filterDuration[1] / 60)}h`
-                          : "Duration"}
+                          : "Duração"}
                       </span>
                       <i className="icon text-9 ml-40 icon-chevron-down"></i>
                     </div>
@@ -669,7 +669,7 @@ export default function CourseListFour() {
                               filterDuration.length == 0 ? "activeMenu" : ""
                             } `}
                           >
-                            All
+                            Todos
                           </span>
                         </div>
                         {duration.map((elm, i) => (
@@ -722,7 +722,7 @@ export default function CourseListFour() {
                             <div>
                               <div className="px-15 rounded-200 bg-green-1">
                                 <span className="text-11 lh-1 uppercase fw-500 text-dark-1">
-                                  Best sellers
+                                  Mais vendidos
                                 </span>
                               </div>
                             </div>
@@ -759,7 +759,7 @@ export default function CourseListFour() {
                             />
                           </div>
                           <div className="text-14 lh-1">
-                            {elm.lessonCount} lesson
+                            {elm.lessonCount} lição
                           </div>
                         </div>
 
@@ -801,7 +801,7 @@ export default function CourseListFour() {
                           ) : (
                             <>
                               <div></div>
-                              <div>Free</div>
+                              <div>Livre</div>
                             </>
                           )}
                         </div>

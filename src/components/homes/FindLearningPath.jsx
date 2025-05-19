@@ -16,7 +16,7 @@ export default function FindLearningPath() {
         <div className="row justify-center text-center">
           <div className="col-auto">
             <h2 className="text-45 md:text-30 text-white">
-              Find the right learning path for you
+              Encontre o caminho de aprendizado certo para você
             </h2>
           </div>
 
@@ -24,8 +24,7 @@ export default function FindLearningPath() {
 
           <div className="col-lg-4 col-md-8">
             <p className="text-white mt-15">
-              Match your goals to our programs, explore your options and map out
-              your path to success.
+              Combine seus objetivos com nossos programas, explore suas opções e trace seu caminho para o sucesso.
             </p>
           </div>
 
@@ -36,7 +35,7 @@ export default function FindLearningPath() {
               to="/courses-list-3"
               className="button -md -outline-white text-white mt-45 md:mt-20"
             >
-              Get Started Now
+              Comece agora
             </Link>
           </div>
         </div>

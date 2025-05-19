@@ -16,7 +16,7 @@ export default function Instractors() {
         <div className="container">
           <div className="row y-gap-20 justify-between items-center">
             <div className="col-auto">
-              <h2 className="text-24 lh-12">Popular Instructors</h2>
+              <h2 className="text-24 lh-12">Instrutores populares</h2>
             </div>
 
             <div className="col-auto">
@@ -115,7 +115,7 @@ export default function Instractors() {
                                 alt="icon"
                               />
                               <div className="text-13 lh-12">
-                                {elm.studentCount} Students
+                                {elm.studentCount} Estudantes
                               </div>
                             </div>
 
@@ -126,7 +126,7 @@ export default function Instractors() {
                                 alt="icon"
                               />
                               <div className="text-13 lh-12">
-                                {elm.courseCount} Course
+                                {elm.courseCount} Curso
                               </div>
                             </div>
                           </div>
@@ -145,7 +145,7 @@ export default function Instractors() {
         <div className="container">
           <div className="row">
             <div className="col-auto">
-              <h2 className="text-24 lh-12">Popular Instructors</h2>
+              <h2 className="text-24 lh-12">Instrutores populares</h2>
             </div>
           </div>
 

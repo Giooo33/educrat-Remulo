@@ -19,11 +19,11 @@ export default function TestimonialsOne() {
           <div className="col-auto">
             <div className="sectionTitle ">
               <h2 className="sectionTitle__title text-green-1">
-              O que as pessoas dizem
+                O que as pessoas dizem
               </h2>
 
               <p className="sectionTitle__text text-white">
-                Lorem ipsum dolor sit amet, consectetur.
+                Veja o que nossos alunos e professores dizem sobre nós.
               </p>
             </div>
           </div>

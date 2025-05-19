@@ -51,7 +51,7 @@ export default function HeaderFive() {
                       <input
                         required
                         type="text"
-                        placeholder="What do you want to learn?"
+                        placeholder="O que você quer aprender?"
                       />
                       <button type="submit">
                         <i className="icon icon-search"></i>
@@ -78,13 +78,13 @@ export default function HeaderFive() {
 
               <div className="header-right__buttons d-flex items-center ml-30 xl:ml-20 lg:d-none">
                 <Link to="/login" className="button -underline text-purple-1">
-                  Log in
+                  Entrar
                 </Link>
                 <Link
                   to="/signup"
                   className="button h-50 px-30 -purple-1 -rounded text-white ml-20"
                 >
-                  Sign up
+                  Cadastrar-se
                 </Link>
               </div>
             </div>

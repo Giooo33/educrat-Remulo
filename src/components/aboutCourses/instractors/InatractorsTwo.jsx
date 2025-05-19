@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 export default function InatractorsTwo() {
   const [categoryOpen, setCategoryOpen] = useState(true);
   const [ratingOpen, setRatingOpen] = useState(true);
-  const [currentCategory, setCurrentCategory] = useState("All Categories");
+  const [currentCategory, setCurrentCategory] = useState("Todas as Categorias");
 
   const [filterCategories, setFilterCategories] = useState([]);
   const [filterRatingRange, setFilterRatingRange] = useState([]);
@@ -87,13 +87,12 @@ export default function InatractorsTwo() {
             <div className="row justify-center text-center">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">Instructors</h1>
+                  <h1 className="page-header__title">Instrutores</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    We’re on a mission to deliver engaging, curated courses at a
-                    reasonable price.
+                    Nossa missão é oferecer cursos envolventes e selecionados por um preço acessível.
                   </p>
                 </div>
               </div>
@@ -118,7 +117,7 @@ export default function InatractorsTwo() {
                         className="accordion__button items-center"
                         onClick={() => setCategoryOpen((pre) => !pre)}
                       >
-                        <h5 className="sidebar__title">Category</h5>
+                        <h5 className="sidebar__title">Categoria</h5>
 
                         <div className="accordion__icon">
                           <div className="icon icon-chevron-down"></div>
@@ -149,7 +148,7 @@ export default function InatractorsTwo() {
                                 </div>
                               </div>
 
-                              <div className="sidebar-checkbox__title">All</div>
+                              <div className="sidebar-checkbox__title">Todas</div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
                             {categories.map((elm, i) => (
@@ -196,7 +195,7 @@ export default function InatractorsTwo() {
                               href="#"
                               className="text-14 fw-500 underline text-purple-1"
                             >
-                              Show more
+                              Mostrar mais
                             </a>
                           </div>
                         </div>
@@ -216,7 +215,7 @@ export default function InatractorsTwo() {
                         className="accordion__button items-center"
                         onClick={() => setRatingOpen((pre) => !pre)}
                       >
-                        <h5 className="sidebar__title">Ratings</h5>
+                        <h5 className="sidebar__title">Avaliações</h5>
 
                         <div className="accordion__icon">
                           <div className="icon icon-chevron-down"></div>
@@ -254,7 +253,7 @@ export default function InatractorsTwo() {
                                 <div className="d-flex x-gap-5 pr-10">
                                   <Star star={5} textSize={"text-11"} />
                                 </div>
-                                All
+                                Todas
                               </div>
                               <div className="sidebar-checkbox__count"></div>
                             </div>
@@ -276,7 +275,7 @@ export default function InatractorsTwo() {
                                         elm.range.join(" ").trim()
                                           ? "checked"
                                           : ""
-                                      }
+                                    }
                                     />
                                     <div className="radio__mark">
                                       <div className="radio__icon"></div>
@@ -315,18 +314,18 @@ export default function InatractorsTwo() {
               <div className="row y-gap-20 items-center justify-between pb-30">
                 <div className="col-auto">
                   <div className="text-14 lh-12">
-                    Showing{" "}
+                    Exibindo{" "}
                     <span className="text-dark-1 fw-500">
                       {sortedFilteredData.length}
                     </span>{" "}
-                    total results
+                    resultados no total
                   </div>
                 </div>
 
                 <div className="col-auto">
                   <div className="d-flex items-center">
                     <div className="text-14 lh-12 fw-500 text-dark-1 mr-20">
-                      Sort by:
+                      Ordenar por:
                     </div>
 
                     <div
@@ -420,14 +419,14 @@ export default function InatractorsTwo() {
                             <div className="d-flex items-center">
                               <div className="icon-person-3 text-14"></div>
                               <div className="text-13 lh-1 ml-8">
-                                {elm.students} Students
+                                {elm.students} Alunos
                               </div>
                             </div>
 
                             <div className="d-flex items-center">
                               <div className="icon-play text-14"></div>
                               <div className="text-13 lh-1 ml-8">
-                                {elm.courses} Course
+                                {elm.courses} Curso
                               </div>
                             </div>
                           </div>

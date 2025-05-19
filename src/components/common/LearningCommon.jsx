@@ -9,11 +9,11 @@ export default function LearningCommon() {
           <div className="col-auto">
             <div className="sectionTitle ">
               <h2 className="sectionTitle__title ">
-                Start your Learning Journey Today!
+                Comece sua jornada de aprendizado hoje!
               </h2>
 
               <p className="sectionTitle__text ">
-                Lorem ipsum dolor sit amet, consectetur.
+                Aprenda no seu ritmo, com os melhores conteúdos.
               </p>
             </div>
           </div>

@@ -61,28 +61,27 @@ export default function InstractorSingle({ id }) {
                   <div className="d-flex x-gap-20 pt-15">
                     <div className="d-flex items-center text-white">
                       <div className="icon-star mr-10"></div>
-                      <div className="text-13 lh-1">Instructor Rating</div>
+                      <div className="text-13 lh-1">Avaliação do Instrutor</div>
                     </div>
 
                     <div className="d-flex items-center text-white">
                       <div className="icon-video-file mr-10"></div>
                       <div className="text-13 lh-1">
-                        {pageItem.reviews || 3545} Reviews
+                        {pageItem.reviews || 3545} Avaliações
                       </div>
                     </div>
 
                     <div className="d-flex items-center text-white">
                       <div className="icon-person-3 mr-10"></div>
                       <div className="text-13 lh-1">
-                        {pageItem.students || pageItem.studentCount || 143}{" "}
-                        Students
+                        {pageItem.students || pageItem.studentCount || 143} Alunos
                       </div>
                     </div>
 
                     <div className="d-flex items-center text-white">
                       <div className="icon-play mr-10"></div>
                       <div className="text-13 lh-1">
-                        {pageItem.courses || pageItem.courseCount || 453} Course
+                        {pageItem.courses || pageItem.courseCount || 453} Curso
                       </div>
                     </div>
                   </div>
@@ -90,7 +89,7 @@ export default function InstractorSingle({ id }) {
 
                 <div className="d-flex items-center mt-30">
                   <button className="button -md -green-1 text-dark-1">
-                    Send Message
+                    Enviar Mensagem
                   </button>
 
                   <div className="d-flex items-center x-gap-15 text-white ml-25">
@@ -121,7 +120,7 @@ export default function InstractorSingle({ id }) {
                     data-tab-target=".-tab-item-1"
                     type="button"
                   >
-                    Overview
+                    Visão Geral
                   </button>
                   <button
                     onClick={() => setActiveTab(2)}
@@ -131,7 +130,7 @@ export default function InstractorSingle({ id }) {
                     data-tab-target=".-tab-item-2"
                     type="button"
                   >
-                    Courses
+                    Cursos
                   </button>
                 </div>
 
@@ -141,7 +140,7 @@ export default function InstractorSingle({ id }) {
                       activeTab == 1 ? "is-active" : ""
                     } `}
                   >
-                    <h4 className="text-20">Description</h4>
+                    <h4 className="text-20">Descrição</h4>
                     <p className="text-light-1 mt-30">
                       Phasellus enim magna, varius et commodo ut, ultricies
                       vitae velit. Ut nulla tellus, eleifend euismod
@@ -153,20 +152,14 @@ export default function InstractorSingle({ id }) {
                       nascetur.
                       <br />
                       <br />
-                      This course is aimed at people interested in UI/UX Design.
-                      We’ll start from the very beginning and work all the way
-                      through, step by step. If you already have some UI/UX
-                      Design experience but want to get up to speed using Adobe
-                      XD then this course is perfect for you too!
+                      Este curso é destinado a pessoas interessadas em UI/UX Design.
+                      Começaremos do início e avançaremos passo a passo. Se você já tem alguma experiência em UI/UX Design mas quer se atualizar usando Adobe XD, este curso também é perfeito para você!
                       <br />
                       <br />
-                      First, we will go over the differences between UX and UI
-                      Design. We will look at what our brief for this real-world
-                      project is, then we will learn about low-fidelity
-                      wireframes and how to make use of existing UI design kits.
+                      Primeiro, vamos abordar as diferenças entre UX e UI Design. Veremos qual é o nosso briefing para este projeto do mundo real, depois aprenderemos sobre wireframes de baixa fidelidade e como utilizar kits de design de UI existentes.
                     </p>
                     <button className="button underline text-purple-1 mt-30">
-                      Show More
+                      Mostrar Mais
                     </button>
                   </div>
 
@@ -202,7 +195,7 @@ export default function InstractorSingle({ id }) {
                                   <div>
                                     <div className="px-15 rounded-200 bg-green-1">
                                       <span className="text-11 lh-1 uppercase fw-500 text-dark-1">
-                                        Best sellers
+                                        Mais vendidos
                                       </span>
                                     </div>
                                   </div>
@@ -241,7 +234,7 @@ export default function InstractorSingle({ id }) {
                                     />
                                   </div>
                                   <div className="text-14 lh-1">
-                                    {elm.lessonCount} lesson
+                                    {elm.lessonCount} aula
                                   </div>
                                 </div>
 
@@ -279,13 +272,13 @@ export default function InstractorSingle({ id }) {
                                 <div className="coursesCard-footer__price">
                                   {elm.paid ? (
                                     <>
-                                      <div>${elm.originalPrice}</div>
-                                      <div>${elm.discountedPrice}</div>
+                                      <div>R${elm.originalPrice}</div>
+                                      <div>R${elm.discountedPrice}</div>
                                     </>
                                   ) : (
                                     <>
                                       <div></div>
-                                      <div>Free</div>
+                                      <div>Grátis</div>
                                     </>
                                   )}
                                 </div>

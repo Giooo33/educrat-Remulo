@@ -19,9 +19,9 @@ export default function TestimonialsEight() {
           <div className="row y-gap-30 justify-between items-center">
             <div className="col-xl-4 col-lg-5 col-md-9">
               <h2 className="text-30 lh-13">
-                What Our Students
+                O que nossos alunos
                 <br />
-                Have To <span className="text-orange-1">Say</span>
+                têm a <span className="text-orange-1">dizer</span>
               </h2>
               <p className="mt-15">
                 Lorem ipsum dolor sit amet, consectetur dolorili adipiscing

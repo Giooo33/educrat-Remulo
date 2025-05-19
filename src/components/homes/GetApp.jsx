@@ -19,12 +19,11 @@ export default function GetApp() {
           <div className="col-lg-5">
             <div className="app-content">
               <h2 className="app-content__title">
-                Learn From
-                <br /> <span>Anywhere</span>
+                Aprenda de
+                <br /> <span>qualquer lugar</span>
               </h2>
               <p className="app-content__text">
-                Take classes on the go with the educrat app. Stream or download
-                to watch on the plane, the subway, or wherever you learn best.
+                Faça aulas onde estiver com o aplicativo AlvoEdu. Assista online ou baixe para assistir no avião, metrô ou onde você aprender melhor.
               </p>
               <div className="app-content__buttons">
                 <Link to="#">

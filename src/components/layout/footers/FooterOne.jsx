@@ -14,7 +14,7 @@ export default function FooterOne() {
           <div className="row y-gap-20 justify-between items-center">
             <div className="col-auto">
               <div className="footer-header__logo">
-                <img src="/assets/img/footer/footer-logo.svg" alt="logo" />
+                <img src="/assets/img/footer/AlvoEdu.png" alt="logo" />
               </div>
             </div>
             <div className="col-auto">
@@ -57,7 +57,7 @@ export default function FooterOne() {
           <div className="row justify-between items-center y-gap-20">
             <div className="col-auto">
               <div className="d-flex items-center h-100 text-white">
-                © {new Date().getFullYear()} Educrat. Todos os direitos reservados.
+                © {new Date().getFullYear()} AlvoEdu. Todos os direitos reservados.
               </div>
             </div>
 

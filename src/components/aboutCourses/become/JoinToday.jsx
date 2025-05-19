@@ -8,23 +8,22 @@ export default function JoinToday() {
       <div className="container">
         <div className="row y-gap-50 justify-between items-center">
           <div className="col-lg-7 pr-60">
-            <img src="/assets/img/become-ins/1.png" alt="image" />
+            <img src="/assets/img/become-ins/1.png" alt="imagem" />
           </div>
 
           <div className="col-lg-5">
             <h2 className="text-45 lh-15">
-              Become an Instructor <span className="text-purple-1">Today</span>
+              Torne-se um Instrutor <span className="text-purple-1">Hoje</span>
             </h2>
             <p className="text-dark-1 mt-25">
-              Use the list below to bring attention to your product’s key
-              <br /> differentiator.
+              Use a lista abaixo para destacar o principal diferencial do seu produto.
             </p>
             <div className="d-inline-block mt-30">
               <Link
                 to="/instructor-become"
                 className="button -md -dark-1 text-white"
               >
-                Join Our Team
+                Junte-se ao nosso time
               </Link>
             </div>
           </div>

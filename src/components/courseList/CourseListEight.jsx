@@ -181,12 +181,12 @@ export default function CourseListEight() {
             <div className="row">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">User Interface Courses</h1>
+                  <h1 className="page-header__title">Cursos de Interface do Usuário</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    Write an introductory description of the category.
+                    Escreva uma descrição introdutória da categoria.
                   </p>
                 </div>
               </div>
@@ -204,11 +204,11 @@ export default function CourseListEight() {
               <div className="row y-gap-20 items-center justify-between pb-30">
                 <div className="col-auto">
                   <div className="text-14 lh-12">
-                    Showing{" "}
+                    Exibindo{" "}
                     <span className="text-dark-1 fw-500">
                       {filteredData.length}
                     </span>{" "}
-                    total results
+                    resultados no total
                   </div>
                 </div>
 
@@ -217,7 +217,7 @@ export default function CourseListEight() {
                     <div className="col-auto">
                       <div className="d-flex items-center">
                         <div className="text-14 lh-12 fw-500 text-dark-1 mr-20">
-                          Sort by:
+                          Ordenar por:
                         </div>
 
                         <div
@@ -287,7 +287,7 @@ export default function CourseListEight() {
                           onClick={() => setFilterOpen((pre) => !pre)}
                         >
                           <i className="icon-filter mr-10"></i>
-                          Filter
+                          Filtros
                         </button>
                       </div>
                     </div>
@@ -303,7 +303,7 @@ export default function CourseListEight() {
                   <div className="row x-gap-60 y-gap-40">
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="sidebar__item">
-                        <h5 className="sidebar__title">Category</h5>
+                        <h5 className="sidebar__title">Categoria</h5>
                         <div className="sidebar-checkbox">
                           <div
                             className="sidebar-checkbox__item"
@@ -320,7 +320,7 @@ export default function CourseListEight() {
                               </div>
                             </div>
 
-                            <div className="sidebar-checkbox__title">All</div>
+                            <div className="sidebar-checkbox__title">Todas</div>
                             <div className="sidebar-checkbox__count"></div>
                           </div>
                           {categories.map((item, index) => (
@@ -364,7 +364,7 @@ export default function CourseListEight() {
                             href="#"
                             className="text-14 fw-500 underline text-purple-1"
                           >
-                            Show more
+                            Mostrar mais
                           </a>
                         </div>
                       </div>
@@ -372,7 +372,7 @@ export default function CourseListEight() {
 
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="sidebar__item">
-                        <h5 className="sidebar__title">Ratings</h5>
+                        <h5 className="sidebar__title">Avaliações</h5>
                         <div className="sidebar-checkbox">
                           <div
                             className="sidebar-checkbox__item"
@@ -396,7 +396,7 @@ export default function CourseListEight() {
                             </div>
                             <div className="sidebar-checkbox__title d-flex items-center">
                               <div className="d-flex x-gap-5 pr-10"></div>
-                              All
+                              Todas
                             </div>
                             <div className="sidebar-checkbox__count"></div>
                           </div>
@@ -450,7 +450,7 @@ export default function CourseListEight() {
 
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="sidebar__item">
-                        <h5 className="sidebar__title">Instructors</h5>
+                        <h5 className="sidebar__title">Instrutores</h5>
                         <div className="sidebar-checkbox">
                           <div
                             className="sidebar-checkbox__item"
@@ -469,7 +469,7 @@ export default function CourseListEight() {
                               </div>
                             </div>
 
-                            <div className="sidebar-checkbox__title">All</div>
+                            <div className="sidebar-checkbox__title">Todos</div>
                             <div className="sidebar-checkbox__count"></div>
                           </div>
                           {instractorNames.map((item, index) => (
@@ -515,7 +515,7 @@ export default function CourseListEight() {
                             href="#"
                             className="text-14 fw-500 underline text-purple-1"
                           >
-                            Show more
+                            Mostrar mais
                           </a>
                         </div>
                       </div>
@@ -523,7 +523,7 @@ export default function CourseListEight() {
 
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="sidebar__item">
-                        <h5 className="sidebar__title">Price</h5>
+                        <h5 className="sidebar__title">Preço</h5>
                         <div className="sidebar-checkbox">
                           {prices.map((item, index) => (
                             <div
@@ -547,7 +547,11 @@ export default function CourseListEight() {
                               </div>
 
                               <div className="sidebar-checkbox__title">
-                                {item.title}
+                                {item.title === "Free"
+                                  ? "Grátis"
+                                  : item.title === "Paid"
+                                  ? "Pago"
+                                  : "Todos"}
                               </div>
                               <div className="sidebar-checkbox__count">
                                 (
@@ -565,7 +569,7 @@ export default function CourseListEight() {
 
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="sidebar__item">
-                        <h5 className="sidebar__title">Level</h5>
+                        <h5 className="sidebar__title">Nível</h5>
                         <div className="sidebar-checkbox">
                           <div
                             className="sidebar-checkbox__item cursor"
@@ -582,7 +586,7 @@ export default function CourseListEight() {
                               </div>
                             </div>
 
-                            <div className="sidebar-checkbox__title">All</div>
+                            <div className="sidebar-checkbox__title">Todos</div>
                             <div className="sidebar-checkbox__count"></div>
                           </div>
                           {levels.map((item, index) => (
@@ -626,7 +630,7 @@ export default function CourseListEight() {
 
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="sidebar__item">
-                        <h5 className="sidebar__title">Languange</h5>
+                        <h5 className="sidebar__title">Linguagem</h5>
                         <div className="sidebar-checkbox">
                           <div
                             className="sidebar-checkbox__item"
@@ -643,7 +647,7 @@ export default function CourseListEight() {
                               </div>
                             </div>
 
-                            <div className="sidebar-checkbox__title">All</div>
+                            <div className="sidebar-checkbox__title">Todas</div>
                             <div className="sidebar-checkbox__count"></div>
                           </div>
                           {languages.map((item, index) => (
@@ -687,7 +691,7 @@ export default function CourseListEight() {
                             href="#"
                             className="text-14 fw-500 underline text-purple-1"
                           >
-                            Show more
+                            Mostrar mais
                           </a>
                         </div>
                       </div>
@@ -695,7 +699,7 @@ export default function CourseListEight() {
 
                     <div className="col-xl-3 col-lg-4 col-sm-6">
                       <div className="sidebar__item">
-                        <h5 className="sidebar__title">Duration</h5>
+                        <h5 className="sidebar__title">Duração</h5>
                         <div className="sidebar-checkbox">
                           <div
                             className="sidebar-checkbox__item cursor"
@@ -711,7 +715,7 @@ export default function CourseListEight() {
                                 <div className="form-checkbox__icon icon-check"></div>
                               </div>
                             </div>
-                            <div className="sidebar-checkbox__title">All</div>
+                            <div className="sidebar-checkbox__title">Todas</div>
                             <div className="sidebar-checkbox__count"></div>
                           </div>
                           {duration.map((item, index) => (
@@ -803,7 +807,7 @@ export default function CourseListEight() {
                             />
                           </div>
                           <div className="text-14 lh-1 text-light-1">
-                            {elm.lessonCount} lesson
+                            {elm.lessonCount} aula
                           </div>
                         </div>
 
@@ -844,17 +848,17 @@ export default function CourseListEight() {
                           {elm.paid ? (
                             <>
                               <div className="text-light-1 fw-500 mr-10 line-through">
-                                ${elm.originalPrice}
+                                R${elm.originalPrice}
                               </div>
                               <div className="text-18 fw-500 text-dark-1">
-                                ${elm.discountedPrice}
+                                R${elm.discountedPrice}
                               </div>
                             </>
                           ) : (
                             <>
                               <div></div>
                               <div className="text-18 fw-500 text-dark-1">
-                                Free
+                                Grátis
                               </div>
                             </>
                           )}

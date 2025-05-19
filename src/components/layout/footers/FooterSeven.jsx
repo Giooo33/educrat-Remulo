@@ -47,7 +47,7 @@ export default function FooterSeven() {
               <div className="">
                 <div className="">Precisa de suporte ao vivo?</div>
                 <div className="text-18 lh-1 fw-500 text-dark-1 mt-5">
-                  hi@educrat.comv
+                  hi@AlvoEdu.comv
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function FooterSeven() {
           <div className="row justify-between items-center y-gap-20">
             <div className="col-auto">
               <div className="d-flex items-center h-100">
-                © {new Date().getFullYear()} Educrat. Todos os direitos reservados.
+                © {new Date().getFullYear()} AlvoEdu. Todos os direitos reservados.
               </div>
             </div>
 

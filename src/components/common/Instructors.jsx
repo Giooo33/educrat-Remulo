@@ -18,7 +18,7 @@ export default function Instructors({ backgroundColor }) {
               </h2>
 
               <p className="sectionTitle__text " data-aos="fade-left">
-                Lorem ipsum dolor sit amet, consectetur.
+                Descubra conteúdos exclusivos e aprenda com especialistas.
               </p>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function Instructors({ backgroundColor }) {
                       <div className="d-flex items-center">
                         <div className="icon-online-learning text-light-1 text-11 mr-5"></div>
                         <div className="text-14 lh-12">
-                          {elm.students} Students
+                          {elm.students} Alunos
                         </div>
                       </div>
                     </div>
@@ -90,7 +90,7 @@ export default function Instructors({ backgroundColor }) {
                       <div className="d-flex items-center">
                         <div className="icon-play text-light-1 text-11 mr-5"></div>
                         <div className="text-14 lh-12">
-                          {elm.courses} Course
+                          {elm.courses} Curso(s)
                         </div>
                       </div>
                     </div>
@@ -104,7 +104,7 @@ export default function Instructors({ backgroundColor }) {
         <div className="row justify-center text-center pt-60 lg:pt-40">
           <div className="col-auto">
             <p className="lh-1">
-                Quer ajudar as pessoas a aprender, crescer e alcançar mais na vida?
+              Quer ajudar as pessoas a aprender, crescer e alcançar mais na vida?
               <Link className="text-purple-1 underline" to="/instructor-become">
                 Torne-se um instrutor
               </Link>

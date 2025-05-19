@@ -13,15 +13,15 @@ export default function Pricing() {
         <div className="row justify-center text-center">
           <div className="col-auto">
             <div className="sectionTitle ">
-              <h2 className="sectionTitle__title ">Simple Pricing</h2>
+              <h2 className="sectionTitle__title ">Preços Simples</h2>
 
               <p className="sectionTitle__text ">
-                Lorem ipsum dolor sit amet, consectetur.
+                Escolha o plano ideal para você.
               </p>
             </div>
 
             <div className="d-flex justify-center items-center pt-60 lg:pt-40">
-              <div className="text-14 text-dark-1">Monthly</div>
+              <div className="text-14 text-dark-1">Mensal</div>
               <div className="form-switch px-20">
                 <div className="switch" data-switch=".js-switch-content">
                   <input
@@ -33,7 +33,7 @@ export default function Pricing() {
                 </div>
               </div>
               <div className="text-14 text-dark-1">
-                Annually <span className="text-purple-1">Save 30%</span>
+                Anual <span className="text-purple-1">Economize 30%</span>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Pricing() {
                   {pricingData[0].type}
                 </div>
                 <div className="priceCard__price text-45 lh-11 fw-700 text-dark-1 mt-15">
-                  {pricingData[0].price ? pricingData[0].price : "Free"}
+                  {pricingData[0].price ? pricingData[0].price : "Grátis"}
                 </div>
                 <div className="priceCard__period">{pricingData[0].period}</div>
                 <img
@@ -56,7 +56,7 @@ export default function Pricing() {
                   alt="icon"
                 />
                 <div className="priceCard__text text-left pr-15 mt-40">
-                  Standard listing submission, active for 30 dayss
+                  Cadastro padrão, ativo por 30 dias
                 </div>
 
                 <div className="text-left y-gap-15 mt-35">
@@ -97,7 +97,7 @@ export default function Pricing() {
                     : pricingData[1].price}
                 </div>
                 <div className="priceCard__period">
-                  {isYearly ? "per year" : pricingData[1].period}
+                  {isYearly ? "por ano" : pricingData[1].period}
                 </div>
                 <img
                   className="mt-30"
@@ -105,7 +105,7 @@ export default function Pricing() {
                   alt="icon"
                 />
                 <div className="priceCard__text text-left pr-15 mt-40">
-                  Standard listing submission, active for 30 dayss
+                  Cadastro padrão, ativo por 30 dias
                 </div>
 
                 <div className="text-left y-gap-15 mt-35">
@@ -146,7 +146,7 @@ export default function Pricing() {
                     : pricingData[2].price}
                 </div>
                 <div className="priceCard__period">
-                  {isYearly ? "per year" : pricingData[2].period}
+                  {isYearly ? "por ano" : pricingData[2].period}
                 </div>
                 <img
                   className="mt-30"
@@ -154,7 +154,7 @@ export default function Pricing() {
                   alt="icon"
                 />
                 <div className="priceCard__text text-left pr-15 mt-40">
-                  Standard listing submission, active for 30 dayss
+                  Cadastro padrão, ativo por 30 dias
                 </div>
 
                 <div className="text-left y-gap-15 mt-35">

@@ -55,7 +55,7 @@ export default function FooterFive() {
           <div className="row justify-between items-center y-gap-20">
             <div className="col-auto">
               <div className="d-flex items-center h-100 text-white">
-                © {new Date().getFullYear()} Educrat. Todos os direitos reservados.
+                © {new Date().getFullYear()} AlvoEdu. Todos os direitos reservados.
               </div>
             </div>
 

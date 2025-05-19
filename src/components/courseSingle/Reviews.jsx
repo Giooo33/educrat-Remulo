@@ -9,7 +9,7 @@ export default function Reviews() {
     <div id="reviews" className="pt-60 lg:pt-40">
       <div className="blogPost -comments">
         <div className="blogPost__content">
-          <h2 className="text-20 fw-500">Student feedback</h2>
+          <h2 className="text-20 fw-500">Feedback dos alunos</h2>
           <div className="row x-gap-10 y-gap-10 pt-30">
             <div className="col-md-4">
               <div className="d-flex items-center justify-center flex-column py-50 text-center bg-light-6 rounded-8">
@@ -17,7 +17,7 @@ export default function Reviews() {
                 <div className="d-flex x-gap-5 mt-10">
                   <Star star={5} textSize={"text-11"} />
                 </div>
-                <div className="mt-10">Course Rating</div>
+                <div className="mt-10">Avaliação do curso</div>
               </div>
             </div>
 
@@ -93,7 +93,7 @@ export default function Reviews() {
             </div>
           </div>
 
-          <h2 className="text-20 fw-500 mt-60 lg:mt-40">Reviews</h2>
+          <h2 className="text-20 fw-500 mt-60 lg:mt-40">Avaliações</h2>
           <ul className="comments__list mt-30">
             {reviews.slice(0, 2).map((elm, i) => (
               <li key={i} className="comments__item">
@@ -110,7 +110,7 @@ export default function Reviews() {
                       <h4 className="text-17 fw-500 lh-15">
                         {elm.name}
                         <span className="text-13 text-light-1 fw-400">
-                          3 Days ago
+                           3 dias atrás
                         </span>
                       </h4>
 
@@ -124,13 +124,13 @@ export default function Reviews() {
 
                     <div className="comments__helpful mt-20">
                       <span className="text-13 text-purple-1">
-                        Was this review helpful?
+                        Essa avaliação foi útil?
                       </span>
                       <button className="button text-13 -sm -purple-1 text-white">
-                        Yes
+                        Sim
                       </button>
                       <button className="button text-13 -sm -light-7 text-purple-1">
-                        No
+                        Não
                       </button>
                     </div>
                   </div>
@@ -141,7 +141,7 @@ export default function Reviews() {
             <li className="comments__item">
               <div className="d-flex justify-center">
                 <button className="text-purple-1 lh-12 underline fw-500">
-                  View All Reviews
+                  Ver todas as avaliações
                 </button>
               </div>
             </li>
@@ -150,10 +150,10 @@ export default function Reviews() {
       </div>
 
       <div className="respondForm pt-60">
-        <h3 className="text-20 fw-500">Write a Review</h3>
+        <h3 className="text-20 fw-500">Escreva uma avaliação</h3>
 
         <div className="mt-30">
-          <h4 className="text-16 fw-500">What is it like to Course?</h4>
+          <h4 className="text-16 fw-500">Como foi o curso?</h4>
           <div className="d-flex x-gap-10 pt-10">
             <Star star={5} textSize={"text-14"} />
           </div>
@@ -165,23 +165,23 @@ export default function Reviews() {
         >
           <div className="col-12">
             <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-              Review Title
+              Título da avaliação
             </label>
             <input
               required
               type="text"
               name="title"
-              placeholder="Great Courses"
+              placeholder="Ótimo curso"
             />
           </div>
           <div className="col-12">
             <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-              Review Content
+              Conteúdo da avaliação
             </label>
             <textarea
               required
               name="comment"
-              placeholder="Message"
+              placeholder="Mensagem"
               rows="8"
             ></textarea>
           </div>
@@ -192,7 +192,7 @@ export default function Reviews() {
               id="submit"
               className="button -md -purple-1 text-white"
             >
-              Submit Review
+              Enviar avaliação
             </button>
           </div>
         </form>

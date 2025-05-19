@@ -30,7 +30,7 @@ export default function CoursesSlider({ tabBtnStyle }) {
         <div className="tabs -pills js-tabs">
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
-              <h2 className="text-24 lh-12">Courses to get you started</h2>
+              <h2 className="text-24 lh-12">Cursos para você começar</h2>
             </div>
 
             <div className="col-auto">
@@ -47,7 +47,7 @@ export default function CoursesSlider({ tabBtnStyle }) {
                       data-tab-target=".-tab-item-1"
                       type="button"
                     >
-                      {elm}
+                      {elm === "All" ? "Todos" : elm === "Popular" ? "Populares" : elm === "New" ? "Novos" : elm}
                     </button>
                   </div>
                 ))}
@@ -64,26 +64,21 @@ export default function CoursesSlider({ tabBtnStyle }) {
               >
                 {showSlider && (
                   <Swiper
-                    // {...setting}
                     modules={[Navigation, Pagination]}
                     navigation={{
                       nextEl: ".course-five-right",
                       prevEl: ".course-five-left",
                     }}
-                    // loop={true}
                     spaceBetween={30}
                     slidesPerView={1}
                     breakpoints={{
-                      // when window width is >= 576px
                       450: {
                         slidesPerView: 2,
                       },
-                      // when window width is >= 768px
                       768: {
                         slidesPerView: 3,
                       },
                       1200: {
-                        // when window width is >= 992px
                         slidesPerView: 4,
                       },
                     }}
