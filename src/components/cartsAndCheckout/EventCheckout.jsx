@@ -26,13 +26,12 @@ export default function EventCheckOut() {
             <div className="row justify-center text-center">
               <div className="col-auto">
                 <div>
-                  <h1 className="page-header__title">Event Checkout</h1>
+                  <h1 className="page-header__title">Finalizar Compra do Evento</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    We’re on a mission to deliver engaging, curated courses at a
-                    reasonable price.
+                    Nossa missão é oferecer eventos envolventes e selecionados por um preço acessível.
                   </p>
                 </div>
               </div>
@@ -51,153 +50,153 @@ export default function EventCheckOut() {
                   className="contact-form row x-gap-30 y-gap-30"
                 >
                   <div className="col-12">
-                    <h5 className="text-20">Billing details</h5>
+                    <h5 className="text-20">Detalhes de cobrança</h5>
                   </div>
                   <div className="col-sm-6">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      First name
+                      Nome
                     </label>
                     <input
                       required
                       type="text"
                       name="firstName"
-                      placeholder="First name"
+                      placeholder="Nome"
                     />
                   </div>
                   <div className="col-sm-6">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Last name
+                      Sobrenome
                     </label>
                     <input
                       required
                       type="text"
                       name="lastName"
-                      placeholder="Last name"
+                      placeholder="Sobrenome"
                     />
                   </div>
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Company name
+                      Nome da empresa
                     </label>
                     <input
                       required
                       type="text"
                       name="company"
-                      placeholder="Company name"
+                      placeholder="Nome da empresa"
                     />
                   </div>
 
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Country / Region *
+                      País / Região *
                     </label>
                     <select className="selectize wide js-selectize">
-                      <option value="USA">USA</option>
-                      <option value="Germany">Germany</option>
-                      <option value="France">France</option>
-                      <option value="Greece">Greece</option>
+                      <option value="USA">EUA</option>
+                      <option value="Germany">Alemanha</option>
+                      <option value="France">França</option>
+                      <option value="Greece">Grécia</option>
                     </select>
                   </div>
 
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      House number adn street name
+                      Número e nome da rua
                     </label>
                     <input
                       required
                       type="text"
                       name="address"
-                      placeholder="House number adn street name"
+                      placeholder="Número e nome da rua"
                     />
                   </div>
 
                   <div className="col-sm-6">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Apartment, suite, unit etc. (optional)
+                      Apartamento, suíte, unidade etc. (opcional)
                     </label>
                     <input
                       required
                       type="text"
                       name="apartment"
-                      placeholder="Apartment, suite, unit etc. (optional)"
+                      placeholder="Apartamento, suíte, unidade etc. (opcional)"
                     />
                   </div>
 
                   <div className="col-sm-6">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Town / City *
+                      Cidade *
                     </label>
                     <input
                       required
                       type="text"
                       name="city"
-                      placeholder="Town / City *"
+                      placeholder="Cidade *"
                     />
                   </div>
 
                   <div className="col-sm-6">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      State *
+                      Estado *
                     </label>
                     <input
                       required
                       type="text"
                       name="state"
-                      placeholder="State *"
+                      placeholder="Estado *"
                     />
                   </div>
 
                   <div className="col-sm-6">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      ZIP *
+                      CEP *
                     </label>
                     <input
                       required
                       type="text"
                       name="zip"
-                      placeholder="ZIP *"
+                      placeholder="CEP *"
                     />
                   </div>
 
                   <div className="col-sm-6">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Phone *
+                      Telefone *
                     </label>
                     <input
                       required
                       type="text"
                       name="phone"
-                      placeholder="Phone *"
+                      placeholder="Telefone *"
                     />
                   </div>
 
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Email address *
+                      E-mail *
                     </label>
                     <input
                       required
                       type="email"
                       name="email"
-                      placeholder="Email address *"
+                      placeholder="E-mail *"
                     />
                   </div>
 
                   <div className="col-12">
                     <h5 className="text-20 fw-500 pt-30">
-                      Additional information
+                      Informações adicionais
                     </h5>
                   </div>
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
-                      Order notes (optional)
+                      Observações do pedido (opcional)
                     </label>
                     <textarea
                       required
                       name="notes"
                       id="form_notes"
                       rows="8"
-                      placeholder="Order notes (optional)"
+                      placeholder="Observações do pedido (opcional)"
                     ></textarea>
                   </div>
                 </form>
@@ -207,10 +206,10 @@ export default function EventCheckOut() {
             <div className="col-lg-4">
               <div className="">
                 <div className="pt-30 pb-15 bg-white border-light rounded-8 bg-light-4">
-                  <h5 className="px-30 text-20 fw-500">Your order</h5>
+                  <h5 className="px-30 text-20 fw-500">Seu pedido</h5>
 
                   <div className="d-flex justify-between px-30 mt-25">
-                    <div className="py-15 fw-500 text-dark-1">Product</div>
+                    <div className="py-15 fw-500 text-dark-1">Produto</div>
                     <div className="py-15 fw-500 text-dark-1">Subtotal</div>
                   </div>
 
@@ -228,33 +227,33 @@ export default function EventCheckOut() {
                         x {elm.quantity}
                       </div>
                       <div className="py-15 text-grey">
-                        ${(elm.price * elm.quantity).toFixed(2)}
+                        R${(elm.price * elm.quantity).toFixed(2)}
                       </div>
                     </div>
                   ))}
 
                   <div className="d-flex justify-between border-top-dark px-30">
                     <div className="py-15 fw-500">Subtotal</div>
-                    <div className="py-15 fw-500">${totalPrice.toFixed(2)}</div>
+                    <div className="py-15 fw-500">R${totalPrice.toFixed(2)}</div>
                   </div>
 
                   <div className="d-flex justify-between border-top-dark px-30">
-                    <div className="py-15 fw-500 text-dark-1">Shipping</div>
+                    <div className="py-15 fw-500 text-dark-1">Frete</div>
                     <div className="py-15 fw-500 text-dark-1">
-                      ${shiping.toFixed(2)}
+                      R${shiping.toFixed(2)}
                     </div>
                   </div>
 
                   <div className="d-flex justify-between border-top-dark px-30">
                     <div className="py-15 fw-500 text-dark-1">Total</div>
                     <div className="py-15 fw-500 text-dark-1">
-                      ${(totalPrice + shiping).toFixed(2)}
+                      R${(totalPrice + shiping).toFixed(2)}
                     </div>
                   </div>
                 </div>
 
                 <div className="py-30 px-30 bg-white mt-30 border-light rounded-8 bg-light-4">
-                  <h5 className="text-20 fw-500">Payment</h5>
+                  <h5 className="text-20 fw-500">Pagamento</h5>
 
                   <div className="mt-30">
                     <div className="form-radio d-flex items-center">
@@ -265,14 +264,11 @@ export default function EventCheckOut() {
                         </div>
                       </div>
                       <h5 className="ml-15 text-15 lh-1 fw-500 text-dark-1">
-                        Direct bank transfer
+                        Transferência bancária direta
                       </h5>
                     </div>
                     <p className="ml-25 pl-5 mt-25">
-                      Make your payment directly into our bank account. Please
-                      use your Order ID as the payment reference. Your order
-                      will not be shipped until the funds have cleared in our
-                      account.
+                      Faça o pagamento diretamente em nossa conta bancária. Use o ID do pedido como referência. Seu pedido só será enviado após a confirmação do pagamento.
                     </p>
                   </div>
 
@@ -285,7 +281,7 @@ export default function EventCheckOut() {
                         </div>
                       </div>
                       <h5 className="ml-15 text-15 lh-1 text-dark-1">
-                        Check payments
+                        Pagamento por cheque
                       </h5>
                     </div>
                   </div>
@@ -299,7 +295,7 @@ export default function EventCheckOut() {
                         </div>
                       </div>
                       <h5 className="ml-15 text-15 lh-1 text-dark-1">
-                        Cash on delivery
+                        Pagamento na entrega
                       </h5>
                     </div>
                   </div>
@@ -319,7 +315,7 @@ export default function EventCheckOut() {
 
                 <div className="mt-30">
                   <button className="button -md -accent col-12 -uppercase text-white">
-                    Place order
+                    Fazer pedido
                   </button>
                 </div>
               </div>
