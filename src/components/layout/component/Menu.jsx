@@ -53,7 +53,7 @@ export default function Menu({ allClasses, headerPosition }) {
                 to="/"
                 className={menuItem == "Home" ? "activeMenu" : "inActiveMenu"}
               >
-                Início <div className=""></div>
+                Início
               </Link>
               
             </li>
@@ -62,20 +62,9 @@ export default function Menu({ allClasses, headerPosition }) {
               <Link
                 data-barba
                 to="/courses-list-4"
-                className={menuItem == "Home" ? "activeMenu" : "inActiveMenu"}
+                className={menuItem == "Course" ? "activeMenu" : "inActiveMenu"}
               >
-                Cursos <div className=""></div>
-              </Link>
-            </li>
-
-            <li className="menu-item-has-children">
-              <Link
-                data-barba
-                to="/course-list-v4"
-                className={menuItem == "Events" ? "activeMenu" : ""}
-              >
-
-                Eventos <div className=""></div>
+                Cursos
               </Link>
             </li>
 
@@ -85,23 +74,34 @@ export default function Menu({ allClasses, headerPosition }) {
                 to="/event-list-2"
                 className={menuItem == "Events" ? "activeMenu" : ""}
               >
-
-                Blogue <div className=""></div>
+                Eventos <div className=""></div>
               </Link>
             </li>
+
 
             <li className="menu-item-has-children">
               <Link
                 data-barba
                 to="/blog-list-3"
-                className={menuItem == "Events" ? "activeMenu" : ""}
+                className={menuItem == "Blog" ? "activeMenu" : ""}
               >
+                Blogue <div className=""></div>
+              </Link>
+            </li>
 
+
+            <li className="menu-item-has-children">
+              <Link
+                data-barba
+                to="/contact-1"
+                className={menuItem == "Contact" ? "activeMenu" : ""}
+              >
                 Contato <div className=""></div>
               </Link>
             </li>
           </ul>
         </div>
+
 
         {/* mobile footer start */}
         <MobileFooter />
