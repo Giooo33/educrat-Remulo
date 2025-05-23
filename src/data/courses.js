@@ -19,6 +19,36 @@ export const coursesData = [
     viewStatus: "Good",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 2,
@@ -43,6 +73,36 @@ export const coursesData = [
     viewStatus: "Low",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 3,
@@ -64,6 +124,36 @@ export const coursesData = [
     viewStatus: "Great",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 4,
@@ -85,6 +175,36 @@ export const coursesData = [
     viewStatus: "Good",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 5,
@@ -106,6 +226,36 @@ export const coursesData = [
     viewStatus: "Low",
     difficulty: "Meduium",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 6,
@@ -128,6 +278,36 @@ export const coursesData = [
     viewStatus: "Good",
     difficulty: "Meduium",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 7,
@@ -150,6 +330,36 @@ export const coursesData = [
     viewStatus: "Great",
     difficulty: "Hard",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 8,
@@ -172,6 +382,36 @@ export const coursesData = [
     viewStatus: "Medium",
     difficulty: "Meduium",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 9,
@@ -194,6 +434,36 @@ export const coursesData = [
     viewStatus: "Great",
     difficulty: "Hard",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 10,
@@ -216,6 +486,36 @@ export const coursesData = [
     viewStatus: "Medium",
     difficulty: "Meduium",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 11,
@@ -238,6 +538,36 @@ export const coursesData = [
     viewStatus: "Medium",
     difficulty: "Hard",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 12,
@@ -260,6 +590,36 @@ export const coursesData = [
     viewStatus: "Medium",
     difficulty: "Hard",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 13,
@@ -281,6 +641,36 @@ export const coursesData = [
     viewStatus: "Good",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 14,
@@ -305,6 +695,36 @@ export const coursesData = [
     viewStatus: "Low",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 15,
@@ -326,6 +746,36 @@ export const coursesData = [
     viewStatus: "Great",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 16,
@@ -347,6 +797,36 @@ export const coursesData = [
     viewStatus: "Good",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 17,
@@ -368,6 +848,36 @@ export const coursesData = [
     viewStatus: "Low",
     difficulty: "Meduium",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 18,
@@ -390,6 +900,36 @@ export const coursesData = [
     viewStatus: "Good",
     difficulty: "Meduium",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 19,
@@ -412,6 +952,36 @@ export const coursesData = [
     viewStatus: "Great",
     difficulty: "Hard",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 20,
@@ -434,6 +1004,36 @@ export const coursesData = [
     viewStatus: "Medium",
     difficulty: "Meduium",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 21,
@@ -456,6 +1056,36 @@ export const coursesData = [
     viewStatus: "Great",
     difficulty: "Hard",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 22,
@@ -478,6 +1108,36 @@ export const coursesData = [
     viewStatus: "Medium",
     difficulty: "Meduium",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 23,
@@ -500,6 +1160,36 @@ export const coursesData = [
     viewStatus: "Medium",
     difficulty: "Hard",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 24,
@@ -522,6 +1212,36 @@ export const coursesData = [
     viewStatus: "Medium",
     difficulty: "Hard",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 25,
@@ -543,6 +1263,36 @@ export const coursesData = [
     viewStatus: "Good",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 26,
@@ -567,6 +1317,36 @@ export const coursesData = [
     viewStatus: "Low",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 27,
@@ -588,6 +1368,36 @@ export const coursesData = [
     viewStatus: "Great",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 28,
@@ -609,6 +1419,36 @@ export const coursesData = [
     viewStatus: "Good",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 29,
@@ -630,6 +1470,36 @@ export const coursesData = [
     viewStatus: "Low",
     difficulty: "Meduium",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 30,
@@ -652,161 +1522,36 @@ export const coursesData = [
     viewStatus: "Good",
     difficulty: "Meduium",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
-  },
-  {
-    id: 31,
-    imageSrc: "/assets/img/coursesCards/7.png",
-    imageAlt: "image",
-    rating: 3.5,
-    ratingCount: 1991,
-    title: "Edição de vídeo com Adobe Premiere Pro: da filmagem ao corte final",
-    lessonCount: 6,
-    duration: 490,
-    level: "Especialista",
-    authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Italiano",
-    authorName: "Albert Flores",
-    originalPrice: 299,
-    discountedPrice: 149,
-    paid: true,
-    category: "Escrita",
-    state: "Popular",
-    viewStatus: "Great",
-    difficulty: "Hard",
-    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
-  },
-  {
-    id: 32,
-    imageSrc: "/assets/img/coursesCards/9.png",
-    imageAlt: "image",
-    rating: 4.8,
-    ratingCount: 1991,
-    title: "Noções básicas de segurança cibernética: protegendo seu mundo digital",
-    lessonCount: 6,
-    duration: 500,
-    level: "Iniciante",
-    authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Frânces",
-    authorName: "Jane Cooper",
-    originalPrice: 0,
-    discountedPrice: 0,
-    paid: false,
-    category: "Fotografia",
-    state: "Fetured",
-    viewStatus: "Medium",
-    difficulty: "Meduium",
-    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
-  },
-  {
-    id: 33,
-    imageSrc: "/assets/img/coursesCards/10.png",
-    imageAlt: "image",
-    rating: 3.9,
-    ratingCount: 1991,
-    title: "Pós-processamento de fotografia: aprimorando e editando suas imagens",
-    lessonCount: 6,
-    duration: 920,
-    level: "Especialista",
-    authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Inglês",
-    authorName: "Jenny Wilson",
-    originalPrice: 199,
-    discountedPrice: 89,
-    paid: true,
-    category: "Programação",
-    state: "Popular",
-    viewStatus: "Great",
-    difficulty: "Hard",
-    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
-  },
-  {
-    id: 34,
-    imageSrc: "/assets/img/coursesCards/12.png",
-    imageAlt: "image",
-    rating: 4.2,
-    ratingCount: 1991,
-    title:
-      "Desenvolvimento Web Full-Stack com MERN: MongoDB, Express.js, React, Node.js",
-    lessonCount: 6,
-    duration: 720,
-    level: "Iniciante",
-    authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Alemão",
-    authorName: "Jacob Jones",
-    originalPrice: 0,
-    discountedPrice: 0,
-    paid: false,
-    category: "Escrita",
-    state: "Trending",
-    viewStatus: "Medium",
-    difficulty: "Meduium",
-    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
-  },
-  {
-    id: 35,
-    imageSrc: "/assets/img/coursesCards/6.png",
-    imageAlt: "image",
-    rating: 5,
-    ratingCount: 1991,
-    title: "Estratégia de marketing de conteúdo: engajando seu público-alvo",
-    lessonCount: 6,
-    duration: 120,
-    level: "Intermediário",
-    authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Italiano",
-    authorName: "Albert Flores",
-    originalPrice: 209,
-    discountedPrice: 119,
-    paid: true,
-    category: "Projeto",
-    state: "Popular",
-    viewStatus: "Medium",
-    difficulty: "Hard",
-    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
-  },
-  {
-    id: 36,
-    imageSrc: "/assets/img/coursesCards/1.png",
-    imageAlt: "image",
-    rating: 5,
-    ratingCount: 1991,
-    title: "Fotografia da vida selvagem: capturando animais em seu habitat natural",
-    lessonCount: 6,
-    duration: 120,
-    level: "Especialista",
-    authorImageSrc: "/assets/img/general/avatar-1.png",
-    languange: "Frânces",
-    authorName: "Albert Flores",
-    originalPrice: 0,
-    discountedPrice: 0,
-    paid: false,
-    category: "Projeto",
-    state: "Popular",
-    viewStatus: "Medium",
-    difficulty: "Hard",
-    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
-  },
-  {
-    id: 37,
-    imageSrc: "/assets/img/coursesCards/12.png",
-    authorImageSrc: "/assets/img/general/avatar-1.png",
-    title:
-      "Design de jogos e narrativa: criando experiências de jogo imersivas",
-    rating: 4.3,
-    ratingCount: 1991,
-    lessonCount: 6,
-    duration: 1320,
-    level: "Intermediário",
-    originalPrice: 199,
-    discountedPrice: 79,
-    paid: true,
-    category: "Projeto",
-    state: "Popular",
-    languange: "Inglês",
-    authorName: "Jane Cooper",
-    viewStatus: "Good",
-    difficulty: "Easy",
-    desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 38,
@@ -831,6 +1576,36 @@ export const coursesData = [
     viewStatus: "Low",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 39,
@@ -853,6 +1628,36 @@ export const coursesData = [
     viewStatus: "Great",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 40,
@@ -874,6 +1679,36 @@ export const coursesData = [
     viewStatus: "Good",
     difficulty: "Easy",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 41,
@@ -895,6 +1730,36 @@ export const coursesData = [
     viewStatus: "Low",
     difficulty: "Meduium",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 42,
@@ -917,6 +1782,36 @@ export const coursesData = [
     viewStatus: "Good",
     difficulty: "Meduium",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
   {
     id: 43,
@@ -939,6 +1834,36 @@ export const coursesData = [
     viewStatus: "Great",
     difficulty: "Hard",
     desc: "Curso introdutório sobre hospedagem web, registro de domínio e como você pode publicar e editar seu site on-line facilmente.",
+    products: [
+      {
+        id: 101,
+        name: "Kit de Ícones Exclusivos para Figma",
+        price: 29.9,
+        image: "/assets/img/products/figma-icons.png",
+        description: "Coleção exclusiva de ícones vetoriais para usar em seus projetos no Figma."
+      },
+      {
+        id: 102,
+        name: "Template de Dashboard UI",
+        price: 49.9,
+        image: "/assets/img/products/figma-dashboard.png",
+        description: "Template profissional de dashboard para acelerar seus projetos de UI/UX."
+      },
+      {
+        id: 103,
+        name: "Pacote de Wireframes para Figma",
+        price: 19.9,
+        image: "/assets/img/products/figma-wireframes.png",
+        description: "Wireframes prontos para facilitar o início de novos projetos no Figma."
+      },
+      {
+        id: 104,
+        name: "Guia de Estilo UI/UX em PDF",
+        price: 9.9,
+        image: "/assets/img/products/figma-styleguide.png",
+        description: "Guia completo de boas práticas de UI/UX para designers iniciantes."
+      }
+    ]
   },
 ];
 
@@ -967,6 +1892,7 @@ export const resentCourses = [
     duration: 236,
   },
   {
+   
     id: 2,
     imageSrc: "/assets/img/dashboard/recent-courses/2.png",
     title: "The Ultimate Drawing Course Iniciante to Advanced",

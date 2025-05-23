@@ -11,7 +11,7 @@ export default function FooterEight() {
         <div className="row y-gap-30 pb-60">
           <div className="col-xl-4 col-lg-5 col-md-6">
             <div className="footer-header__logo">
-              <img src="/assets/img/footer/AlvoEdu.png" alt="logo" />
+              <img src="/assets/img/footer/AlvoEdu.svg" alt="logo" />
             </div>
 
             <div className="mt-30">

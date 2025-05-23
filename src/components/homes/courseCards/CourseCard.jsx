@@ -111,6 +111,39 @@ export default function CourceCard({ data, index }) {
               </div>
             </div>
           </div>
+          {/* Renderizar produtos se existirem */}
+          {data.products && data.products.length > 0 && (
+            <div className="mt-15">
+              <div className="text-14 fw-500 mb-5">Produtos deste curso:</div>
+              <ul className="list-disc pl-15">
+                {data.products.map((product) => (
+                  <li key={product.id} className="mb-5">
+                    <div className="d-flex items-center">
+                      <img
+                        src={product.image}
+                        alt={product.name}
+                        style={{
+                          width: 32,
+                          height: 32,
+                          marginRight: 8,
+                          objectFit: "contain",
+                        }}
+                      />
+                      <div>
+                        <div className="fw-500">
+                          {product.name}{" "}
+                          <span className="text-12 text-grey-3">
+                            R$ {product.price}
+                          </span>
+                        </div>
+                        <div className="text-12">{product.description}</div>
+                      </div>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </div>
     </div>
